@@ -20,38 +20,37 @@ website:
             href: general-information/ai_usage.qmd
           - text: "Anti-Discrimination Policy"
             href: general-information/anti_dis.qmd
-      - text: "Experimental Sociology"
-        menu:
-          - text: "Course Overview"
-            href: experimental-sociology/es_overview.qmd
-          - text: "Week 01"
-            href: experimental-sociology/week01.qmd
-          - text: "Week 02"
-            href: experimental-sociology/week02.qmd
-          - text: "Week 03"
-            href: experimental-sociology/week03.qmd
-          - text: "Week 04"
-            href: experimental-sociology/week04.qmd
-          - text: "Week 05"
-            href: experimental-sociology/week05.qmd
-          - text: "Week 06"
-            href: experimental-sociology/week06.qmd
-          - text: "Week 07"
-            href: experimental-sociology/week07.qmd
-          - text: "Week 08"
-            href: experimental-sociology/week08.qmd
-          - text: "Week 09"
-            href: experimental-sociology/week09.qmd
-          - text: "Week 10"
-            href: experimental-sociology/week10.qmd
-          - text: "Week 11"
-            href: experimental-sociology/week11.qmd
-          - text: "Week 12"
-            href: experimental-sociology/week12.qmd
-          - text: "Week 13"
-            href: experimental-sociology/week13.qmd
-          - text: "Week 14"
-            href: experimental-sociology/week14.qmd
+      #- text: "Experimental Sociology"
+       # menu:
+        #            href: experimental-sociology/es_overview.qmd
+        #          - text: "Week 01"
+        #            href: experimental-sociology/week01.qmd
+        #          - text: "Week 02"
+        #            href: experimental-sociology/week02.qmd
+        #          - text: "Week 03"
+        #            href: experimental-sociology/week03.qmd
+        #          - text: "Week 04"
+        #            href: experimental-sociology/week04.qmd
+        #          - text: "Week 05"
+        #            href: experimental-sociology/week05.qmd
+        #          - text: "Week 06"
+        #            href: experimental-sociology/week06.qmd
+        #          - text: "Week 07"
+        #            href: experimental-sociology/week07.qmd
+        #          - text: "Week 08"
+        #            href: experimental-sociology/week08.qmd
+        #          - text: "Week 09"
+        #            href: experimental-sociology/week09.qmd
+        #          - text: "Week 10"
+        #            href: experimental-sociology/week10.qmd
+        #          - text: "Week 11"
+        #            href: experimental-sociology/week11.qmd
+        #          - text: "Week 12"
+        #            href: experimental-sociology/week12.qmd
+        #          - text: "Week 13"
+        #            href: experimental-sociology/week13.qmd
+        #          - text: "Week 14"
+        #            href: experimental-sociology/week14.qmd
       - text: "Computational Social Sciences"
         menu:
           - text: "Course Overview"
