@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+experimental-sociology/*
+computational-social-sciences/*
+kk/*
+
+**/Übungsblätter/
+/experimental-sociology
+experimental-sociology/

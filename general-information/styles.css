@@ -1,0 +1,45 @@
+#sidebar {
+  position: fixed;
+  right: 20px; /* Abstand von der rechten Seite */
+  top: 100px; /* Abstand von oben */
+  width: 250px; /* Breite des Blocks */
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #e8bff7;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#custom-block {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #e8bff7;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#toc {
+  margin-top: 15px; /* Creates space between the block and the ToC */
+}
+
+/* Adjust the width of the content area */
+.content {
+  width: 80%;  /* Adjust the percentage to make the content area broader */
+  margin-left: 5%;  /* This will shift the main content to the right */
+}
+
+/* Adjust the width of the Table of Contents */
+#toc {
+  width: 20%;  /* Reduce the ToC width so that it takes up less space */
+  margin-left: 0;  /* Align the ToC to the left */
+}
+
+/* Change bold text color to lavender */
+strong, b {
+  color: #967bb6; /* Lavender color */
+}
+
+/* Change header colors to darker lavender */
+h1, h2, h3, h4, h5, h6 {
+  color: #76448a; /* Darker lavender */
+}

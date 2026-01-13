@@ -1,0 +1,93 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ES & CSS"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "General Information"
+        menu:
+          - text: "Course Assessment"
+            href: general-information/exam.qmd
+          - text: "Scientific Computing"
+            href: general-information/sc.qmd        
+          - text: "Data Sources"
+            href: general-information/data.qmd   
+          - text: "AI-Usage"
+            href: general-information/ai_usage.qmd
+          - text: "Anti-Discrimination Policy"
+            href: general-information/anti_dis.qmd
+      - text: "Experimental Sociology"
+        menu:
+          - text: "Course Overview"
+            href: experimental-sociology/es_overview.qmd
+          - text: "Week 01"
+            href: experimental-sociology/week01.qmd
+          - text: "Week 02"
+            href: experimental-sociology/week02.qmd
+          - text: "Week 03"
+            href: experimental-sociology/week03.qmd
+          - text: "Week 04"
+            href: experimental-sociology/week04.qmd
+          - text: "Week 05"
+            href: experimental-sociology/week05.qmd
+          - text: "Week 06"
+            href: experimental-sociology/week06.qmd
+          - text: "Week 07"
+            href: experimental-sociology/week07.qmd
+          - text: "Week 08"
+            href: experimental-sociology/week08.qmd
+          - text: "Week 09"
+            href: experimental-sociology/week09.qmd
+          - text: "Week 10"
+            href: experimental-sociology/week10.qmd
+          - text: "Week 11"
+            href: experimental-sociology/week11.qmd
+          - text: "Week 12"
+            href: experimental-sociology/week12.qmd
+          - text: "Week 13"
+            href: experimental-sociology/week13.qmd
+          - text: "Week 14"
+            href: experimental-sociology/week14.qmd
+      - text: "Computational Social Sciences"
+        menu:
+          - text: "Course Overview"
+            href: "computational-social-sciences/css_overview.qmd"
+          - text: "Week 01"
+            href: computational-social-sciences/week01.qmd
+          - text: "Week 02"
+            href: computational-social-sciences/week02.qmd
+          - text: "Week 03"
+            href: computational-social-sciences/week03.qmd
+          - text: "Week 04"
+            href: computational-social-sciences/week04.qmd
+          - text: "Week 05"
+            href: computational-social-sciences/week05.qmd
+          - text: "Week 06"
+            href: computational-social-sciences/week06.qmd
+          - text: "Week 07"
+            href: computational-social-sciences/week07.qmd
+          - text: "Week 08"
+            href: computational-social-sciences/week08.qmd
+          - text: "Week 09"
+            href: computational-social-sciences/week09.qmd
+          - text: "Week 10"
+            href: computational-social-sciences/week10.qmd
+          - text: "Week 11"
+            href: computational-social-sciences/week11.qmd
+          - text: "Week 12"
+            href: computational-social-sciences/week12.qmd
+          - text: "Week 13"
+            href: computational-social-sciences/week13.qmd
+          - text: "Week 14"
+            href: computational-social-sciences/week14.qmd
+
+format:
+  html:
+    theme: cosmo
+    include-in-header:
+      - text: |
+          <script type="text/javascript" src="/js/week-control.js"></script>

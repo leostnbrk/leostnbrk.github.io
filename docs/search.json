@@ -1,0 +1,846 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Experimental Sociology and Computational Social Sciences",
+    "section": "",
+    "text": "Note\n\n\n\nSome of the material (due to copyright issues) can be found at moodle. The password is provided in the sessions of the first week.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you’re not currently enrolled in this course but would like to be and want it to count toward your studies, please fill out this retroactive module enrollment form and submit it by the 5th of May.\n\n\n\n\n\n\n\n\nNote\n\n\n\n🍻 Let’s kick off the semester together! Nothing fancy - just grab a drink with us THIS Wednesday in the GWZ at 18:00. Hope to see you there! Sascha and Leo"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Experimental Sociology and Computational Social Sciences",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nA good tip from someone who’s spent hours raging over broken code: The problem is 99.99999% of the time sitting in front of the screen. You probably made a silly mistake and just aren’t spotting it right now. Keep calm, drink some tea and relax. In this respect, ChatGPT changed my life — just ask it where the error is, and it will usually confront you with your obvious mistake.↩︎"
+  },
+  {
+    "objectID": "general-information/exam.html",
+    "href": "general-information/exam.html",
+    "title": "Course Assessment",
+    "section": "",
+    "text": "Every two weeks, in one of the courses, we will assign you a problem set (Übungsblatt). You will typically have at least one week to complete and submit your solutions. You can hand in your solutions either as a Markdown or a Quarto Skript.\n\n\n\n\n\n\n\n\nWeek\nCourse\nTopics\n\n\n\n\n2\nCSS\ntba\n\n\n4\nCSS\ntba\n\n\n6\nES\ntba\n\n\n8\nCSS\ntba\n\n\n10\nES\ntba\n\n\n12\nES\ntba"
+  },
+  {
+    "objectID": "general-information/exam.html#general-information",
+    "href": "general-information/exam.html#general-information",
+    "title": "Course Assessment",
+    "section": "General Information",
+    "text": "General Information\n\nLength: 4,500 words (± 10%, approximately 15 pages, excluding the title page, references, and tables)\nFormatting:\n\n12 pt font size\n1.5 line spacing\nJustified text alignment\n\nLanguage: German or English (American or British)\nStructure: Write it like a scientific paper. Include an abstract, but no table of contents. Ensure that your figures are informative and that tables are compact and free from redundancies.\nTone: Use precise and professional scientific language. Clearly motivate your work and place it within the context of existing literature.\nDeadline: TBA"
+  },
+  {
+    "objectID": "general-information/exam.html#topic",
+    "href": "general-information/exam.html#topic",
+    "title": "Course Assessment",
+    "section": "Topic",
+    "text": "Topic\nYou are essentially free to choose any topic that connects to one of our courses. However, keep in mind that different types of projects will naturally require different levels of effort for different parts of the term paper.\n\nThe more complex your data acquisition is, the less complex your data analysis can be. In theory, there could even be extreme cases where a very complex data acquisition process means that no data analysis is required (e.g., if the script runs for months scraping data that cannot be used before the end of the semester).\nOn the other hand, if you use an existing dataset (where data preparation is straightforward), we will expect a more in-depth and sophisticated statistical analysis.\n\nIn general: talk to us — we will help you determine whether your project is too ambitious or too simple, where to focus your effort, and how to balance the workload. Also, keep in mind that your term paper can be the foundation for a larger, more complex project (e.g., your master’s thesis).\n\n\n\n\n\n\n\nField\nPossible topics\n\n\n\n\nES in general\n\nWrite a detailed pre-registration plan for an experiment.\n\n\n\nAgent-based models\n\nWrite a new, simple ABM.\nReproduce and modify an existing ABM.\nExamine an existing ABM in depth (e.g. sensitivity analysis)\n\n\n\nCSS in general\n\nAnalyse existing data.\nScrape or combine new datasets (and analyze them).\n\n\n\nNetworks\n\nUse existing network data and apply it to a new problem.\nGenerate a new network dataset.\n\n\n\nSpatial data\n\nUse existing spatial data and apply it to a new problem.\nGenerate a new spatial dataset."
+  },
+  {
+    "objectID": "general-information/anti_dis.html",
+    "href": "general-information/anti_dis.html",
+    "title": "Anti-Discrimination Policy",
+    "section": "",
+    "text": "Guidelines"
+  },
+  {
+    "objectID": "experimental-sociology/week14.html",
+    "href": "experimental-sociology/week14.html",
+    "title": "Experimental Sociology - Week 14",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week12.html",
+    "href": "experimental-sociology/week12.html",
+    "title": "Experimental Sociology - Week 12",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week10.html",
+    "href": "experimental-sociology/week10.html",
+    "title": "Experimental Sociology - Week 10",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week08.html",
+    "href": "experimental-sociology/week08.html",
+    "title": "Experimental Sociology - Week 8",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week06.html",
+    "href": "experimental-sociology/week06.html",
+    "title": "Experimental Sociology - Week 6",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week04.html",
+    "href": "experimental-sociology/week04.html",
+    "title": "Experimental Sociology - Week 04",
+    "section": "",
+    "text": ",,§1. Soziologie [..] soll heißen: eine Wissenschaft, welche soziales Handeln deutend verstehen und dadurch in seinem Ablauf und seinen Wirkungen ursächlich erklären will.” (Weber 1972 : 1)\n\n\n,,Man kann spekulieren, dass sich Weber heute der Computersimulationen bedienen und ‘deutend verstehen’ in ‘simulierend verstehen’ abändern würde.” (Lindenberg 1971: 100)\n\n\n\n\n\n\n\nReferences\n\nLindenberg, Siegwart. 1971. “Simulation Und Theoriebildung.” In, edited by Hans Albert. Meisenheim am Glan: Anton Hain.\n\n\nWeber, Max. 1972. Wirtschaft Und Gesellschaft. Tübingen: Mohr Siebeck.\n\nCopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week02.html",
+    "href": "experimental-sociology/week02.html",
+    "title": "Experimental Sociology - Week 2",
+    "section": "",
+    "text": "This week we will deal with analytical solutions and how we can use them to derive hypotheses in detail.\n\n\nBy the end of this week, you should:\n\nKnow the difference between hypotheses and propositions.\nUnderstand why analytical solutions are valuable in the social sciences.\nRecognize the limitations of analytical solutions when applied to complex social situations.\nBe able to model a simple social interaction using Game Theory.\nUnderstand how to introduce bounded rationality."
+  },
+  {
+    "objectID": "experimental-sociology/week02.html#learning-goals",
+    "href": "experimental-sociology/week02.html#learning-goals",
+    "title": "Experimental Sociology - Week 2",
+    "section": "",
+    "text": "By the end of this week, you should:\n\nKnow the difference between hypotheses and propositions.\nUnderstand why analytical solutions are valuable in the social sciences.\nRecognize the limitations of analytical solutions when applied to complex social situations.\nBe able to model a simple social interaction using Game Theory.\nUnderstand how to introduce bounded rationality."
+  },
+  {
+    "objectID": "experimental-sociology/week02.html#derivation-of-a-hypothesis",
+    "href": "experimental-sociology/week02.html#derivation-of-a-hypothesis",
+    "title": "Experimental Sociology - Week 2",
+    "section": "Derivation of a hypothesis",
+    "text": "Derivation of a hypothesis\n\n🧠 Why Analytical Solutions Matter\nAnalytical solutions (often expressed as equations) are the gold standard in science because:\n\nThey provide precise answers.\nThey allow for clear causal interpretation.\nThey have a high objectivity, transparency and reproducibility.\nThey are often computationally fast.\n\n\n\n🚧 Shortcomings of Analytical Solutions\nHowever, in the social sciences, analytical solutions can become difficult because:\nReality too complex to be captured analytically in its entirety Theories (and the respective equations) can capture only partial aspects of reality. Yet, Sometimes we want a complex, multifaceted analysis Combination of theories not necessarily analytically compatible or manageable\n\nModels of social behavior often become too complex to solve analytically.\nHuman behavior introduces noise and irrationality.\n\nTherefore we will look in two weeks at another approach, namly numerical solutions (e.g. simulations)."
+  },
+  {
+    "objectID": "experimental-sociology/week02.html#game-theory",
+    "href": "experimental-sociology/week02.html#game-theory",
+    "title": "Experimental Sociology - Week 2",
+    "section": "Game Theory",
+    "text": "Game Theory\nGame theory offers a structured approach to modeling social situations:\n\nPlayers – Agents making decisions.\nStrategies – Options available to the players.\nPayoffs – Outcomes based on strategy combinations.\n\n👉 Example: The Prisoner’s Dilemma – A simple two-player game that reveals the challenge of cooperation and competition."
+  },
+  {
+    "objectID": "experimental-sociology/week02.html#bounded-rationality",
+    "href": "experimental-sociology/week02.html#bounded-rationality",
+    "title": "Experimental Sociology - Week 2",
+    "section": "🔎 Bounded Rationality",
+    "text": "🔎 Bounded Rationality\n\nClassical game theory assumes perfectly rational actors.\nIn reality, humans often make decisions based on incomplete information and cognitive limitations (bounded rationality).\nIntroducing bounded rationality increases complexity — solutions become harder to compute.\n🎲 Game Theory – Modeling Social Situations\nGame theory provides a structured framework: - Players – Decision-makers. - Strategies – Options available. - Payoffs – Outcomes based on strategy combinations.\nExample: The Prisoner’s Dilemma\n\nCooperation vs. defection.\nPayoffs depend on combined strategies.\nNash equilibrium as a solution concept.\n\n\n🤯 Bounded Rationality\n\nClassical game theory assumes perfect rationality.\nBounded rationality = Limited information + Cognitive limitations.\nMakes solutions more complex and realistic."
+  },
+  {
+    "objectID": "experimental-sociology/scipt_calibrate_income.html",
+    "href": "experimental-sociology/scipt_calibrate_income.html",
+    "title": "Calibrate Income",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(stats)\n\nincome = read.csv(\"experimental-sociology/distribution-gross-monthly-earningsfull-time-employees.csv\",\n                  sep = \";\",                 \n                  header = TRUE,\n                  dec = \",\") %&gt;% \n  mutate(Bruttomonatsverdienst = ifelse(Bruttomonatsverdienst == \"unter 100\", \"0 – 100\", Bruttomonatsverdienst)) %&gt;% \n  slice(-n()) %&gt;% # Drop the last row\n  separate(Bruttomonatsverdienst, into = c(\"min_income\", \"max_income\"), sep = \" – \", convert = TRUE) \n\n\nsum_Anteil &lt;- sum(income$Anteil)\n\nincome &lt;- income %&gt;% \n  transmute( \n    share = Anteil / sum_Anteil,\n    min_income = as.numeric(gsub(\" \", \"\", min_income, fixed = TRUE)),\n    max_income = as.numeric(gsub(\" \", \"\", max_income, fixed = TRUE))\n  )\n\n\n\n# Define the objective function: sum of squared differences\nobjective_function &lt;- function(params, data) {\n  mu    &lt;- params[1]\n  sigma &lt;- params[2]\n  \n  # Calculate predicted share for each bracket\n  predicted &lt;- plnorm(data$max_income, meanlog = mu, sdlog = sigma) -\n    plnorm(data$min_income, meanlog = mu, sdlog = sigma)\n  \n  # Return sum of squared errors between predicted and observed shares\n  sum((predicted - data$share)^2)\n}\n\n# Set an initial guess for mu and sigma\n# For instance, we can set mu = log(4634) (the average income in Germany) and sigma = 1.\ninit_params &lt;- c(mu = log(4634),\n                 sigma = 1)\n\n# Optimize using L-BFGS-B (constraining sigma &gt; 0)\nopt_result &lt;- optim(\n  par    = init_params,\n  fn     = objective_function,\n  data   = income,\n  method = \"L-BFGS-B\",\n  lower  = c(-Inf, 0.001)  # sigma must be positive\n)\n\n# Print the optimal parameters\nopt_result$par\n\n\nset.seed(12345)\nn &lt;- 1000\nfictional_incomes &lt;- rlnorm(n, meanlog = opt_result$par[1] , sdlog = opt_result$par[2])\nfictional_data &lt;- data.frame(Income = fictional_incomes)\n\n\nlibrary(plotly)\n\n# Create an interactive histogram using Plotly\nplot_ly(\n  fictional_data, \n  x = ~Income, \n  type = \"histogram\", \n  nbinsx = 200,\n  hovertemplate = 'Income: %{x:.2f}&lt;br&gt;Count: %{y}&lt;extra&gt;&lt;/extra&gt;'\n) %&gt;%\n  layout(\n    title = \"Interactive Histogram of Fictional Incomes\",\n    xaxis = list(title = \"Income\"),\n    yaxis = list(title = \"Count\")\n  )\n\n\n\n\n\n\nCopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week14.html",
+    "href": "computational-social-sciences/week14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week12.html",
+    "href": "computational-social-sciences/week12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week10.html",
+    "href": "computational-social-sciences/week10.html",
+    "title": "Week 10",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week08.html",
+    "href": "computational-social-sciences/week08.html",
+    "title": "Week 08",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week06.html",
+    "href": "computational-social-sciences/week06.html",
+    "title": "Week 06",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week04.html",
+    "href": "computational-social-sciences/week04.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "Short recapture\n\n\nNetwork concepts\nComplete networks\nCliques\nPath\nDyads\nTransitivity\n\n\nSocial capital\n\n\nTheoretical Insights from Network Data\n\n\nHeiders Balance Theorie\n\n\nStrength of weak ties\n\n\nStructural hole\n\n\n\n\nCopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html",
+    "href": "computational-social-sciences/week02.html",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "",
+    "text": "Welcome to the second session of the seminar Computational Social Sciences"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#exercise",
+    "href": "computational-social-sciences/week02.html#exercise",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Exercise",
+    "text": "Exercise\nReflect briefly on the occasions, where in the past you have been confronted with social networks theories. In what theoretical concepts of sociology is the embedding of actors of central importance?"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#from-ties-to-graphs",
+    "href": "computational-social-sciences/week02.html#from-ties-to-graphs",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "From ties to graphs",
+    "text": "From ties to graphs\nImagine you where to plot all relationships of all people in the world. Of course, this is just not possible, as the measurement but also the representation would be too complex. Thus we need some kind of (theoretical) bounds, that make the analysis of networks possible.\nIn social network analysis, we use graphs to represent social networks. We borrow graphs from the mathematical graph theory which also provides us with a definition (Joshi 2017).\nA graph \\(G\\) consists of a vertex set \\(V\\) and an edge set \\(E\\):\n\\[\nG = \\{V, E\\}\n\\]\nwhere \\(V\\) is a set of nodes \\(V=\\{v_1,v_2,v_3\\}\\) and \\(E\\) being a set of edges \\(E = \\{\\{v_1,v_2\\},\\{v_2,v_3\\}\\}\\).\nBy using set theory, we can rigorously define different types of graphs, operations on graphs, and concepts like subgraphs, neighbourhoods, or connectivity.\n\nShort Digression: Set Theory\nSets are collections of distinct elements. The order and repitition of elements in a set does not matter.\n\n\n\n\n\n\n\n\nSymbol\nUsage\nInterpretation in Graphs\n\n\n\n\n\\(\\emptyset\\)\n\\(\\{\\}\\)\nEmpty set (e.g., a graph with no edges)\n\n\n\\(\\cup\\)\n\\(A \\cup B\\)\nUnion of sets (e.g., merging vertex or edge sets)\n\n\n\\(\\cap\\)\n\\(A \\cap B\\)\nIntersection of sets (e.g., common neighbors)\n\n\n\\(\\setminus\\)\n\\(A \\setminus B\\)\nSet difference (e.g., removing edges or vertices)\n\n\n\\(\\times\\)\n\\(A \\times B\\)\nCartesian product (e.g., possible edge pairs in a complete graph)\n\n\n\\(\\mathfrak{P}()\\)\n\\(\\mathfrak{P}(A)\\)\nPower set (e.g., all possible subsets of vertices or edges)\n\n\n\\(\\subset\\)\n\\(A \\subset B\\)\nSubset (e.g., a subgraph is a subset of a larger graph)\n\n\n\\(\\in\\)\n\\(x \\in A\\)\nElement in a set (e.g., a vertex in a vertex set)\n\n\n\\(\\notin\\)\n\\(x \\notin A\\)\nElement not in a set (e.g., a missing edge in a sparse graph)"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#types-of-graphs",
+    "href": "computational-social-sciences/week02.html#types-of-graphs",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Types of graphs",
+    "text": "Types of graphs\nIn social network analysis, we distinguish between directed and undirected networks. In most real-world cases, directed networks are more realistic because relationships are often asymmetric. However, undirected networks are easier to analyze mathematically and computationally.\n\nDirected Networks\nDirected networks represent relationships where the connection has a defined direction. These relationships do not necessarily have to be reciprocal.\n\\[\n\\forall A,B \\in V:(A \\to B) \\not\\Rightarrow (B \\to A)\n\\]\nExamples:\n- Social media interactions: On Twitter or Instagram, one user can follow another without being followed back.\n- Communication networks: E-Mails, phone calls or other forms of communication, can be sent out or received, thus defining a direction.\nNote: In a directed graph, the edges are ordered, meaning the edge ( (a, b) ) is not the same as ( (b, a) ). The direction of the edge matters, and there is a one-way connection from ( a ) to ( b ) (but not necessarily the other way around).\n\nEdges in directed graphs are representations of ordered pairs (tuples), where the order of the vertices does matter. We can write these as \\(E = \\{(a,b), (b, c), (c, d), (d, a)\\}\\).\n\n\n\nUndirected Networks\nUndirected networks assume that if a connection exists, it is inherently mutual. These networks are simpler to analyze since they do not require considering directionality.\n\\[\n\\forall A, B \\in V: (A \\leftrightarrow B) \\Rightarrow (B \\leftrightarrow A)\n\\]\nExamples:\n- Mutual friendships: In many studies, friendship networks are assumed to be undirected, meaning if A considers B a friend, B also considers A a friend (although this is not always the case in reality).\n- Co-authorship networks: If two researchers have co-authored a paper together, the connection exists for both equally.\n- Collaboration networks: In corporate or scientific collaborations, individuals or institutions work together on projects, making the relationship inherently bidirectional. - Classmates\n\nNote: In an undirected graph, the edges are unordered, meaning the edge ( {a, b} ) is the same as ( {b, a} ). The connection between ( a ) and ( b ) has no direction, and this is reflected by the use of unordered pairs in the edge set.\nA graph \\(E\\) where there are no multiple edges and where each edge is an unordered pair \\({a,b}\\) with \\(a /neq b\\) is also called a simple graph$\n\nIn practice, the choice between directed and undirected networks depends on the research question. If directionality is crucial (e.g., influence, hierarchy, or information flow), a directed network is necessary. However, if the goal is to analyze overall connectivity, undirected networks provide a simpler approach.\n\n\nCode\nlibrary(patchwork)  # For arranging plots\n\n\n# Generate a random graph with 30 nodes and 50 edges\ng2 &lt;- erdos.renyi.game(n = 60, p.or.m = 70, type = \"gnm\", directed = TRUE)\n\n# Assign random colors to nodes\nV(g2)$color &lt;- sample(c(\"blue\", \"green\"), vcount(g2), replace = TRUE)\n\n# Assign random sizes to nodes\nV(g2)$size &lt;- sample(5:12, vcount(g2), replace = TRUE)\n\n  # Plot the network using ggraph\np1 &lt;- ggraph(g, layout = \"fr\") + \n      geom_edge_link(color = \"lightgray\", alpha = 0.5) +\n      geom_node_point(aes(size = size, color = color), alpha = 0.8) +\n      scale_color_manual(values = c(\"blue\" = \"#967bb6\", \"green\" = \"#e8bff7\")) +\n      theme_void() +\n      theme(legend.position = \"none\") +\n      ggtitle(\"Undirected Network\")\n\n# Create the directed network plot\np2 &lt;- ggraph(g2, layout = \"fr\") + \n  geom_edge_link(arrow = arrow(length = unit(1.5, \"mm\"), type = \"closed\"), color = \"lightgray\", alpha = 0.5) +\n  geom_node_point(aes(size = size, color = color), alpha = 0.8) +\n  scale_color_manual(values = c(\"blue\" = \"#967bb6\", \"green\" = \"#e8bff7\")) +\n  theme_void() +\n  theme(legend.position = \"none\") +\n  ggtitle(\"Directed Network\")\n\n# Arrange the two plots side by side\np1 + p2"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#network-representations",
+    "href": "computational-social-sciences/week02.html#network-representations",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Network representations",
+    "text": "Network representations\nIn academic research, networks are often represented as graphs. For small datasets, this visualization is quite intuitive. A quick glance at such a diagram can give us a good sense of the network’s structure.\nHowever, as networks grow larger, this representation quickly reaches its limits. With hundreds, thousands, or even millions of nodes and edges, we end up with what network analysts call a “hairball”—a dense, tangled structure from which little insight can be gained.\nThis is why, alongside graphical representations, there are other, mathematically more powerful approaches. While they may seem less intuitive, they allows for precise calculations and the analysis of large networks. While graphs help us visually grasp networks, matrices or edge lists serve as the essential tools for conducting complex computations in network analysis.\n\nAdjacency matrices\nAdjacency: We say that two vertices v and w of a graph G are adjacent if there is an edge joining them, and the vertices v and w are then incident with such an edge. Similarly, two distinct edges e and f are adjacent if they have a vertex in common.(Wilson 2009)\n\n\n\nAdjacency\n\n\nTo analyze large networks effectively, we often use adjacency matrices. An adjacency matrix \\(A\\) is a square matrix used to represent a finite graph. Each row and column correspond to a node in a network. The entries of the matrix indicate whether a connection exists between two nodes.\nIn the simplest form, the matrix contains binary values:\n\\[\nA = (A_{ij})_{i,j \\in V},\\text{ where }\nA_{ij} =\n\\begin{cases}\n1, & \\text{if there is an edge between node } i \\text{ and node } j \\\\\n0, & \\text{otherwise}\n\\end{cases}\n\\]\nFor an undirected graph, the adjacency matrix is symmetric, meaning \\(A_{ij} = A_{ji}\\). In contrast, for a directed graph, the matrix is generally asymmetric, where \\(A_{ij} = 1\\) indicates a directed edge from node \\(i\\) to node \\(j\\), but not necessarily vice versa.\n\n\n\nRepresentation as adjacency matrices\n\n\n\nBy using different values than 0 and 1 in \\(A\\) , we can also represent a weight of a connection (e.g strength of a friendship, the frequency of interaction or any other meaningful measure of connection intensity).\n\n\n\nAdjacency lists\nSimiliarly to the adjacency matrix a adjacency list stores the information if one node in a graph is connected to another, while being a lot more space efficient.\nAn adjacency list is a collection of lists, where each node has a list of its neighbours.\nWe can convert from an adjacency matrix to a adjacency list in the way that we iterate over the matrix \\(A\\) and for each entry \\(A_{ij} = 1\\), we add node \\(j\\) to the adjacency list of node \\(i\\).\n\n\n\n\ndirected\nundirected\n\n\n\n\n1\n(4,7)\n(4,6,7)\n\n\n2\n(3,7)\n(3,5,7)\n\n\n3\n(2,6)\n(2,4,6)\n\n\n4\n(1,3)\n(1,3,5)\n\n\n5\n(2,4,7)\n(2,4,6,7)\n\n\n6\n(1,3,5)\n(1,3,5,7)\n\n\n7\n()\n(1,2,5,6)\n\n\n\n\n\nEdge lists\nWith even bigger networks it might be useful to even store networks in an edge list, where each edge is represented as a pair (or triplet in weighted graphs) indicating a connection between two nodes.\n\n\n\n\n\n\n\n\n\ndirected\nundirected\n\n\n\n\nV\n1, 2, 3, 4, 5, 6, 7\n1, 2, 3, 4, 5, 6, 7\n\n\nE\n(1,4), (1,7), (2,3), (2,7), (3,6), (5,7), (4,1), (6,1), (3,2), (5,2), (4,3), (6,3), (5,4), (6,5)\n(1,4), (1,6), (1,7), (2,3), (2,5), (2,7), (3,2), (3,4), (3,6), (4,1), (4,3), (4,5), (5,2), (5,4), (5,6), (5,7), (6,1), (6,3), (6,5), (6,7), (7,1), (7,2), (7,5), (7,6)\n\n\n\n\nTip:\n\nUse an adjacency matrix if you need fast edge lookups.\nUse an adjacency list for efficient traversal in sparse graphs.\nUse an edge list when edges are dynamic or when importing/exporting graph data."
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#creating-igraph-objects",
+    "href": "computational-social-sciences/week02.html#creating-igraph-objects",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Creating igraph objects",
+    "text": "Creating igraph objects\nIn igraph (Csárdi et al. 2025), a network object is an instance of the class igraph. There are multiple ways to create such an object, depending on the available data format:\n\ngraph.formula\ngraph.adjlist\ngraph.edgelist\ngraph.adjacency\nread.graph (can also read formats GraphML, Pajek, etc.)\ngraph.data.frame\n\n\nCreating a graph from an adjacency matrix\nDirected graph:\n\nM &lt;- matrix(c( 0, 1, 0, 0, 0,\n               0, 0, 1, 0, 0,\n               1, 1, 0, 0, 1,\n               0, 1, 0, 0, 0,\n               0, 1, 1, 0, 0), nrow = 5, byrow=TRUE)\n\ng &lt;- graph.adjacency(M, mode = \"directed\")\n\n# Graph descriptives\nsummary(g)\n\nV(g)  # List nodes\nE(g)  # List edges\n\nget.edgelist(g)  # Convert to edge list\nas_adjacency_matrix(g) # Get adjacency matrix\nas_adj_list(g, mode = \"out\") # Get adjacency list\n\nvcount(g)  # Count vertices\necount(g)  # Count edges\n\n# Plot the graph\nplot(g)\n\nUndirected graph:\n\nug &lt;- graph.adjacency(M, mode = \"undirected\")\nug\nsummary(ug)\n\nV(ug)\nE(ug)\n\nas_edgelist(ug)\nas_adjacency_matrix(ug)\nas_adj_list(ug, mode = \"out\")\n\nvcount(ug)\necount(ug)\n\nplot(ug)\n\nAccessing the Adjacency matrix\n\nas_adjacency_matrix(g)  # Retrieve adjacency matrix\ng[]  # Print entire adjacency matrix\ng[2,1]  # Check if an edge exists from node 2 to 1\ng[1,2]  # Check edge from node 1 to 2\ng[2,]   # Get all edges originating from node 2\nsum(g[2,])  # Count outgoing connections from node 2\n\n\n\nCreating a graph from an edge list\n\nedgelist &lt;- rbind(c(1,2), c(1,3), c(2,3), c(2,4), c(3,2), c(5,3))\nh &lt;- graph_from_edgelist(edgelist)\n\nplot(h)\n\n\n\nCreating a graph from Formula\n\ng &lt;- graph_from_literal(1--2, 2--3, 3--5, 4--2, 1--3, 2--5)\n\nplot(g)"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#adding-node-and-edge-attributes",
+    "href": "computational-social-sciences/week02.html#adding-node-and-edge-attributes",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Adding node and edge attributes",
+    "text": "Adding node and edge attributes\nJust the network itself does not hold a lot of information to analyze. In order to sensefully do so on a micro-level, we can add more data to our nodes and edges.\n\n\n\nCategory\nExample Values\n\n\n\n\nNodes\n(1,2,3,4)\n\n\nEdges\n{(1,2), (2,3), (2,4)}\n\n\nNode attributes\nGender, Age, Income, Status\n\n\nEdge attributes\nStrength, Valence (positive, negative), Frequency\n\n\nMetadata\nDirected, loops, etc.\n\n\n\n\n# Assign names to nodes\nV(g)$name &lt;- c(\"A\", \"B\", \"C\", \"D\", \"E\")\n\nplot(g)\n\n\nE(g)$weight &lt;- c(1.2, 2.3, 1.8, 3.0, 2.1, 1.5)\n\nplot(g, edge.width = E(g)$weight)  # Visualizing edge weights"
+  },
+  {
+    "objectID": "computational-social-sciences/week02.html#missing-data-and-imputation",
+    "href": "computational-social-sciences/week02.html#missing-data-and-imputation",
+    "title": "Week 02 - Social Network Analysis",
+    "section": "Missing data and imputation",
+    "text": "Missing data and imputation\n\n\n\nConsequences of hidden network data\n\n\nMissing data in networks can bias results, particularly in global networks where completeness is crucial. Given the data collection choice and context, there can be different types of missing data:\n\nMissing Nodes: Some actors are absent due to nonresponse or other issues (e.g., students absent during a survey).\nMissing Edges: Some relationships are not captured (e.g., weak ties not reported).\n\n\nEvery form of data collection is prone to have some kinds of missing data, or inherent biases. Dealing with the possible consequences of the selected form of data collection and reporting possible biases and missings transparently is thus part of good scientific practice."
+  },
+  {
+    "objectID": "computational-social-sciences/css_overview.html",
+    "href": "computational-social-sciences/css_overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "Welcome to the Computational Social Science (CSS) seminar! This hands-on course explores how social network analysis and geo/spatial data can enhance our understanding of society. Using R, we will learn techniques for visualizing, analyzing, and integrating these data types with existing datasets — such as survey or experimental data — to gain deeper insights into social phenomena.\n\nGeneral Information\n\n\n\nMonday, weekly\n15:15 - 16:45\n\n\nGWZ, H2 1.15\nStart: 4/7/25\n\n\n\n\n\n🔎 Focus\nOur focus will be twofold:\n\nSocial Network Analysis: Understanding relationships and structures in network data, applying visualization techniques, and conducting empirical analyses.\nGeo/Spatial Data Analysis: Examining spatial patterns and dependencies, and leveraging location-based data for social science research.\n\n\n\n🏁 Goals\nBy combining these data sources with traditional and emerging approaches—including text data (next Semester with Felix) and simulated data (this semester with Sascha) —we will explore innovative ways to study societal dynamics. Throughout the seminar, we will engage with inspiring case studies and hands-on applications to develop our own research perspectives.\nThis course provides both conceptual and technical foundations for working with computational methods in the social sciences, empowering participants to extend existing datasets and refine their analytical toolkit.\nBy the end of this semester, you will be able to understand, analyze, and visualize network and spatial data types. You will gain the skills to effectively apply these methods to your own research questions, enabling you to generate insightful and impactful results. This course provides hands-on knowledge that you can use both in academic research and beyond.\n\n\n📆 Syllabus\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nSubject\nContent\nReadings\n\n\n\n\n1\n07.04.\nKick-Off\n\nIntroduction\nCourse setup and structure\nRefresher\n\n\n\n\n2\n14.04.\nNetworkanalysis in R\n\nIntroduction to SNA (in R)\nKey metrics\nData quality\n\n\n\n\n3\n21.04.\nno lecture (Ostermontag)\n\n\n\n\n4\n28.04.\nTheoretical Insight\n\nCentrality and Assortavity\nHomophily\nHierarchy\n\nBurt, Ronald S. 2009. Structural Holes: The Social Structure of Competition. Harvard University Press. (Chapter: The Social Structure of Competition)\nGranovetter, Mark S. 1973. The Strength of Weak Ties. American Journal of Sociology 78: 1360–1380.\nMcPherson, Miller, Lynn Smith-Lovin, und James M. Cook. 2001. Birds of a Feather: Homophily in Social Networks. Annual Review of Sociology 27: 415–444.\n\n\n5\n05.05.\nNetwork Visualisation\n\nVisualisation basics\nInteractive visualisation\n\n\n\n\n6\n12.05.\nCommunity Detection & Structural Comparison\n\n\n\n\n7\n19.05.\nStatistical Models & Case Studies\n\nERGMs\n\nBodaghi, Amirhosein, und Jonice Oliveira. 2022. The theater of fake news spreading, who plays which role? A study on real graphs of spreading on Twitter. Expert Systems with Applications 189: 116110.\n\n\n8\n26.05.\nOpen Lab Session\n\nQ&A\nTerm Paper ideas\n\n\n\n\n9\n02.06.\nGeo-Data Analysis\n\nIntroduction to spatial data\nBasics in R\n\nLogan, John R. 2012. Making a Place for Space: Spatial Thinking in Social Science. Annual Review of Sociology 38: 507–524.\n\n\n10\n09.06.\nno lecture (Pfingstmontag)\n\n\n\n\n11\n16.06.\nSpatial data visualisation in R\n\nVisualisation\nSpatial inference\n\n\n\n\n12\n23.06.\nCase Studies in Geodata Analysis\n\nBail, Christopher A., Friedolin Merhout, und Peng Ding. 2018. Using Internet search data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties. Science Advances 4: eaao5948.\nBalarezo, Maria Laura Guerrero, Martin Trépanier, Jonathan Jalbert, und Geneviève Boisjoly. 2024. Going the distance: Gender differences in travel in Montréal, Canada. Journal of Transport Geography 118: 103935.\n\n\n13\n30.06.\nOpen Science and CSS\n\n\nTools\nChallenges\nBest Practices\n\n\n\n\n14\n07.07.\nPresentations and term paper discussion\n\n\n\n\n\n\n\n🗂️ Course Materials and Structure\nAll materials required for the completion of this course can be found on this website. Literature references (when openly available) are linked directly; otherwise, the PDFs will be uploaded to our Moodle course.\nThe Pre-examination requirements will be available under the “Course Assessment” tab, while the lecture content for each week will be uploaded in the “Computational Social Science” folder.\nDuring the lectures, you may encounter the following block:\n\nThis usually indicates some additional information included for your reference.\n\nIf you see this block:\n\nThis marks an in-class discussion and/or reflection exercise.\n\n\n\n💐 Acknowledgements\nWhile creating this course, I have drawn inspiration from several courses taught by Felix Lennert, Till Hovestadt, Johannes Zschache, Omar Lizardo. Below is a table listing the courses, institutions, and links for further reference (if available). If you are interested in diving deeper into the topics, I encourage you to explore these resources and courses.\n\n\n\nCourse Name\nInstitution\nInstructor\nCourse Link (if available)\n\n\n\n\nSocial Networks\nUCLA\nOmar Lizardo /& Isaac Jilbert\nhttps://olizardo.github.io/networks-textbook/\n\n\nToolbox CSS\nUniversität Leipzig\nFelix Lennert\nhttps://fellennert.github.io/toolbox_css/\n\n\nEmpirische Netzwerkanalyse\nUniversität Leipzig\nJohannes Zschache\n\n\n\nSNA mit R\nUniversität Leipzig\nTill Hovestadt\n\n\n\n\nAdditionally, parts of the content for this course were created with the assistance of GitHub Copilot, ChatGPT, and ChatAI. Please note that while these tools have contributed to the development of the course materials, the final content and structure have been carefully curated and tailored for this course.\n\n\n💾 Data Inspiration\nIf you find cool datasets during this course (or at any point tbh) I’d be happy if you share it with the course!\n(➡️General Information ➡️Data)\n\n\n\n\nCopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html",
+    "href": "computational-social-sciences/week01.html",
+    "title": "Week 01 - Kick-Off",
+    "section": "",
+    "text": "Welcome to the first session of Computational Social Sciences!\nToday, we will go over the plan for the semester, including:\nLooking forward to a great semester with you all!"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#getting-started",
+    "href": "computational-social-sciences/week01.html#getting-started",
+    "title": "Week 01 - Kick-Off",
+    "section": "Getting started",
+    "text": "Getting started\n\nInstallation\nIn case you haven`t installed R and RStudio\n\nInstall R\nInstall RStudio\n\n\n\n\n\n\n\n\nR-Meme (PsyTeachR)\n\n\nThis is the easiest way, you are of course allowed to use other source code editors (like VSCode, Eclipse, PyCharm, Vim, Emacs or any other preference you might have). I will show the examples in class using RStudio though.\n\n\nStart a new file\nCreate a new R Script, R Notebook, or Quarto document:\n\nGo to the menu bar and click on File.\nSelect New File.\nChoose the type of file you want to create (R Script, R Notebook, or Quarto document).\n\nWorking directory:\n\n\nCode\n# Find the current working directory (where inputs are found and output are send)\ngetwd()\n\n# Change the current working directory\nsetwd(\"C://your/file/path\")\n\n\nWhen we analyze data in R usually we also depend on functions, other users and developers have written, which are usually stored in so called packages. Packages can be installed and called like this:\n\n\nCode\ninstall.packages(\"igraph\")\n\nlibrary(igraph)\n\n\n\nAccessing help files\n\n\nCode\n# Get help of a particular function\nhelp(rnorm)\n# or\n?rnorm\n\n# Search te help files for a word or a phrase (if you don't know the name of the function)\nhelp.search(\"weighted mean\")\n# or\n??\"weighted mean\"\n\n# Find help for a package\nhelp(package=igraph)\n\n\n\nThere are three fundamental principles that in my point of view help to understand R.\n\nEverything that exists in R is an object! (Chambers 2017)\n\nIn R, all data, from simple numbers to complex models, is treated as an object. This means that every piece of data or function can be stored, manipulated, and passed around. An object can represent variables, functions, or even entire datasets.\n\nEverything that happens in R is the result of a function call (Chambers 2017)\n\nWhether you are performing basic arithmetic or fitting a stochastic model, every action in R is initiated by a function. This means that every operation can be seen as calling a function that takes input and produces an output. This functional nature of R ensures consistency in how tasks are executed.\n\n\nCode\n# Example: \na &lt;- 5\n\na\n\n# Function behavior\na &lt;- function(a = 5) { \n      a \n    }\n\na()\n\n\n\nNames have objects; objects don’t have names (Hadley Wickham 2016)\n\nIn R, you don’t assign values to variables or store 5 in x. Variables in R are not boxes; they don’t contain objects. Instead, you assign (the variable name) x to 5 or bind x to 5. Assignment is simply the association of a name with an object. Any given object may have many names associated with it. At a given instant, a name refers to only one object. Over time, the object a name refers to may vary. (Doane 2018).\n\n\n\n\n\n\n\nTwitter 2016: @hadleywickham\n\n\n\n\n\n\nAtomic classes in R\nAtomic in this case means the data is of size = 1.\n\n\n\nName\nDescription\nExample\n\n\n\n\ninteger\nWhole numbers\n5\n\n\nnumeric\nDecimal numbers\n4.2\n\n\nlogic\nBoolean values\nTRUE, FALSE\n\n\ncharacter\nText or string values\n\"Hello\"\n\n\nNA\nMissing value indicator\nNA\n\n\nNULL\nMissing object indicator\nNULL\n\n\nNaN\nNot a number (e.g. 0/0)\nNaN\n\n\nInf\nPositive or negative infinity\nInf, -Inf\n\n\n\nChecking types:\n\n\nCode\nint &lt;- 5L #capital L forces integer-storage\nnum &lt;- 42.1\nlog &lt;- TRUE\nchar &lt;- \"Hello\"\n\nclass(int)\nclass(num)\nclass(log)\nclass(char)\n\n\n\n\nBasic Operations\n\nStorage of values\nValues can be stored in Variables. The name of a variable starts with a letter and may consist of any sequence of letters, numbers, dot or underline characters.\n\n\nCode\n# assigning values to variables\na &lt;- 15.7\na\na + 10\na / 10\nround(a)\n\n# storing results in new variables\nb &lt;- round(a)\n\n\n\n\nArithmetic operations\n\n\nCode\n# Addition\n2 + 7\n\n# Substraction\n4 - 2\n\n# Multiplication\n5 * 2\n\n# Division\n8 / 2\n\n# Natural log\nlog(2)\n\n# Exponentation\n2^3\n\n# Exponential\nexp(7)\n\n# Round to nearest integer\nfloor(4.8)\nceiling(4.8)\n\n# Round\nround(7.5)\n\n\n\n\nLogical operations\n\n\nCode\n# is equal?\nb == a\n\n# is unequal?\nb != a\n\n# is greater?\nb &gt; a\n\n# is smaller?\nb &lt; a\n\n# is greater or equal?\nb &gt;= a\n\n# is smaller or equal?\nb &lt;= a\n\n\n# Further logical operations\n(3 &gt; 2) & (4 &gt; 1)   # AND\n(3 &gt; 5) | (1 &gt; 4)   # OR\n!TRUE  # NOT"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#classes-of-data-in-r",
+    "href": "computational-social-sciences/week01.html#classes-of-data-in-r",
+    "title": "Week 01 - Kick-Off",
+    "section": "Classes of Data in R",
+    "text": "Classes of Data in R\nR has several classes that define how data is structured and handled. Just to name a few:\n\n\n\n\n\n\n\n\nClass\nDescription\nExample\n\n\n\n\nvector\nBasic 1D array of elements of one type\nc(1, 2, 3)\n\n\nfactor\nCategorical data with levels\nfactor(c(\"low\", \"high\"))\n\n\nmatrix\n2D array with elements of one type\nmatrix(1:9, nrow = 3)\n\n\narray\nMulti-dimensional generalization of matrix\narray(1:12, dim = c(2,3,2))\n\n\nlist\nCollection of different types of objects\nlist(name=\"Alice\", age=25)\n\n\ndata.frame\nTabular data, columns can have different types\ndata.frame(a=1:3, b=c(\"x\",\"y\",\"z\"))\n\n\ntibble\nEnhanced version of a data frame\ntibble::tibble(a=1:3, b=c(\"x\",\"y\",\"z\"))\n\n\n\n\nVectors\nA vector is a simple data structure, that can store multiple elements of the same type. You can create a vector using the c() function.\n\nTo ensure, that all elements in a vector are of the same type, R will coerce the elements to the most general type. For example, if you combine a numeric and a character, the numeric will be coerced to a character.\n\n\n\nCode\nages &lt;- c(25, 30, 35, 40)\nnames &lt;- c(\"Albert\", \"Berta\", \"Charlie\", \"Dora\")\nsociologists &lt;- c(TRUE, FALSE, TRUE, FALSE)\n\n\n\nIndexication\nR indices start counting at 1, not at 0 like in many other programming languages. You can access elements of a vector, matrix, or data frame by using square brackets [].\n\n\nCode\n# Accessing elements of a vector\nages[1]\nnames[2]\nsociologists[3]\nages[c(1,4)] # First and fourth element\nnames[-1] #  All but the first element\nnames[names == \"Tom\"] #  All elements with the name \"Tom\"\nages[names == \"Tom\"] # Age of the person with the name \"Tom\"\n\n\n\nShort Exercise:\n\nWhat are the names of the sociologists?\nWhat are the ages of the non-sociologists?\nAre Berta and Charlie sociologists?\n\n\n\n\nCode\n# 1. What are the names of the sociologists? - Albert and Charlie\nnames[sociologists]\n\n# 2. What are the ages of the non-sociologists? - 30 and 40\nages[!sociologists]\n\n# 3. Are Berta and Charlie sociologists? - Berta is not, but Charlie is.\nsociologists[names %in% c(\"Berta\", \"Charlie\")]\n\n\n\n\n\nFactors\nFactors are vectors that represent categorical data. They can be ordered (e.g. low, medium, high) or unordered (female, male, divers). Underlying they are represented by numbers.\n\nFactors are especially important for modelling functions like ‘lm’ and ‘glm’.\n\n\n\nMatrices\nMatrices are two-dimensional arrays with elements of the same type. You can create a matrix using the matrix() function.\n\n\nCode\nM &lt;- matrix(c(11, 0, 3, 3, 5, 1, 7, 1, 0),\n      nrow = 3)\nM\n\nN &lt;- matrix(1:9,\n      nrow = 3)\nN\n\n\n\nIndexication\n\n\nCode\nM[1, 2] # First row, second column\nM[1, ]   # First row\nM[, 2]   # Second column\n\n# name the row of a matrix\nrownames(M) &lt;- c(\"A\", \"B\", \"C\")\n\n# name the column of a matrix\ncolnames(M) &lt;- c(\"A\", \"B\", \"C\")\n\n\n\n\n\nData frames\nData frames are one of the most common data structures in R. They are two-dimensional objects, with rows and columns. Each column can have a different type. You can create a data frame using the data.frame() function.\n\n\nCode\ndf_friends &lt;- data.frame(name = names, \n                         sociologists = sociologists, \n                         age = ages)\ndf_friends\n\n\n\nIndexication\n\n\nCode\ndf_friends[3,]   # Dritte Zeile\n\ndf_friends[,2]   # Zweite Spalte\n\ndf_friends[3,2]  # Drittes Element in der zweiten Spalte\n\ndf_friends$name  # Zugriff auf eine Spalte per Namen\n\n\n\n\nAdd variables\n\n\nCode\nyear_of_birth &lt;- 2025 - df_friends$age\ndf_friends$birth_year &lt;- year_of_birth\n\ndf_friends$city &lt;- c(\"Leipzig\", \"Leipzig\", \"Berlin\", \"Leipzig\")\ndf_friends\n\n\n\n\n\nLists\nLists are collections of different types of objects. You can create a list using the list() function.\n\n\nCode\nfriends_list &lt;- list(\n  name = df_friends$name,\n  age = df_friends$age,\n  city = df_friends$city,\n  birth_year = df_friends$birth_year,\n  sociologists = df_friends$sociologists\n)\n\nfriends_list\n\n\n\nIndexication\n\n\nCode\nfriends_list$name # Index via name\nfriends_list[1] # gives list(list())\nfriends_list[[1]] # Index via position | gives objects in list\n\n\n# Further indexing\n\nlist_of_list &lt;- list(\n  l1 = friends_list,\n  l2 = list(\"something else\",\n            c(1:1000))\n)\n\n# If you want to go deeper in the structure, you can use more [[]]. \nlist_of_lists$l1$name \nlist_of_lists[[1]][[1]] # first element from first list\nlist_of_lists[[2]]\n\n\nIn addition to this positive indexication, we can also use negative indices. For example ‘friends_list[-1]’ gives all elements, but the first.\n\n\n\n\n\n\n\nUnlist-meme (R-Memes for Statistical Friendss - Facebook 2017)"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#operations",
+    "href": "computational-social-sciences/week01.html#operations",
+    "title": "Week 01 - Kick-Off",
+    "section": "Operations",
+    "text": "Operations\nWe can perform several operations on different classes of vectors or variables. If we want to call variables we use the name of the object followed by the $ sign and the name of the variable.\n\n\nCode\n# give mimum value\nmin(vec)\n\n# give maximum value\nmax(vec)\n\n# give mean value\nmean(vec)\n\n# give median value\nmedian(vec)\n\n# give standard deviation\nsd(vec)\n\n# give sum of all values\nsum(vec)\n\n# give length of vector\nlength(vec)\n\n# give range of vector\nrange(vec)\n\n# give quantile of vector\nquantile(vec)\n\n# give unique values of vector\nunique(vec)\n\n# give number of unique values\nlength(unique(vec))\n\n# give frequency of values\ntable(vec)\n\n# This works also with variables. \nmean(my_data$score)"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#control-structures",
+    "href": "computational-social-sciences/week01.html#control-structures",
+    "title": "Week 01 - Kick-Off",
+    "section": "Control structures",
+    "text": "Control structures\nControl structures are used to control the flow of a program. They include loops and conditional statements.\n\nTip:\nThere are two tips, that will make your programming game a whole lot easier:\n\nDon`t repeat yourself: If you find yourself writing the same code over and over again, you should consider automating your task.\nDivide and conquer: If you have a complex task, break it down into smaller, more manageable parts.\n\n\n\nIf-loops\nA if-loop is useful to discern between different cases. The syntax is as follows\nIf (condition) {\n# do something\n} else {\n# do something else\n}\nIf the condition (logical value) is true, the code in the first block will be executed. Otherwise, the code in the second block will be executed.\n\n\nCode\nx &lt;- 10\n\nif (x &gt; 0) {\n  print(TRUE)\n} else {\n  print(FALSE)\n}\n\n\nFor simple vector-based operations, you can use the ifelse() function. It has the following structure: ifelse(condition, value if true, value if false).\n\n\nCode\nbirthyear &lt;- c(1991, 1984, 1969, 2004, 1988, 2007, 1996)\n\nifelse(birthyear &lt; 1996, \"other\", \"Generation Z\")\n\n\n\n\nLoops\nThere are two main types of loops in R: for and while loops. 1. for (i in I) {code execution}: The for loop is used to iterate over a sequence of values in a set. 2. while (condition) {code execution}: The while loop is used to execute a block of code as long as a condition is true.\nExample: Compute how long a person still has to work until retirement (for-loop)\n\n\nCode\nages &lt;- c(21, 29, 61, 72, 12)\n\nfor (i in ages) {\n  if (i &gt;= 67) {\n    print(\"retired\")\n  }\n  if (i &lt; 18) {\n    print(\"in education\")\n  }\n  if (i &gt; 18 & i &lt; 67) {\n    rest &lt;- 67 - i\n    print(rest)\n  }\n}\n\n\nExample: Compute how long a person can drink, staying below a certain alcohol level and not spending more than a certain amount of money (while-loop)\n\n\nCode\nmoney &lt;- 25\nalcohol &lt;- 0\n\nwhile (money &gt;= 3 & alcohol &lt; 1.2) {\n    \n    money &lt;- money - 3\n    alcohol &lt;- alcohol + 0.3\n    \n    print(paste0(\"Money spent: \", money))\n    print(paste0(\"Alcohol in blood: \", alcohol))\n       \n}\n\n\n\n\nFunctions\nSometimes, we want to repeat a certain task multiple times. In this case, we can write a function. Functions are blocks of code that perform a specific task. They can take arguments as input and return a value as output. The syntax follows: function_name &lt;- function(argument) {function body}\nWhen doing this, the function is loaded as an object to the global environment.\n\n\nCode\n# Creating and using functions\nmy_function &lt;- function(x) {\n  \n  y &lt;- x^2 + 3\n\n  return(y)\n}\n\nmy_function(5)  # Example usage\n\n\nApply functions The family of apply functions is used to apply a function to the rows or columns of a matrix or data frame. The most common functions are apply(), lapply(), sapply(), and tapply(). In principle, they are a more efficient variant of for-loops running a function FUN over a vector or list X. Most often, we use lapply() which returns a list of outputs (one entry per part in X).\n\n\nCode\nnums &lt;- c(1:10)\nnew_nums &lt;- lapply(X = nums, # run over nums\n                   FUN = my_function) # run my_function\n                   \n\nnew_nums\n\n\n\nExercise:\nThe Institute of Sociologys latest acquisition is an intelligent coffee machine that uses its own algorithm to determine the order in which employees are served coffee. Unfortunately, the machine’s code is written in R - and someone has accidentally introduced a bug so at the moment nobody is getting any coffee out of it 😔. Can we fix it?\nThe machine processes a list of employees (Stephan, Sascha, Leo, Julius and Felix), where each entry is a vector with three values.\n\nThe number of cups of coffee already drunk.\nTheir individual caffeine tolerance (number between 1 and 10)\nWhether they are currently tired. Each coffee brings a 40% chance of feeling more awake afterwards.\n\nThe machine should apply the following rules.\n\nif someone has drunk more cups than their tolerance, they will not get another cup of coffee.\nif someone is tired, they are given coffee until they are awake (after a maximum of three cups) or until their tolerance is exceeded 1.\neveryone else gets another cup2.\n\nThe function should output a new list with the updated coffee values and the new awake status and say whether the persons have received a coffee and whether they will get another one on the next attempt.\nLeo can take 4 cups of coffee, Stephan 4, Sascha 7, Julius 9 and Felix 2 3. Everybody has had two coffees already but are still feeling pretty tired.\nWork in teams to rewrite the algorithm!"
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#global-environment",
+    "href": "computational-social-sciences/week01.html#global-environment",
+    "title": "Week 01 - Kick-Off",
+    "section": "Global environment",
+    "text": "Global environment\nThe global environment is the workspace of R. It contains all objects that you have created during your session. You can see all objects in the global environment in the upper right corner of RStudio. You can also list all objects in the global environment using the ls() function.\n\n\nCode\nls()\n\n# delete specific object\nrm(df_friends)\n\n# delete global environment\nrm(list = ls())\n\n# Save objects in global environment\n# Save data\nsave(df_friends, file = \"files/df_friends.RData\")\n\n# Load data\nload(\"files/df_friends.RData\")\n\n\nThat is about it. If you have any questions during the semester, feel free to ask! You can also always come back to this document to refresh your memory.\n\nHomework\nPlease install the packages igraph, ggplot2, ggraph in your R environment."
+  },
+  {
+    "objectID": "computational-social-sciences/week03.html",
+    "href": "computational-social-sciences/week03.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Easter Eggs in Data Science\n\n\n\n\n\nCopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week05.html",
+    "href": "computational-social-sciences/week05.html",
+    "title": "Week 05",
+    "section": "",
+    "text": "Basic visuaisation\n\n\nInteractive visualisation\n(Rawlings et al. 2023)\n\n\n\n\n\nReferences\n\nRawlings, Craig M., Daniel A. McFarland, James Moody, and Jeffrey A. Smith, eds. 2023. “How Are Social Network Data Visualized?” In Network Analysis: Integrating Social Network Theory, Method, and Application with R, 88–114. Structural Analysis in the Social Sciences. Cambridge: Cambridge University Press. https://doi.org/10.1017/9781139794985.006.\n\nCopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week07.html",
+    "href": "computational-social-sciences/week07.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week09.html",
+    "href": "computational-social-sciences/week09.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week11.html",
+    "href": "computational-social-sciences/week11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "computational-social-sciences/week13.html",
+    "href": "computational-social-sciences/week13.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "CopyrightCopyright Leonie Steinbrinker, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/es_overview.html",
+    "href": "experimental-sociology/es_overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "🌍 Overview\nWelcome to the Experimental Sociology (ES) seminar!\nIn this course, we will explore how analytical and computational tools can be used to derive experimental research questions, optimize experimental design, and plan necessary observations more effectively. Together, we’ll bridge the gap between theory and practice, using simulations and agent-based models (ABMs) to enhance the quality and efficiency of sociological research.\n\nGeneral Information\n\n\n\nWednesday, weekly\n11:15 - 12:45\n\n\nGWZ, H2 1.15\nStart: 2025-04-09\n\n\n\n\n\n\n🔍 Focus\nOur focus will be twofold:\n\nHypothesis derivation: How can analytical tools and agent-based models (ABMs) help us derive meaningful hypotheses and design better experiments?\nPlanning an experiment: How can ABMs help us improve the statistical power of our experiments, save time and money, and make smarter design decisions (e.g., number of participants, treatment structure)?\n\n\n\n🏁 Goals\nBy the end of this course, you should be able to:\n\nModel a social problem so that it can be tackled analytically or via an simulation.\nProgram a simple agent-based model (ABM) or modify an existing one.\nUse ABMs to design experiments — including determining the number of participants needed to detect a given effect size and setting up meaningful treatments.\nUnderstand how to fine-tune experimental design to increase statistical power.\nReflect on the broader implications of experimental sociology and agent-based modeling in real-world research.\n\n\n\n🗓️ Syllabus\nThis syllabus will be updated throughout the semester!\n\n\n\nWeek\nDate\nSubject\nContent\nAdditional Materials\n\n\n\n\n1\n04-09\nKick-Off\n\nIntroduction\nCourse setup and structure\nShort overview over modeling and ABMs\n\n\n(Bruch and Atwell 2015)\n(Easley and Kleinberg 2010)\n(Salganik 2017)\n\n\n\n2\n04-16\nAnalytical Methods: Decision & Game Theory\n\nHow to model a situation?\nDecision Theory\nBasic Game Theory\n\n\n(Osborne 2004)\n(Gilboa 2010)\n(Rubinstein 1998)\n(Rubinstein and Osborne 2020)\n\n\n\n3\n04-23\nAnalytical Methods: Ecological Models & Evolutionary Game Theory\n\nDifferential Equations\nThe 3 ingredients of an evolutionary process\n\n\n(Nowak 2006)\n(Olinick 2014)\n(Coleman, Katz, and Menzel 1957)\n\n\n\n4\n04-30\nABMs: Basics\n\nBasic design principles of AMBs in R\nODD-Protocol\nA simple ABM with ChatGPT\n\n\n(Grimm et al. 2020)\n\n\n\n5\n05-07\nEvolutionary ABMs: Basics\n\nLearning\nMutation\n\n\n\n\n\n\n6\n05-14\nEvolutionary ABMs: Complex Simulations\n\nErrors & noise\nStrategy space\nRC vs. Bounded Rationality\n\n\n\n\n\n\n7\n05-21\nDiffusion: Basics\n\nSimple & complex contagion\nSIS/SIR/SIRD\nNetwork structures\n\n\n\n\n\n\n8\n05-28\nDiffusion: Dispersion,Robustness & Sensitivity Analysis\n\nHow to deal with randomness\nDiscussions\nTerm Paper ideas\n\n\n(Bruch and Atwell 2015)\n\n\n\n9\n06-04\nDiffusion: Calibration\n\nInput, model & output realism\nHow to do calibrate a model\n\n\n\n\n\n\n10\n06-11\nMachine Learning: Basics\n\nSet up a simple machine learning (ML)\nPrecision & recall\nCross-validation\n\n\n\n\n\n\n11\n06-18\nOpen Lab Session\n\nQ&A\nDiscussions\nTerm Paper ideas\n\n\n\n\n\n\n12\n06-25\nStatistical Power, Randomization, Running an Experiment\n\nStatistical power via formula and simulation\nHow to increase statistical power?\nProblems, challenges, and more problems\n\n\nhttps://egap.org/resource/10-things-to-know-about-statistical-power/\nhttps://egap.org/resource/10-things-to-know-about-randomization/\n\n\n\n13\n07-02\nSummary & Term Paper Presentation I\n\n\n\n\n14\n07-09\nTerm Paper Presentation II\n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nBruch, Elizabeth, and Jon Atwell. 2015. “Agent-Based Models in Empirical Social Research.” Sociological Methods & Research 44 (2): 186–221. https://doi.org/10.1177/0049124113506405.\n\n\nColeman, James, Elihu Katz, and Herbert Menzel. 1957. “The Diffusion of an Innovation Among Physicians.” Sociometry 20 (4): 253270. https://doi.org/10.2307/2785979.\n\n\nEasley, David, and Jon Kleinberg. 2010. Networks, Crowds, and Markets: Reasoning about a Highly Connected World. New York: Cambridge University Press.\n\n\nGilboa, Itzhak. 2010. Rational Choice. Cambridge: MIT Press.\n\n\nGrimm, Volker, Steven F. Railsback, Christian E. Vincenot, Uta Berger, Cara Gallagher, Donald L. DeAngelis, Bruce Edmonds, et al. 2020. “The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism.” Journal of Artificial Societies and Social Simulation 23 (2): 7. https://doi.org/10.18564/jasss.4259.\n\n\nNowak, Martin A. 2006. Evolutionary Dynamics. Cambridge, MA.; London: Belknap Press of Harvard University Press.\n\n\nOlinick, Michael. 2014. Mathematical Modeling in the Social and Life Sciences. Hoboken: John Wiley; Sons, Inc.\n\n\nOsborne, Martin J. 2004. An Introduction to Game Theory. New York: Oxford University Press.\n\n\nRubinstein, Ariel. 1998. Modeling Bounded Rationality. Cambridge; London: MIT Press.\n\n\nRubinstein, Ariel, and Martin J. Osborne. 2020. Models in Microeconomic Theory. Cambridge, UK: Open Book Publishers.\n\n\nSalganik, Matthew J. 2017. Bit by Bit: Social Research in the Digital Age. Princeton Oxford: Princeton University Press.\n\nCopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#what-is-this-course-about",
+    "href": "experimental-sociology/slides01.html#what-is-this-course-about",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🔍 What is This Course About?",
+    "text": "🔍 What is This Course About?\n\nHands on course that combines ES & CSS.\nIntegrate analytical and computational methods:\n\nAnalytical methods – game theory & differential equations.\nComputational methods – agent-based models (ABMs).\n\nThese methods help us:\n\nDerive hypotheses.\nEnhance experimental design."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#goals",
+    "href": "experimental-sociology/slides01.html#goals",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🏁 Goals",
+    "text": "🏁 Goals\nBy the end of this course, you’ll:\n\nUnderstand how to model social situation analytically and computationally.\nDesign, program, and modify ABMs.\nDerive theoretical guided (and empirically calibrated) hypotheses.\nImprove experimental design using analytical & computational methods."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#course-structure",
+    "href": "experimental-sociology/slides01.html#course-structure",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🧩 Course Structure",
+    "text": "🧩 Course Structure\n\nFlipped Classroom Approach:\n\n🏠 Before class: Read and study core concepts at your own pace.\n🏫 In class: Discuss, solve problems, and apply concepts.\n\nMix of:\n\nHands-on coding.\nGroup work & discussions.\nProblem-solving."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#weekly-readings-exercises",
+    "href": "experimental-sociology/slides01.html#weekly-readings-exercises",
+    "title": "Experimental Sociology - Week 01",
+    "section": "📖 Weekly Readings & Exercises",
+    "text": "📖 Weekly Readings & Exercises\n\nMaterials provided weekly at sgrehl.github.io.\nSome material might also be at moodle.\n\n\nMoodle password: ############\n\n\nRead and engage with the assigned texts.\nTry to solve the exercises.\nCome to class prepared with questions and insights."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#requirements",
+    "href": "experimental-sociology/slides01.html#requirements",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🛠️ Requirements",
+    "text": "🛠️ Requirements\n\nSociological curiosity\nLaptop – R and RStudio installed.\nBasic R programming knowledge – Comfortable with the basic, tidyverse & functions.\nA sense of humor – Things will break, code will crash, and the unexpected will happen."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#communication",
+    "href": "experimental-sociology/slides01.html#communication",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🗣️ Communication",
+    "text": "🗣️ Communication\n\nOpen communication is key – feel free to talk to us anytime.\nQuestions or ideas? Reach out – we’re collaborators, not just instructors.\nThis course is newly designed, so your feedback matters."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#course-program",
+    "href": "experimental-sociology/slides01.html#course-program",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🗓️ Course Program",
+    "text": "🗓️ Course Program\nOur schedule:\n\nWeek 1: Introduction\nWeek 2–3: Analytical Solutions & (Evolutionary) Game Theory\nWeek 4: ABMs: Basics\nWeek 5–6: Evolutionary ABMs\nWeek 7–9: Sensitivity Analysis & Calibration\nWeek 10: Machine Learning Basics\nWeek 11: Open Lab Session\nWeek 12: Statistical Power & Experimental Design\nWeek 13–14: Term Paper Presentations"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#the-ideal-research-process",
+    "href": "experimental-sociology/slides01.html#the-ideal-research-process",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🔬 The Ideal Research Process",
+    "text": "🔬 The Ideal Research Process\n\n💡 We have a hypothesis about the effect of a treatment on a dependent variable.\n🧪 We run an experiment.\n📊 We estimate statistical models & adapt our knowledge.\n\n\nProblems\n\n\nHow to derive good hypotheses?\nHow to efficiently test hypotheses?"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#from-a-theory-to-a-hypothesis",
+    "href": "experimental-sociology/slides01.html#from-a-theory-to-a-hypothesis",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎓 From a Theory to a Hypothesis",
+    "text": "🎓 From a Theory to a Hypothesis\n\nTheory: A systematically organized set of interrelated statements that explains and predicts phenomena (Braun 2008).\nModel: An representation of a formalized theory to address a specific problem.\nProposition: Universal statement about the relationship between one or more concepts.\nHypothesis: A specific, testable prediction."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#example",
+    "href": "experimental-sociology/slides01.html#example",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🍪 Example",
+    "text": "🍪 Example\n\nTheory: Economic theory of Rational Choice.\nModel: Model of supply and demand.\nProposition: When the price of a normal good rises, the demand for it falls.\nHypothesis: If the price of rice rises, the demand for rice falls.\n\n\n\n\n\n\n\n\nCaution\n\n\nExperiments test hypotheses, not propositions."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#deriving-a-hypothesis",
+    "href": "experimental-sociology/slides01.html#deriving-a-hypothesis",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🤔 Deriving a Hypothesis",
+    "text": "🤔 Deriving a Hypothesis\nIn science, there are several key methods for deriving a hypothesis:\n\nLogical Reasoning\n→ Deductions based on existing theoretical assumptions and prior knowledge.\nFormalized Model\n→ Using structured frameworks or mathematical representations to explore implications.\nSimulation\n→ Simulating individual entities to observe emergent patterns within complex systems.\n\n\nLet’s examine the strengths and limitations of each approach."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#tocqueville-paradox",
+    "href": "experimental-sociology/slides01.html#tocqueville-paradox",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎭 Tocqueville Paradox",
+    "text": "🎭 Tocqueville Paradox\nWhy does an objective improvement in social conditions lead to greater dissatisfaction (Tocqueville 2004, [1835])?\n\nStouffer et al. (1949) proposed an explanation based on logical arguments:\n\n\nSocial change creates new opportunities for upward mobility (promotion).\nBeing promoted is better than not applying for promotion.\nHowever, applying comes with costs – time, effort, risk of rejection:\n\nTherefore, not applying is better than being rejected.\n\nAs more people apply and only some succeed, dissatisfaction grows among those who fail.\n\n\nDissatisfaction increases when objective conditions improve, because rising expectations aren’t met for a majority."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#take-away-so-far",
+    "href": "experimental-sociology/slides01.html#take-away-so-far",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🔑 Take-Away so Far",
+    "text": "🔑 Take-Away so Far\nLogical Conclusions:\n\nSimple and straightforward: They offer an accessible method for deriving predictions.\nLimited precision: When verbal arguments point in different directions, their combined implications may become ambiguous, even if each argument is logically valid.\n\n\nFormalized Models:\n\n\nMore complex: Constructing these models requires a deeper level of analysis and rigor.\nHigher precision: They can yield more nuanced and detailed predictions."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#limitations-with-formalized-models",
+    "href": "experimental-sociology/slides01.html#limitations-with-formalized-models",
+    "title": "Experimental Sociology - Week 01",
+    "section": "⚙️ Limitations with Formalized Models",
+    "text": "⚙️ Limitations with Formalized Models\n\nOversimplification: Often reduce complex social realities to a few theoretical assumptions.\nHomogeneity Assumption: Often assumes little to no individual variation or social diversity.\nAnalytical Challenges with Complexity: Addressing the above limitations often increases analytical complexity, potentially hindering the derivation of clear predictions (Balzer, Brendel, and Hofmann 2001).\n\n\nBut wait! There is a solution!"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#what-is-abm",
+    "href": "experimental-sociology/slides01.html#what-is-abm",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🧪 What is ABM?",
+    "text": "🧪 What is ABM?\nA microsimulation approach that models how individual behaviors and circumstances shape complex, collective outcomes (cf. Manzo 2022).\n\nCore Components:\n\n\nAgents\n→ Individuals or groups with defined properties and decision rules.\nEnvironment\n→ The context or space in which agents operate (e.g., the network structure).\nRules\n→ Governing interactions, outcomes, and adaptation over time."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#advantages-of-abm",
+    "href": "experimental-sociology/slides01.html#advantages-of-abm",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🚀 Advantages of ABM",
+    "text": "🚀 Advantages of ABM\nCasini and Manzo (2016) lists a number of advantages:\n\nFlexibility:\n\nNo fixed assumptions on agents, behaviors, or structures.\nComponents (mechanisms) can be added or removed individually.\n\nGranularity:\n\nModelers can define detail level for each element.\n\nGenerality:\n\nSupports multiple modeling formalisms."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#limitations-and-challenges-of-abms",
+    "href": "experimental-sociology/slides01.html#limitations-and-challenges-of-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "⚠️ Limitations and Challenges of ABMs",
+    "text": "⚠️ Limitations and Challenges of ABMs\n📉 Methodological Disadvantages\n\nLimited Functional Transparency: Functional relationships are typically estimated, not analytically derived.\nComputational Intensity: ABMs are slower and more resource-demanding than analytical solutions.\n\n\n🛠️ Practical Challenges\n\n\nReproducibility Concerns: Lack of transparency if source code is not open or clearly documented (seeding!).\nAssumption Bias: Model outcomes may reflect embedded assumptions rather than emergent behavior.\n“Garbage In, Garbage Out”: Poorly specified models yield misleading results (see also Grimm et al. 2020)."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#abstract-abms",
+    "href": "experimental-sociology/slides01.html#abstract-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🧠 Abstract ABMs",
+    "text": "🧠 Abstract ABMs\nMain Goal: Gain theoretical insights into complex systems by simplifying reality.\n\nDesign Principles:\n\n\nKISS (“Keep It Simple, Stupid!”):\nEmphasizes simplicity to focus on fundamental mechanisms.\nParsimonious Models:\nUtilize minimal parameters and rules.\nNon-Empirical Parameterization:\nParameters are set without direct empirical calibration."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#data-driven-abms",
+    "href": "experimental-sociology/slides01.html#data-driven-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "📊 Data-Driven ABMs",
+    "text": "📊 Data-Driven ABMs\nMain Goal: Realistic simulations that mirror empirical phenomena.\n\nDesign Principles:\n\n\nKIDS (“Keep It Descriptive, Stupid!”): Prioritizes detailed, descriptive accuracy.\nEmpirical Parameterization: Model parameters are calibrated using real-world data.\nReplication of Empirical Observations: Aims to reproduce observed phenomena through micro-founded simulations.\nIterative Adjustment: Continuously refines parameters and structures to align model outcomes with empirical data."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#types-of-realism-in-abms",
+    "href": "experimental-sociology/slides01.html#types-of-realism-in-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎯 Types of Realism in ABMs",
+    "text": "🎯 Types of Realism in ABMs\n\nInput Realism:\n\nDo model parameters accurately reflect empirical data?\n\nModel Realism:\n\nAre the mechanisms and processes within the model theoretically and empirically grounded?\nNote: Direct validation is challenging; often inferred through …\n\nOutput Realism:\n\nDo the model’s results align with real-world observations?\nSignificance: To be prioritized because it is the one we can best empirically test."
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#choosing-the-right-tool-for-the-problem",
+    "href": "experimental-sociology/slides01.html#choosing-the-right-tool-for-the-problem",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Choosing the Right Tool for the Problem",
+    "text": "Choosing the Right Tool for the Problem\nNot every problem requires complex or computationally intensive methods. In fact, applying sophisticated tools to simple problems can:\n\nIntroduce unnecessary complexity\nWaste computational resources\nObscure understanding\nCreate the illusion of rigor where none is needed"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#practical-considerations",
+    "href": "experimental-sociology/slides01.html#practical-considerations",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Practical Considerations",
+    "text": "Practical Considerations\nWhen selecting a method, ask yourself:\n\nIs there an analytical solution? If so, is it straightforward and more efficient?\nDoes the complexity of the method match the complexity of the problem?\nWhat are the trade-offs between clarity and sophistication?"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#fun-to-look-at",
+    "href": "experimental-sociology/slides01.html#fun-to-look-at",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Fun to look at",
+    "text": "Fun to look at\nhttps://phasenetwork.org/case-studies/\n\n\n\n\nBalzer, Wolfgang, Karl R. Brendel, and Solveig Hofmann. 2001. “Bad Arguments in the Comparison of Game Theory and Simulation in Social Studies.” Journal of Artificial Societies and Social Simulation 4 (2).\n\n\nBoudon, Raymond. 1977. The Unintended Consequences of Social Action. London: Macmillan.\n\n\nBraun, Norman. 2008. “Theorie in Der Soziologie.” Soziale Welt 59 (4): 373395.\n\n\nCasini, Lorenzo, and Gianluca Manzo. 2016. “Agent-Based Models and Causality. A Methodological Appraisal.” Linköping, SWE.\n\n\nGrimm, Volker, Steven F. Railsback, Christian E. Vincenot, Uta Berger, Cara Gallagher, Donald L. DeAngelis, Bruce Edmonds, et al. 2020. “The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism.” Journal of Artificial Societies and Social Simulation 23 (2): 7. https://doi.org/10.18564/jasss.4259.\n\n\nHägerstrand, Torsten. 1965. “A Monte Carlo Approach to Diffusion.” European Journal of Sociology 6 (1): 43–67. https://doi.org/10.1017/S0003975600001132.\n\n\nManzo, Gianluca. 2022. Agent-Based Models and Causal Inference. Wiley Series in Computational and Quantitative Social Sciences. Hoboken: John Wiley; Sons, Inc.\n\n\nSchelling, Thomas C. 1978. Micromotives and Macrobehavior. New York; London: W. W. Norton.\n\n\nStouffer, Samuel A., Edward A. Suchman, Leland C. DeVinney, Shirley A. Star, and Robin M. Jr. Williams. 1949. The American Soldier: Adjustment During Army Life. (Studies in Social Psychology in World War Ii). Princeton: Princeton University Press.\n\n\nTocqueville, Alexis de. 2004. Democracy in America: The Complete and Unabridged Volumes I and II. New York: Bantam Dell."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html",
+    "href": "experimental-sociology/week01.html",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Welcome to the course! This week’s readings are heavily based on the slides presented during the first week. If you plan to attend (or have already attended) the session, you may notice that much of the material will feel familiar or even redundant. However, reviewing these readings can help reinforce key concepts.\n\n\n\nHands on course that combines ES & CSS.\nIntegrate analytical and computational methods:\n\nAnalytical methods – game theory & differential equations.\nComputational methods – agent-based models (ABMs).\n\nThese methods help us:\n\nDerive hypotheses.\nEnhance experimental design.\n\n\n\n\n\nBy the end of this course, you’ll:\n\nUnderstand how to model social situation analytically and computationally.\nDesign, program, and modify ABMs.\nDerive theoretical guided (and empirically calibrated) hypotheses.\nImprove experimental design using analytical & computational methods.\n\n\n\n\n\nFlipped Classroom Approach:\n\n🏠 Before class: Read and study core concepts at your own pace.\n🏫 In class: Discuss, solve problems, and apply concepts.\n\nMix of:\n\nHands-on coding.\nGroup work & discussions.\nProblem-solving.\n\n\n\n\n\n\nMaterials provided weekly at sgrehl.github.io.\nSome material might also be at moodle.\n\n\nRead and engage with the assigned texts.\nTry to solve the exercises.\nCome to class prepared with questions and insights.\n\n\n\n\n\nSociological curiosity\nLaptop – R and RStudio installed.\nBasic R programming knowledge – Comfortable with the basic, tidyverse & functions.\nA sense of humor – Things will break, code will crash, and the unexpected will happen.\n\n\n\n\n\nOpen communication is key – feel free to talk to us anytime.\nQuestions or ideas? Reach out – we’re collaborators, not just instructors.\nThis course is newly designed, so your feedback matters.\n\n\n\n\nOur schedule:\n\nWeek 1: Introduction\nWeek 2–3: Analytical Solutions & (Evolutionary) Game Theory\nWeek 4: ABMs: Basics\nWeek 5–6: Evolutionary ABMs\nWeek 7–9: Sensitivity Analysis & Calibration\nWeek 10: Machine Learning Basics\nWeek 11: Open Lab Session\nWeek 12: Statistical Power & Experimental Design\nWeek 13–14: Term Paper Presentations"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#what-is-this-course-about",
+    "href": "experimental-sociology/week01.html#what-is-this-course-about",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Hands on course that combines ES & CSS.\nIntegrate analytical and computational methods:\n\nAnalytical methods – game theory & differential equations.\nComputational methods – agent-based models (ABMs).\n\nThese methods help us:\n\nDerive hypotheses.\nEnhance experimental design."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#goals",
+    "href": "experimental-sociology/week01.html#goals",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "By the end of this course, you’ll:\n\nUnderstand how to model social situation analytically and computationally.\nDesign, program, and modify ABMs.\nDerive theoretical guided (and empirically calibrated) hypotheses.\nImprove experimental design using analytical & computational methods."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#course-structure",
+    "href": "experimental-sociology/week01.html#course-structure",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Flipped Classroom Approach:\n\n🏠 Before class: Read and study core concepts at your own pace.\n🏫 In class: Discuss, solve problems, and apply concepts.\n\nMix of:\n\nHands-on coding.\nGroup work & discussions.\nProblem-solving."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#weekly-readings-exercises",
+    "href": "experimental-sociology/week01.html#weekly-readings-exercises",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Materials provided weekly at sgrehl.github.io.\nSome material might also be at moodle.\n\n\nRead and engage with the assigned texts.\nTry to solve the exercises.\nCome to class prepared with questions and insights."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#requirements",
+    "href": "experimental-sociology/week01.html#requirements",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Sociological curiosity\nLaptop – R and RStudio installed.\nBasic R programming knowledge – Comfortable with the basic, tidyverse & functions.\nA sense of humor – Things will break, code will crash, and the unexpected will happen."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#communication",
+    "href": "experimental-sociology/week01.html#communication",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Open communication is key – feel free to talk to us anytime.\nQuestions or ideas? Reach out – we’re collaborators, not just instructors.\nThis course is newly designed, so your feedback matters."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#course-program",
+    "href": "experimental-sociology/week01.html#course-program",
+    "title": "Experimental Sociology - Week 01",
+    "section": "",
+    "text": "Our schedule:\n\nWeek 1: Introduction\nWeek 2–3: Analytical Solutions & (Evolutionary) Game Theory\nWeek 4: ABMs: Basics\nWeek 5–6: Evolutionary ABMs\nWeek 7–9: Sensitivity Analysis & Calibration\nWeek 10: Machine Learning Basics\nWeek 11: Open Lab Session\nWeek 12: Statistical Power & Experimental Design\nWeek 13–14: Term Paper Presentations"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#the-ideal-research-process",
+    "href": "experimental-sociology/week01.html#the-ideal-research-process",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🔬 The Ideal Research Process",
+    "text": "🔬 The Ideal Research Process\nUnderstanding how we advance knowledge in the social sciences begins with appreciating the ideal research process — a structured journey from theoretical intuition to empirical evidence.\n\nFormulating a Hypothesis\nWe begin by developing a hypothesis — a testable prediction about how a treatment (or independent variable) influences a particular outcome (dependent variable).\nRunning an Experiment\nThis hypothesis is then put to the test through experimental or quasi-experimental methods, ideally involving random assignment to control for confounding variables.\nEstimating Models and Updating Knowledge\nAfter collecting data, we estimate statistical models to assess the evidence for our hypothesis, refining our theories and expectations based on what we find.\n\nDespite this structured approach, there are two common challenges that often arise — both theoretical and practical.\n\n💡 How do we derive good hypotheses?\nA hypothesis is only as useful as the theoretical or conceptual reasoning behind it. If our hypotheses are vague, unfounded, or derived from shallow intuition, the resulting research may lack insight — even if it’s statistically sound.\nExample:\nConsider the question of how social networks influence behavior. A well-formulated hypothesis might ask:\n\nDoes a highly clustered network structure lead to slower diffusion of innovation compared to a randomly connected one?\n\nThis hypothesis is grounded in theory (network structure influences social learning and peer pressure) and is specific enough to test. But deriving it requires conceptual clarity about the mechanisms at play — and that’s not always straightforward.\n\n\n📏 How do we efficiently test hypotheses?\nEven when we have a good hypothesis, testing it can be statistically inefficient or infeasible. Many social phenomena are characterized by high variability, making it difficult to detect even meaningful effects.\nExample:\nSuppose we hypothesize that increasing individuals’ income by 5% through a policy intervention leads to greater life satisfaction. But income data typically shows high variance — a wide spread in earnings across the population. In this case, a small treatment effect might be entirely obscured by the underlying noise.\nTo design a valid test, we would need to estimate:\n\nHow large the effect must be to be statistically detectable?\nHow large the sample size must be to achieve sufficient power?\n\nWithout this, we risk running studies that are underpowered and inconclusive — even if our hypothesis is correct.\nBoth problems highlight the importance of combining strong theoretical reasoning with careful experimental design. The future of social science progress lies not just in collecting more data, but in asking sharper questions and designing better tests."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#from-a-theory-to-a-hypothesis",
+    "href": "experimental-sociology/week01.html#from-a-theory-to-a-hypothesis",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎓 From a Theory to a Hypothesis",
+    "text": "🎓 From a Theory to a Hypothesis\n\nTheory: A systematically organized set of interrelated statements that explains and predicts phenomena (Braun 2008).\nModel: An representation of a formalized theory to address a specific problem.\nProposition: Universal statement about the relationship between one or more concepts.\nHypothesis: A specific, testable prediction."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#example",
+    "href": "experimental-sociology/week01.html#example",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🍪 Example",
+    "text": "🍪 Example\n\nTheory: Economic theory of Rational Choice.\nModel: Model of supply and demand.\nProposition: When the price of a normal good rises, the demand for it falls.\nHypothesis: If the price of rice rises, the demand for rice falls.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nExperiments test hypotheses, not propositions."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#deriving-a-hypothesis",
+    "href": "experimental-sociology/week01.html#deriving-a-hypothesis",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🤔 Deriving a Hypothesis",
+    "text": "🤔 Deriving a Hypothesis\nIn science, there are several key methods for deriving a hypothesis:\n\n\n\n\n\n\nFigure 1: Three distinct approaches to hypothesis generation, as outlined by Barrera et al. (2024, 52f).\n\n\n\n\nLogical Reasoning\n→ Deductions based on existing theoretical assumptions and prior knowledge.\nFormalized Model\n→ Using structured frameworks or mathematical representations to explore implications.\nSimulation\n→ Simulating individual entities to observe emergent patterns within complex systems.\n\n\nLet’s examine the strengths and limitations of each approach."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#tocqueville-paradox",
+    "href": "experimental-sociology/week01.html#tocqueville-paradox",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎭 Tocqueville Paradox",
+    "text": "🎭 Tocqueville Paradox\nWhy does an objective improvement in social conditions lead to greater dissatisfaction (Tocqueville 2004, [1835])?\n\nStouffer et al. (1949) proposed an explanation based on logical arguments:\n\n\nSocial change creates new opportunities for upward mobility (promotion).\nBeing promoted is better than not applying for promotion.\nHowever, applying comes with costs – time, effort, risk of rejection:\n\nTherefore, not applying is better than being rejected.\n\nAs more people apply and only some succeed, dissatisfaction grows among those who fail.\n\n\nDissatisfaction increases when objective conditions improve, because rising expectations aren’t met for a majority.\n\n\nTocqueville Paradox – A Closer Look\nNot every social improvement triggers the Tocqueville Paradox.\n\nSo, when and why does it occur? Let’s explore:\n\n\nA TP is triggered if: rejected &gt; promoted.\nA person is more likely to apply …\n\nThe more the benefits outweigh the costs,\nThe greater the perceived chances of success.\n\nSuccess increases when:\n\nMore positions for promotion are available,\nFewer others are applying.\n\n\n\n\nTocqueville Paradox – DAG\nGiven this, we can derive a directed acyclic graph (DAG) representing the dynamics of the Paradox:\n\n\n\n\n\n\n\nFigure 2: Proposed effect of benefits, costs, and positions on success probability. A Tocqueville Paradox occurs if the probabilty of sucess is under 50%.\n\n\n\n\n\nThe overall effect of increasing vacancies on success is ambiguous it depends on how applicants respond, as their behavior is interdependent!\n\n\n\nFormalized Model of Relative Frustration\nBoudon (1977) developed the model of relative frustration, offering a game-theoretical perspective on promotion dynamics:\n\n\\(f\\) be the share of positions available for promotion,\n\\(b\\) the benefit of being promoted, and\n\\(c\\) the cost of applying for a promotion.\n\n\nUsing a mixed-strategy Nash equilibrium, Boudon (1977) derives the following result:\n\n\nThe optimal probability of applying: \\(p = min \\left( 1, f \\cdot \\frac{b}{c} \\right)\\)\n\n\n\nTocqueville Paradox – Visualization\n\n\n\n\n\n\nFigure 3: The impact of the benefit-cost ratio on the number of successful and unsuccessful applicants.\n\n\n\nWe can already gain significant insights by visually inspecting the graphs presented in Figure @fig-torqueville-sim. While the following observations can be formally derived from the underlying model, we will forego a detailed mathematical proof and instead highlight the intuitions they convey.\nFirst, we observe that a necessary condition for a Tocqueville Paradox to emerge is that \\(f&lt;0.5\\) that is, the number of available opportunities (or vacancies) must be relatively scarce. Second, we find that only when the benefit-cost ratio satisfies \\(\\frac{b}{c} &gt; 2\\), the share of unsuccessful applicants increases more sharply than the share of successful ones — a pattern that signals rising frustration in the presence of increasing opportunities.\nMoreover, the peak in the ratio of unsuccessful to successful individuals shifts leftward as the benefit \\(b\\) increases. In other words, the more attractive the opportunity, the earlier dissatisfaction peaks, relative to the overall number of opportunities. This dynamic illustrates a core intuition of the Tocqueville Paradox: improvements can amplify frustration under specific structural conditions.\nEven if precise empirical estimation of parameters such as \\(b\\) (benefit) and \\(c\\) (cost) proves difficult in real-world settings, the model allows us to formulate testable hypotheses. For instance, we might expect that in societies where perceived benefits of mobility are high, frustration and perceived injustice may arise earlier in the process of social improvement — especially when structural bottlenecks (low \\(f\\)) persist. Thus, the model offers a powerful lens to explore the nonlinear relationship between opportunity structures and subjective perceptions of fairness or progress."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#take-away-so-far",
+    "href": "experimental-sociology/week01.html#take-away-so-far",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🔑 Take-Away so Far",
+    "text": "🔑 Take-Away so Far\nLogical Conclusions:\n\nSimple and straightforward: They offer an accessible method for deriving predictions.\nLimited precision: When verbal arguments point in different directions, their combined implications may become ambiguous, even if each argument is logically valid.\n\n\nFormalized Models:\n\n\nMore complex: Constructing these models requires a deeper level of analysis and rigor.\nHigher precision: They can yield more nuanced and detailed predictions."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#limitations-with-formalized-models",
+    "href": "experimental-sociology/week01.html#limitations-with-formalized-models",
+    "title": "Experimental Sociology - Week 01",
+    "section": "⚙️ Limitations with Formalized Models",
+    "text": "⚙️ Limitations with Formalized Models\n\nOversimplification: Often reduce complex social realities to a few theoretical assumptions.\nHomogeneity Assumption: Often assumes little to no individual variation or social diversity.\nAnalytical Challenges with Complexity: Addressing the above limitations often increases analytical complexity, potentially hindering the derivation of clear predictions (Balzer, Brendel, and Hofmann 2001).\n\n\nBut wait! There is a solution!"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#what-is-abm",
+    "href": "experimental-sociology/week01.html#what-is-abm",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🧪 What is ABM?",
+    "text": "🧪 What is ABM?\nAgent-Based Modeling (ABM) is a microsimulation approach used to explore how the actions and interactions of individual entities give rise to complex, collective patterns. Rather than modeling society or systems as a set of equations or averages, ABM starts at the micro level — with the behaviors, decisions, and characteristics of individual agents. These agents may represent people, groups, firms, or any other relevant unit of analysis, and each is defined by specific properties and decision rules that determine how they act and respond within the simulation.\nAt the heart of ABM are three key components:\n\nAgents: These are autonomous decision-makers with individual traits. Each agent can (to a certain extend) perceive its surroundings, follow specific rules, and adapt over time. The diversity of agents allows for the modeling of heterogeneity — a crucial aspect of real-world social systems.\nEnvironment: This refers to the structured context in which agents operate. It can be a spatial grid, a social network, or any abstract space that constrains or facilitates interaction. The environment shapes how agents encounter one another and can evolve as the simulation progresses. Note that even in simulations where no environment is explicitly defined, it is often present implicitly — for example, in the form of a complete network that connects every agent to every other.\nRules: Rules define how agents behave, interact, and adapt within the environment. They specify who interacts with whom — for instance, whether an agent engages with all connected peers or only one at a time — and how those interactions unfold. Crucially, rules capture the logic by which individual decisions translate into system-level outcomes, often through interdependent behaviors where one agent’s actions influence others. Another important class of rules concerns adaptation: how agents change over time, such as updating their opinions, strategies, or even entering or exiting the system. These rules may be simple or complex, deterministic or stochastic, and together they are the engine that drives the model’s dynamic evolution.\n\nBy simulating many agents acting simultaneously over successive time steps, ABM allows researchers to observe emergent phenomena — collective patterns that are not directly programmed into the model but arise from local interactions. This makes ABM a powerful tool for investigating social dynamics, policy impacts, and systemic risks in fields ranging from sociology and economics to epidemiology and political science.\n\nA Schematic Example of an ABM\n\n\n\n\n\n\nFigure 4: Basic steps for a agent-based model.\n\n\n\n\n\n🧲 Example – The Schelling Model\n\n\n\n\n\n\n\n\nSimilar: 0%\n\nRed/Blue: 0\n\nEmpty: 0%\n\nSize: 0\n\nDelay: 0ms\n\n\n\n\n\n\nYour browser must support JavaScript for the simulation to work.\n\n\n\n\nRound: 0\n\n\nSatisfied: 0 %\n\n(This example is based on Schelling (1971), and builds extensively on the earlier work of Frank McCown)\n\n\n\n\n❓Typical Research Questions\n​When employing an agent-based model (ABM), researchers typically aim to address multiple research questions. These models are instrumental in exploring how individual agent behaviors and interactions give rise to complex system-level patterns. In the case of the Schelling Model, for instance, such questions might include:\n\nWhat factors influence …\n\n… whether the model terminates?\n… how long (on average) it take to reach termination?\n… how high the level of satisfaction or segregation is at termination or in the long run?\n\nWhat hypotheses can we derive from that for the real world?"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#advantages-of-abm",
+    "href": "experimental-sociology/week01.html#advantages-of-abm",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🚀 Advantages of ABM",
+    "text": "🚀 Advantages of ABM\nCasini and Manzo (2016) lists a number of advantages:\n\nFlexibility:\n\nNo fixed assumptions on agents, behaviors, or structures.\nComponents (mechanisms) can be added or removed individually.\n\nGranularity:\n\nModelers can define detail level for each element.\n\nGenerality:\n\nSupports multiple modeling formalisms.\n\n\n\n⏱️ Time in ABMs\nDynamic Evolution: ABMs inherently simulate systems that evolve step-by-step over time, capturing the progression of processes at each stage.\nPathway Analysis: Beyond merely predicting end states (e.g., Nash equilibria), ABMs provide insights into the pathways leading to these outcomes, offering a comprehensive understanding of social developments.\nActivation Sequences: The sequence in which agents act can significantly influence model outcomes. Researchers have the flexibility to experiment with different activation orders to observe varying effects.\nTemporal Structuring: Time within ABMs can be explicitly configured. By adjusting temporal parameters and schedules (e.g., hours instead of days), diverse macro-level patterns can emerge, enhancing our understanding of temporal influences on system behavior.\n\n\n🧪 Advantages of ABMs Over Empirical Studies\n👥 Studies with real agents (i.e., humans):\n\nCostly and time-consuming.\nDifficult to execute.\nSometimes unethical.\n\n\n💻 ABMs as an alternative:\n\n\nTest hypotheses as proof of concept.\nIdentify crucial and irrelevant factors.\nDoes NOT replace empirical confirmation — use insights to design better real-world studies.\n\n\n\n🔍 Other Advantages\n\nAutomated:\nEffects of changed parameters/other formalisms, do not have to be calculated, but can be implemented automatically.\nEducational:\nVisualizations aid understanding.\nStudents can explore ABMs directly."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#limitations-and-challenges-of-abms",
+    "href": "experimental-sociology/week01.html#limitations-and-challenges-of-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "⚠️ Limitations and Challenges of ABMs",
+    "text": "⚠️ Limitations and Challenges of ABMs\n📉 Methodological Disadvantages\n\nLimited Functional Transparency: Functional relationships are typically estimated, not analytically derived.\nComputational Intensity: ABMs are slower and more resource-demanding than analytical solutions.\n\n\n🛠️ Practical Challenges\n\n\nReproducibility Concerns: Lack of transparency if source code is not open or clearly documented (seeding!).\nAssumption Bias: Model outcomes may reflect embedded assumptions rather than emergent behavior.\n“Garbage In, Garbage Out”: Poorly specified models yield misleading results (see also Grimm et al. 2020)."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#abstract-abms",
+    "href": "experimental-sociology/week01.html#abstract-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🧠 Abstract ABMs",
+    "text": "🧠 Abstract ABMs\nMain Goal: Gain theoretical insights into complex systems by simplifying reality.\n\nDesign Principles:\n\n\nKISS (“Keep It Simple, Stupid!”):\nEmphasizes simplicity to focus on fundamental mechanisms.\nParsimonious Models:\nUtilize minimal parameters and rules.\nNon-Empirical Parameterization:\nParameters are set without direct empirical calibration.\n\n\nAbstract ABMs II\nObjectives:\n\nObserve general process dynamics to understand underlying mechanisms.\nDerive logical implications from simplified scenarios.\nUse heuristics to inspire new theoretical insights.\n\n\n\nExample: Schelling’s Segregation Model\n\nSimplifications:\n\nRepresents residential areas as a 2D grid.\nDefines agent (un)happiness based on neighboring agents’ group identity.\n\nValue:\n\nDespite simplifications, the model provides profound insights into how individual preferences can lead to collective segregation patterns."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#data-driven-abms",
+    "href": "experimental-sociology/week01.html#data-driven-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "📊 Data-Driven ABMs",
+    "text": "📊 Data-Driven ABMs\nMain Goal: Realistic simulations that mirror empirical phenomena.\n\nDesign Principles:\n\n\nKIDS (“Keep It Descriptive, Stupid!”): Prioritizes detailed, descriptive accuracy.\nEmpirical Parameterization: Model parameters are calibrated using real-world data.\nReplication of Empirical Observations: Aims to reproduce observed phenomena through micro-founded simulations.\nIterative Adjustment: Continuously refines parameters and structures to align model outcomes with empirical data.\n\n\nData-Driven ABMs II\nObjectives:\n\nExplain concrete phenomena by grounding models in observed data.\nValidate model behavior against empirical patterns to increase credibility and predictive accuracy.\nUse simulation as a testing ground for theory under real-world constraints.\nSupport policy-making or intervention design by modeling counterfactuals and scenario outcomes.\n\n\n\nExample: Diffusion of Innovation\n\nContext: Studied how innovations spread among farmers in Sweden (Hägerstrand 1965)\nAssumptions:\n\nAdoption likelihood decreases with geographic distance.\nNatural barriers (e.g., lakes, mountains) impede diffusion.\n\nIncorporated Data:\n\nActual geographic features of the study area.\nPopulation distribution and initial locations of adopters.\n\nObjective: Simulate the diffusion trajectory of innovations.\nMethodology:\n\nAdjusted model parameters until simulated diffusion matched observed patterns.\n\n\n\n\nExample: Diffusion of Innovation II\n\n\n\n\n\n\nFigure 5: Idealisation of a province in Sweden. Reconstruction of the Model of Hägerstrand (1965)."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#types-of-realism-in-abms",
+    "href": "experimental-sociology/week01.html#types-of-realism-in-abms",
+    "title": "Experimental Sociology - Week 01",
+    "section": "🎯 Types of Realism in ABMs",
+    "text": "🎯 Types of Realism in ABMs\n\nInput Realism:\n\nDo model parameters accurately reflect empirical data?\n\nModel Realism:\n\nAre the mechanisms and processes within the model theoretically and empirically grounded?\nNote: Direct validation is challenging; often inferred through …\n\nOutput Realism:\n\nDo the model’s results align with real-world observations?\nSignificance: To be prioritized because it is the one we can best empirically test.\n\n\n\nTypes of Realism\n\n\n\n\n\n\nFigure 6: Schematics of the different types of realism.\n\n\n\n\n\nTypes of Realism - Example\n\n\n\n\n\n\nFigure 7: Examples for the different types of realism."
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#choosing-the-right-tool-for-the-problem",
+    "href": "experimental-sociology/week01.html#choosing-the-right-tool-for-the-problem",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Choosing the Right Tool for the Problem",
+    "text": "Choosing the Right Tool for the Problem\nNot every problem requires complex or computationally intensive methods. In fact, applying sophisticated tools to simple problems can:\n\nIntroduce unnecessary complexity\nWaste computational resources\nObscure understanding\nCreate the illusion of rigor where none is needed"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#practical-considerations",
+    "href": "experimental-sociology/week01.html#practical-considerations",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Practical Considerations",
+    "text": "Practical Considerations\nWhen selecting a method, ask yourself:\n\nIs there an analytical solution? If so, is it straightforward and more efficient?\nDoes the complexity of the method match the complexity of the problem?\nWhat are the trade-offs between clarity and sophistication?\n\n\n\nMonte Carlo Multiplication\n\n\n\n\nFirst Number (0-10): \n\nSecond Number (0-10): \n\n\nSimulate\n\n\n\n\n\n\n\n\n\n\nHere, I present a Monte Carlo simulation that estimates the area of a rectangle on a 10×10 canvas. In essence, it’s a roundabout way to perform a simple multiplication — calculating width × height.\nInstead of multiplying two numbers directly, this approach randomly “throws darts” at the canvas and counts how many land inside the rectangle to estimate its area. It’s a textbook example of using a powerful technique where it’s absolutely not needed — a beautifully inefficient solution to a trivial problem.\nThis simulation serves as a reminder:\n\n\n\n\n\n\nTip\n\n\n\n🧠 Just because you can use a simulation it doesn’t mean you should.\n\n\nPlease consider whether you truly need a simulation — or if you might just need a calculator.\n\n# Define canvas dimensions\ncanvas_width &lt;- 10\ncanvas_height &lt;- 10\n\n# Define the rectangle dimensions based on our two numbers\nnumber_1 &lt;- 6\nnumber_2 &lt;- 4\n\n# Number of simulation points (\"darts\")\nn_points &lt;- 10000\n\n# Set seed for reproducibility\nset.seed(42)\n\n# Generate random points uniformly distributed over the canvas\nx &lt;- runif(n_points, min = 0, max = canvas_width)\ny &lt;- runif(n_points, min = 0, max = canvas_height)\n\n# Determine which points fall inside the number_2\ninside &lt;- (x &lt;= number_1) & (y &lt;= number_2)\n\n# Estimate the area of the rectangle using the Monte Carlo method\nestimated_area &lt;- (sum(inside) / n_points) * (canvas_width * canvas_height)\n\n# Calculate the true area of the rectangle\ntrue_area &lt;- number_1 * number_2\n\n# Print the results\ncat(\"Estimated Area:\", estimated_area, \"\\n\")\ncat(\"True Area:\", true_area, \"\\n\")\n\ntext_label &lt;- paste(\"Estimate:\", round(estimated_area, 2))\n\n# Plot the simulation: points inside the rectangle in blue, outside in red\nplot(x, y, col = ifelse(inside, \"blue\", \"red\"), pch = 20,\n     xlab = \"X\", ylab = \"Y\",\n     main = paste0(\"Monte Carlo Simulation for Multiplying \", number_1, \" and \", number_2, \"\\n (\", text_label, \")\" ))\n\n# Draw the rectangle for reference\nrect(0, 0, number_1, number_2, border = \"green\", lwd = 2)"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#fun-to-look-at",
+    "href": "experimental-sociology/week01.html#fun-to-look-at",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Fun to look at",
+    "text": "Fun to look at\nhttps://phasenetwork.org/case-studies/"
+  },
+  {
+    "objectID": "experimental-sociology/week03.html",
+    "href": "experimental-sociology/week03.html",
+    "title": "Experimental Sociology - Week 3",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week05.html",
+    "href": "experimental-sociology/week05.html",
+    "title": "Experimental Sociology - Week 5",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week07.html",
+    "href": "experimental-sociology/week07.html",
+    "title": "Experimental Sociology - Week 7",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week09.html",
+    "href": "experimental-sociology/week09.html",
+    "title": "Experimental Sociology - Week 9",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week11.html",
+    "href": "experimental-sociology/week11.html",
+    "title": "Experimental Sociology - Week 11",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "experimental-sociology/week13.html",
+    "href": "experimental-sociology/week13.html",
+    "title": "Experimental Sociology - Week 13",
+    "section": "",
+    "text": "CopyrightCopyright Sascha Grehl, 2025. All Rights Reserved"
+  },
+  {
+    "objectID": "general-information/ai_usage.html",
+    "href": "general-information/ai_usage.html",
+    "title": "Guidelines on AI-Usage",
+    "section": "",
+    "text": "Of course, you are allowed to use tools like ChatGPT, Elicit, Copilot, or Canva to facilitate your tasks, to have content explained again, or to receive suggestions and inspiration, just as we do.\nHowever, in order to ensure that our work adheres to the principles of good scientific practice and to clarify our expectations regarding the use of these tools, we have compiled a few points below that should be considered.\n\n\nEverything you submit, send, or publish under your name is your responsibility. This means that you are fully accountable for the content. Specifically, this entails:\n\nYou have to at least have a basic understanding of how AI models function (what happens in the background) in order to properly evaluate and interpret the output you receive.\nBe aware of potential biases that may affect the answers due to training datasets or algorithms.\n\n\n\n\nExample for bias resulting from training data\n\n\n\nOnly outsource tasks where you can take responsibility for the content, fact-check everything, and have sufficient prior knowledge of the topic"
+  },
+  {
+    "objectID": "general-information/ai_usage.html#responsibility-for-content",
+    "href": "general-information/ai_usage.html#responsibility-for-content",
+    "title": "Guidelines on AI-Usage",
+    "section": "",
+    "text": "Everything you submit, send, or publish under your name is your responsibility. This means that you are fully accountable for the content. Specifically, this entails:\n\nYou have to at least have a basic understanding of how AI models function (what happens in the background) in order to properly evaluate and interpret the output you receive.\nBe aware of potential biases that may affect the answers due to training datasets or algorithms.\n\n\n\n\nExample for bias resulting from training data\n\n\n\nOnly outsource tasks where you can take responsibility for the content, fact-check everything, and have sufficient prior knowledge of the topic"
+  },
+  {
+    "objectID": "general-information/ai_usage.html#potential-reproduction-of-biases",
+    "href": "general-information/ai_usage.html#potential-reproduction-of-biases",
+    "title": "Guidelines on AI-Usage",
+    "section": "Potential Reproduction of Biases",
+    "text": "Potential Reproduction of Biases\nThis issue arises from the way data and algorithms are used to train AI models. If the data used to train these models is biased or reflects social inequalities, the resulting AI model will also show these biases. This can lead to AI models reinforcing and perpetuating existing prejudices and discriminatory practices without being noticed.\n\n\n\n\n\n\n\n\n\nModel prompt: Scientist\n\n\n\n\n\n\n\nModel prompt: Scientist\n\n\n\n\n\n\n\nModel prompt: Social Scientist\n\n\n\n\n\n\n\n\n\nModel prompt: Social Scientist\n\n\n\n\n\n\n\nModel prompt: Computational Social Scientist\n\n\n\n\n\n\n\nModel prompt: Computational Social Scientist"
+  },
+  {
+    "objectID": "general-information/ai_usage.html#environmental-impacts",
+    "href": "general-information/ai_usage.html#environmental-impacts",
+    "title": "Guidelines on AI-Usage",
+    "section": "Environmental Impacts",
+    "text": "Environmental Impacts\nLarge-scale AI deploymens are hosted in data centers, which have a significant toll on the planet [@AIHasEnvironmental2024].\n\n\n\nThe Chemetall Foot Lithium Operation in Clayton Valley, Nevada (Image by PDTillman, Wikipedia Commons)\n\n\nFor example:\n\nProducing a 2 kg computer requires about 800 kg of raw materials.\nMicrochips that power AI require rare earth elements, which are often mined in environmentally destructive ways and frequently come from regions affected by civil-wars.\nThe production of electronics involves materials like lead and mercury, which are harmful to the environment.\nData centers use water during construction and in operation to cool electronic components. Globally, AI-related infrastructure consumes about six times more water than Denmark, which is a problem, considering a quarter of humanity already lacks access to clean water and sanitation.\nThe use of fossil fuels contributes to the production of greenhouse gases.\nA request made through ChatGPT consumes about 10-times the electricity of a Google search."
+  },
+  {
+    "objectID": "general-information/ai_usage.html#reflection",
+    "href": "general-information/ai_usage.html#reflection",
+    "title": "Guidelines on AI-Usage",
+    "section": "Reflection",
+    "text": "Reflection\n\nWhat is your attitude on the usage of generative AI in class? What are further issues we encounter, when we are tolerating (or not tolerating) AI in class?\nWhat can we do together to ensure an appropriate behavior with AI in class?"
+  },
+  {
+    "objectID": "general-information/data.html",
+    "href": "general-information/data.html",
+    "title": "Data & More",
+    "section": "",
+    "text": "Data is truly the bread and butter of Computational Social Sciences—without it, we’d be cooking up theories with empty pans! To keep your research kitchen well-stocked, we’ve curated a list of data sources to fuel your computational explorations. We encourage you to adding your own favorite data sources. After all, science thrives best when everyone brings something to the table.\nYou can find (and contribute to!) the complete list in the following Docs document."
+  },
+  {
+    "objectID": "general-information/sc.html",
+    "href": "general-information/sc.html",
+    "title": "Scientific Computing",
+    "section": "",
+    "text": "Note\n\n\n\nThis document is an updated and extended version of original work by Felix Lennert, who has kindly granted us permission to adapt and share it with you."
+  },
+  {
+    "objectID": "general-information/sc.html#why-should-i-use-scientific-computing",
+    "href": "general-information/sc.html#why-should-i-use-scientific-computing",
+    "title": "Scientific Computing",
+    "section": "Why Should I Use Scientific Computing?",
+    "text": "Why Should I Use Scientific Computing?\nUsing the computational cluster provides numerous advantages, especially when your programs can run independently without supervision and aren’t feasible to execute on your local machine. Typical scenarios include:\n\nYour script requires a significant amount of time to finish (several hours or even days).\nYour task demands more RAM than your local computer can provide.\nYour computation generates a large volume of temporary data that exceeds your local storage capabilities.\nYou need to repeatedly execute the same code across multiple datasets or parameter combinations—especially when the number of runs is very large.\nYou prefer to let your calculations run smoothly in the background, allowing you to enjoy downtime at the park while maintaining the satisfying feeling of productivity!"
+  },
+  {
+    "objectID": "general-information/sc.html#request-sc-infrastructure-access",
+    "href": "general-information/sc.html#request-sc-infrastructure-access",
+    "title": "Scientific Computing",
+    "section": "Request SC Infrastructure Access:",
+    "text": "Request SC Infrastructure Access:\nTo use the SC cluster, first request access:\n\nVisit the Scientific Computing Knowledge Base.\nGo to Request SC infrastructure.\nComplete the form with your university credentials.. A good start is to ask for paula, clara, paul, jupyter, rstudio\n\nApproval typically takes a few hours to days."
+  },
+  {
+    "objectID": "general-information/sc.html#accessing-the-cluster",
+    "href": "general-information/sc.html#accessing-the-cluster",
+    "title": "Scientific Computing",
+    "section": "Accessing the Cluster:",
+    "text": "Accessing the Cluster:\nWhen accessing the cluster, make sure that you are connected to the university’s internal network (i.e., you are physically in a university building and connected to the local wifi network) or use a VPN (instructions).\nIf this is the case, you can access the services through your web browser:\n\nJupyterLab: lab.sc.uni-leipzig.de\nRStudio: rstudio01, rstudio02\n\nFor submitting jobs, you need to connect to the cluster from your terminal. To do this, the most convenient way is to authenticate via SSH. SSH gives you the possibility to connect safely to another computer (the server, in our case). Then, once connected, you can control the remote machine via terminal commands. This is good for submitting jobs. Everything else (i.e., interactive coding, code testing, etc.) should be done using the web interface in JupyterLab or RStudio.\nBefore you can authenticate using SSH, you need to create a key pair on your own machine and upload the public key to the cluster. You can find an extensive tutorial online.\nOnce you have access, you can connect using your terminal with your SC username.\nssh &lt;your_sc_username&gt;@login01.sc.uni-leipzig.de"
+  },
+  {
+    "objectID": "general-information/sc.html#python",
+    "href": "general-information/sc.html#python",
+    "title": "Scientific Computing",
+    "section": "Python",
+    "text": "Python\nOnce you have access, you can set up your Python environment and workflows.\nWhen you access JupyterLab, you first need to choose your server and the resources you need. paul has CPUs only, while clara and paula also have GPUs available.\n\n\n\n\n\n\nFigure 1: lab.sc.uni-leipzig.de landing page\n\n\n\nOnce you have launched the server, you reach the “Launcher.” While you can do most of these things in the JupyterLab GUI, we recommend using terminal commands since it’s fast and – once you’ve got the hang of it – easier. In the Launcher, you can open a Terminal window by clicking “Other &gt; Terminal” (see screenshot below).\n\n\n\n\n\n\nFigure 2: Launcher\n\n\n\n\nBasic Terminal Commands\nFamiliarity with basic terminal commands is essential for navigating and managing files on the cluster. Here are some common commands:\n\nls: List directory contents.\ncd: Change the current directory, e.g., cd my_folder\npwd: Display the current directory path.\nmkdir: Create a new directory (make sure you have navigated to the right folder first).\nrm: Remove files or directories, e.g., rm my_file\n\nFor a comprehensive list, consult the Linux Command Reference.\n\n\nModule Selection\nThe cluster uses environment modules to manage software. To see available modules, type:\nmodule avail\nThen you have to choose one first thing. I usually go for Python/3.10.8-GCCcore-12.2.0. You can activate this module using module load Python/3.10.8-GCCcore-12.2.0. The module essentially provides the environment needed to run your code.\n\n\nCreating a Project-specific Virtual Environment\nThen you will want to create a virtual environment for your dedicated project. The virtual environment allows you to install the relevant Python packages that you will need, keeping your Python distribution clean and ensuring that you will not run into compatibility issues between packages.\nFor creating a virtual environment, you can use the terminal. First, navigate to your project’s folder (make sure to create it first), then create the environment using venv, and finally activate it.\nmkdir project_folder \ncd project_folder \npython -m venvmy_project_env \nsource my_project_env/bin/activate\nOnce it is activated, you can start installing the packages you require using pip (e.g., pip install pandas).\n\n\nSetting up Kernels\nTo make your life easier in the JupyterLab, you should set up a dedicated kernel in your JupyterLab. The kernel runs in the background of your notebook, takes your code, processes it, and finally returns the results. Each notebook is connected to one kernel and the kernel defines the language and environment the notebook runs in.\nYou can set up a dedicated kernel as follows: first, activate your environment, second, install ipykernel, third, create the Jupyter kernel containing your environment, you can change the name in the final argument after display-name.\nsource my_project_env/bin/activate \npip install ipykernel \npython -m ipykernel install --user --name=my_project_env --display-name \"Python 3.9 (my_project_env)\"\nOnce this is done, in the future, you will have to choose your module first – matching the Python version of your kernel (e.g., load a Python 3.9 module if your kernel uses Python 3.9). Then you can click one of the buttons (see screenshot) – depending on the environment you want to work with – and start coding.\n\n\n\n\n\n\nFigure 3: Laucher with loaded modules\n\n\n\nFind more information here."
+  },
+  {
+    "objectID": "general-information/sc.html#slurm",
+    "href": "general-information/sc.html#slurm",
+    "title": "Scientific Computing",
+    "section": "Slurm",
+    "text": "Slurm\nSlurm (Simple Linux Utility for Resource Management) is a powerful job scheduling system used on HPC (High-Performance Computing) clusters to manage and allocate resources among users. Job here means that if you have a script that needs to run for longer, e.g., classifying large amounts of text or comparable things, you can set this up as a job. This allows the server to manage its resources better by distributing the different jobs all over the cluster.\nHere’s a quick guide on the basic Slurm commands to help you submit, monitor, and manage jobs.\nThe Script\nA Slurm job script is a shell script with Slurm-specific options defined at the beginning. Here’s an example template:\n#!/bin/bash eval=FALSE \n#SBATCH --time=02:30:00                       # allocated time (check max. time limit!)\n#SBATCH --mem=128G                            # required memory \n#SBATCH --ntasks=1                            # number of tasks \n#SBATCH --job-name=myJob                      # job name \n#SBATCH --partition=clara                     # the server partition you want to work on \n#SBATCH --gpus=v100:1                         # the gpu you need, \":1\" stands for one gpu required \n#SBATCH --mail-type=END                       # sending you an email once it's done \n#SBATCH --mail-user=[username]@uni-leipzig.de # your email \n#SBATCH --output=$HOME/jobfiles/log/%x.out-%j # where you want your log file\n\n# load modules \nmodule purge \nmodule load Python/3.11.5-GCCcore-13.2.0 \nmodule load CUDA/12.1.1 \n\n# Activate the virtual environment \nsource /home/sc.uni-leipzig.de/[username]/venv/bertopic_env/bin/activate \n\n# Confirm the Python version and environment being used \npython --version \nwhich python \n\n# Run the Python \nscript python /home/sc.uni-leipzig.de/[username]/bertopic_scripts/script_1.py \n\nBasic Slurm Commands\nTo submit a job, first connect to the server via ssh. Then you can use the following commands:\n\nSubmitting a Job: To submit a job, use the sbatch command.\nbatch job_script.sh\nThis command sends the job script to Slurm, which then schedules the job to run on available resources.\nChecking Job Status: To check the status of your submitted jobs, use:\nsqueue -u [your_username]\nReplace [your_username] with your actual username. This will display all jobs you have running or queued on the cluster.\nCancelling a Job: To cancel a job, use:\nscancel [job_id]\nReplace [job_id] with the actual ID of the job that you defined in the script. You can also find the job ID using squeue .\nMonitoring Resource Usage: You can monitor resource usage and efficiency with commands like:\nsacct -j [job_id]\nThis command provides detailed information about your job, including CPU and memory usage. Replace [job_id] with your job’s ID.\n\nSo, in practice:\nFirst, write your Python script and test it with a small sample of your data in “interactive coding mode” in the JupyterLab. This will also give you an idea of how much time your job will require. Then, refine the script so that it takes the full data and build the Slurm script in your text editor (needs to be an .sh file)\nOnce you’ve created your Slurm job script, you can log in via SSH and submit the script using:\nsbatch job_script.sh\nAfter submitting, you can use squeue to check its status or scancel if you need to stop it. Monitoring with sacct will help you optimize resource requests for future jobs, making your submissions more efficient and improving queue times.\nHappy coding."
+  },
+  {
+    "objectID": "general-information/sc.html#parallelization",
+    "href": "general-information/sc.html#parallelization",
+    "title": "Scientific Computing",
+    "section": "Parallelization",
+    "text": "Parallelization\nA major advantage of using the scientific cluster instead of your local machine is its powerful hardware resources. Tasks that might take hours or even days on your computer can often be greatly accelerated through parallelization. Parallelization typically involves two main strategies:\n\nUsing multiple CPU cores: Splitting computations across several cores to perform tasks simultaneously.\nUsing multiple nodes: Each node is essentially a separate virtual computer. If your task can be divided into completely independent parts (e.g., running the same script multiple times with different parameters), distributing the tasks across multiple nodes can significantly enhance efficiency.\n\nKeep in mind, however, that the SC cluster’s resources (cores, nodes, RAM, and execution time) are limited. Always check current resource constraints before running large-scale parallel tasks.\n\nUsing Multiple Cores in R\nBasically there are two ways how to distribute your work on several cores:\n\nMulticore:\n\nUses the Unix fork() system call to create child processes.\nChild processes share the same memory space initially (copy-on-write), which can make it more memory‑efficient and slightly lower in overhead.\nIt’s very fast for CPU-bound tasks that are fork‐safe.\nHowever, not all packages or code are fork‑safe (side effects or open connections may be problematic).\nNot available on Windows.\n\n\n\n\nMultisession:\n\nStarts separate R sessions as workers (via PSOCK clusters).\nEach session is completely independent (does not share memory with the main session), so data must be copied to each worker.\nThis can incur a bit more overhead compared to multicore, but it tends to be more robust with packages that aren’t fork‑safe.\nIt works consistently across platforms (including Windows).\n\n\nIn the following we take a look at both approaches.\n\nThe parallel Package\n\n\n\n\n\n\nWarning\n\n\n\nThese functions rely on forking, which is not supported on Windows. However, if you’d like to use them, the web-based R system runs on Linux, where forking is fully supported.\n\n\nThe simplest method for parallelization in R is the parallel library that comes with base R, specifically the function mclapply, which automatically distributes tasks across multiple cores:\nlibrary(parallel)\n\n# generate 32 tasks \ntasks = 1:32\n\n# assinge a maximum of 16 cores\ncores_max = 16\n\n# mclapply generates a list. \nresults &lt;- mclapply(1:length(tasks), function(i) {\n  tasks[i]^2\n}, mc.cores = cores_max)\nmclapply returns a sorted list with each task’s result. If there are more tasks than cores, it automatically assigns new tasks to cores as they become available.\nWhen using parallel processing, variables created or modified inside the parallel function are independent copies. For example:\nlibrary(parallel)  \n\n# generate 32 tasks  \ntasks  = 1:32 \nnumber = 2\n\n# assinge a maximum of 16 cores \ncores_max = 16  \n# mclapply generates a list.  \nresults &lt;- mclapply(1:length(tasks), function(i) {\n  number &lt;- number * 2\n  number\n}, mc.cores = cores_max)\n\nnumber\ntable(unlist(results))\nIn this case, the original number remains unchanged because, when you call number &lt;- number * 2, a local copy of number is created. Keep this in mind if your calculations involve a large dataset.\nFor example, if you have a 5 GB dataset, everything is fine as long as you don’t modify it. However, the moment a process running on a core makes changes, it will create its own copy of the data, which can significantly increase memory usage.\n\n\nThe future.apply Package\nAnother simple method for parallelization in R without the Windows restriction is the future.apply library that must be installed manually.\nlibrary(future.apply)\n\n# generate 32 tasks  \ntasks  = 1:32 \nnumber = 2\n\n# assinge a maximum of 16 cores \ncores_max = 16  \n# mclapply generates a list.  \n\n# Set up parallel plan\nplan(multisession, workers = cores_max)  # Use \"multicore\" for Unix/macOS\n\nresults &lt;- future_lapply(1:length(tasks), function(i) {\n  number &lt;- number * 2\n  number\n})\n\nnumber\ntable(unlist(results))\n\n\n\nReproducibility\nReproducibility is crucial in computational social science. When using parallel processing, managing random seeds properly ensures consistent and reproducible results. The example below demonstrates how different seed-setting approaches affect the reproducibility of parallel computations using the parallel package in R.\nlibrary(parallel)\n\n# Define seed and tasks\nseed  = 1234\ntasks = 1:32\n\n# Assign a maximum of 16 cores\ncores_max = 16\n\n# Case 1: Setting seed before `mclapply` with `mc.set.seed = TRUE` (default)\n# A new seed is generated for each core, resulting in different outputs across runs\nset.seed(seed)\nresults1 &lt;- mclapply(1:length(tasks), function(i) {\n  rpois(1, lambda = 5) # Poisson-distributed random integer\n}, mc.cores = cores_max, mc.set.seed = TRUE)\n\n# Case 2: Setting seed before `mclapply` with `mc.set.seed = FALSE`\n# The seed from the current R session is used for each core, leading to consistent but non-identical results\nset.seed(seed)\nresults2 &lt;- mclapply(1:length(tasks), function(i) {\n  rpois(1, lambda = 5) # Poisson-distributed random integer\n}, mc.cores = cores_max, mc.set.seed = FALSE)\n\n# Case 3: Setting the seed within `mclapply`\n# Ensures consistent and reproducible results across runs\nresults3 &lt;- mclapply(1:length(tasks), function(i) {\n  set.seed(seed)\n  rpois(1, lambda = 5) # Poisson-distributed random integer\n}, mc.cores = cores_max)\n\n# Show the results\ntable(unlist(results1))\ntable(unlist(results2))\ntable(unlist(results3))\nIf we run this code some times we can make the following observations:\nResults 1:\n\nThe random values in results1 differ not only from each other but also between runs.\nThis is because mc.set.seed = TRUE generates a new seed for each core at runtime, leading to non-reproducible outcomes.\n\nResults 2:\n\nThe random values in results2 are stable within a session but vary between tasks.\nThis happens because the initial session seed is used, but since there are more tasks than cores, each core generates different values across runs.\nIn more complex simulations, this could lead to inconsistencies.\n\nResults 3:\n\nThe values in results3 are identical across tasks and consistent between runs.\nSetting the seed explicitly within mclapply ensures full reproducibility.\n\nTo guarantee reproducible results, set the seed explicitly within the mclapply function (as in results3). This approach ensures that each core uses the same seed consistently across runs, leading to stable and reliable outputs. If you want reproducible results but also variation, you can do something like set.seed(seed+1).\n\n\nUsing Multiple Nodes\nParallelization across multiple nodes involves specialized setups, typically managed by Slurm. Below is an example of how to perform parallel computations across multiple nodes using an R script and Slurm. For detailed guidance, refer to the Slurm documentation.\nFirst, create an R script (script_run_sim.R) that can handle task-specific input arguments:\nargs     &lt;- commandArgs(trailingOnly = TRUE)\ntask_id  &lt;- as.numeric(args[1]) \n\nmy_calculation_function(task_id)\nNext, set up your Slurm job script (run_script.job) to manage parallel tasks efficiently:\n#!/bin/bash\n\n#SBATCH --output=logs/%x_%A_%a.out   # Standard output (includes job name and ID)\n#SBATCH --error=logs/%x_%A_%a.err    # Standard error\n#SBATCH --time=24:00:00\n#SBATCH --mem=64G\n#SBATCH --ntasks=1                    \n#SBATCH --array=1-10                 # We will run 10 tasks\n#SBATCH --cpus-per-task=16           # choose here how many cpus you need\n#SBATCH --job-name=my_job\n#SBATCH --partition=paul\n\nexport OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK\n\nmodule load R\n\nRscript script_run_sim.R $SLURM_ARRAY_TASK_ID\nIn the terminal we enter now\nsbatch run_script.job\n\n\nEfficient Resource Management\nEfficient management of computational resources is crucial. As of 2025-03-20, the “paul” server consists of 32 nodes, each equipped with 2 CPUs containing 64 cores each (128 cores per node), and a total of 512 GB RAM per node. Each core can be allocated a maximum of 8 GB of memory. Thus, you could theoretically run your script on 128 cores with 4 GB RAM each, or on 64 cores with the full 8 GB RAM. However, requesting large amounts of resources, such as an entire node, typically results in extended waiting periods, since your job would need to wait until the full node becomes available. To enhance scheduling efficiency, it is often better to request fewer resources (e.g., 16 or 24 cores), as partial nodes become available more frequently. Finding a balance between resource requests and acceptable wait times is essential for optimizing the efficiency of your computations."
+  },
+  {
+    "objectID": "general-information/sc.html#github",
+    "href": "general-information/sc.html#github",
+    "title": "Scientific Computing",
+    "section": "GitHub",
+    "text": "GitHub\nGitHub is an excellent tool for enhancing your workflow with SC. It also serves as a crucial safety net in case you accidentally overwrite or delete a file, or if the SC cluster crashes and files are permanently lost (which has happened recently!).\nHaving a secure backup for your valuable scripts (and possibly your results) is essential. We strongly expect you to store your scripts with at least one layer of redundancy — this is not optional. Make sure your work is protected so you’re never in a position where you have to explain why it’s missing.\n\nConnect GitHub With RStudio\ncoming soon …"
+  },
+  {
+    "objectID": "general-information/sc.html#troubleshooting",
+    "href": "general-information/sc.html#troubleshooting",
+    "title": "Scientific Computing",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\nIf your code suddenly stops working even though it was running fine before, and you’re not sure why, check the status of the services or the specific nodes involved. Sometimes the issue is simply due to cluster problems."
+  },
+  {
+    "objectID": "computational-social-sciences/week01.html#footnotes",
+    "href": "computational-social-sciences/week01.html#footnotes",
+    "title": "Week 01 - Kick-Off",
+    "section": "Footnotes",
+<<<<<<< Updated upstream
+    "text": "Footnotes\n\n\nNames and caffeine tolerance are defined at random.↩︎"
+  },
+  {
+    "objectID": "experimental-sociology/slides01.html#choosing-the-right-tool",
+    "href": "experimental-sociology/slides01.html#choosing-the-right-tool",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Choosing the Right Tool",
+    "text": "Choosing the Right Tool\nNot every problem requires a complex and computationally intensive simulation. In fact, applying sophisticated tools to simple problems can:\n\nIntroduce unnecessary complexity\nWaste computational resources\nObscure understanding\nCreate the illusion of rigor where none is needed"
+  },
+  {
+    "objectID": "experimental-sociology/week01.html#choosing-the-right-tool",
+    "href": "experimental-sociology/week01.html#choosing-the-right-tool",
+    "title": "Experimental Sociology - Week 01",
+    "section": "Choosing the Right Tool",
+    "text": "Choosing the Right Tool\nFinally, let us briefly draw our attention to one more problem. If you have been paying attention so far, you might get the impression that there is a strict hierarchy with regard to the approaches considered for hypothesis derivation and that simulations are the non-plus-ultra. However, as just mentioned, this is also associated with a number of disadvantages.\nNot every problem requires a complex and computationally intensive simulation. In fact, applying sophisticated tools to simple problems can:\n\nIntroduce unnecessary complexity\nWaste computational resources\nObscure understanding\nCreate the illusion of rigor where none is needed\n\n\nPractical Considerations\nWhen selecting a method, ask yourself:\n\nIs there an analytical solution? If so, is it straightforward and more efficient?\nDoes the complexity of the method match the complexity of the problem?\nWhat are the trade-offs?\n\n\n\n\nMonte Carlo Multiplication\n\n\n\n\nFirst Number (0-10): \n\nSecond Number (0-10): \n\n\nSimulate\n\n\n\n\n\n\n\n\n\n\nHere, I present a Monte Carlo simulation that estimates the area of a rectangle on a 10×10 canvas. In essence, it’s a roundabout way to perform a simple multiplication — calculating width × height.\nInstead of multiplying two numbers directly, this approach randomly “throws darts” at the canvas and counts how many land inside the rectangle to estimate its area. It’s a textbook example of using a powerful technique where it’s absolutely not needed. This simulation serves as a reminder:\n\n\n\n\n\n\nTip\n\n\n\n🧠 Just because you can use a simulation it doesn’t mean you should.\n\n\nPlease consider whether you truly need a simulation — or if you might just need a calculator.\n\n# Define canvas dimensions\ncanvas_width &lt;- 10\ncanvas_height &lt;- 10\n\n# Define the rectangle dimensions based on our two numbers\nnumber_1 &lt;- 6\nnumber_2 &lt;- 4\n\n# Number of simulation points (\"darts\")\nn_points &lt;- 10000\n\n# Set seed for reproducibility\nset.seed(42)\n\n# Generate random points uniformly distributed over the canvas\nx &lt;- runif(n_points, min = 0, max = canvas_width)\ny &lt;- runif(n_points, min = 0, max = canvas_height)\n\n# Determine which points fall inside the number_2\ninside &lt;- (x &lt;= number_1) & (y &lt;= number_2)\n\n# Estimate the area of the rectangle using the Monte Carlo method\nestimated_area &lt;- (sum(inside) / n_points) * (canvas_width * canvas_height)\n\n# Calculate the true area of the rectangle\ntrue_area &lt;- number_1 * number_2\n\n# Print the results\ncat(\"Estimated Area:\", estimated_area, \"\\n\")\ncat(\"True Area:\", true_area, \"\\n\")\n\ntext_label &lt;- paste(\"Estimate:\", round(estimated_area, 2))\n\n# Plot the simulation: points inside the rectangle in blue, outside in red\nplot(x, y, col = ifelse(inside, \"blue\", \"red\"), pch = 20,\n     xlab = \"X\", ylab = \"Y\",\n     main = paste0(\"Monte Carlo Simulation for Multiplying \", number_1, \" and \", number_2, \"\\n (\", text_label, \")\" ))\n\n# Draw the rectangle for reference\nrect(0, 0, number_1, number_2, border = \"green\", lwd = 2)"
+=======
+    "text": "Footnotes\n\n\nSpecification Update - Rule 2: deleted the confusing maximum of three cups.↩︎\nRule 3 just means, that the rules apply to each person - Sascha shouldn’t suffer from Leos low tolerance of coffee.↩︎\nNames and caffeine tolerance are defined at random.↩︎"
+  },
+  {
+    "objectID": "computational-social-sciences/Übungsblätter/01.html",
+    "href": "computational-social-sciences/Übungsblätter/01.html",
+    "title": "Übungsblatt 1",
+    "section": "",
+    "text": "Beschreibe kurz in eigenen Worten, was ein soziales Netzwerk ist?\nBetrachte die folgenden Netzwerke\nLeipzig: Addis Abeba Birmingham Bologna Brünn Frankfurt am Main Hannover Herzliya Ho-Chi-Minh-Stadt Houston Krakau Kyjiw Lyon Nanjing Thessaloniki Travnik\nAddis Abeba: Ankara, Turkey Harare, Simbabwe Lyon, France Beersheba, Israel Johannesburg, South Africa Nairobi, Kenya Beijing, China Khartoum, Sudan Washington, United States Chuncheon, South Korea Leipzig, Germany Washington DC, United States Lusaka, Zambia\nBirmingham: Chigago, USA Frankfurt am Main Leipzig Guanghzou, China Lyon, France Milan, Italy Johannesburg, South Africa Zaporizhzhia. Ukraine\nBologna: Coventry, England St. Louis, USA Kharkiv, Ukraine Thessaloniki, Greece Leipzig, Germany Toulouse, France La Plata, Argentina Tuzla, Bosnia and Herzigovina Portland, United States Valencia, Spain Saint-Louis, Senegal San-Carlos, Nicaragua Zagreb, Croatia\nBrünn:\nBeschreibe das Netzwerk hinsichtlich Größe, Dichte, Pfade"
+  },
+  {
+    "objectID": "computational-social-sciences/Übungsblätter/01.html#task-impute-missing-data",
+    "href": "computational-social-sciences/Übungsblätter/01.html#task-impute-missing-data",
+    "title": "Übungsblatt 1",
+    "section": "Task: Impute Missing Data",
+    "text": "Task: Impute Missing Data\n\nAssume the two missing students were named by others.\nUse simple imputation by adding inferred links from survey data.\nImplement an updated network including the missing students."
+  },
+  {
+    "objectID": "computational-social-sciences/Übungsblätter/01.html#reflection-questions",
+    "href": "computational-social-sciences/Übungsblätter/01.html#reflection-questions",
+    "title": "Übungsblatt 1",
+    "section": "Reflection Questions",
+    "text": "Reflection Questions\n\nHow does the imputed network compare to the observed network?\nWhat are the potential biases introduced by simple imputation?\nHow could model-based imputation improve accuracy?"
+>>>>>>> Stashed changes
+  }
+]

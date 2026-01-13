@@ -1,0 +1,33 @@
+project:
+  type: website
+
+date: today
+date-format: short
+title-block-banner: true
+
+format:
+  html:
+    theme: cerulian
+    toc: true
+    toc-title: Contents
+    toc-location: left
+    page-layout: full
+    html-math-method:
+      method: mathjax
+    mathjax: default
+    self-contained-math: false
+    code-fold: false
+    code-tools: false
+    highlight-style: github
+    eval: false
+    results: hide
+    embed-resources: true
+    bibliography-style: apa
+    link-citation: true
+    lightbox:
+      loop: true
+      match: auto
+
+
+      
+editor: source

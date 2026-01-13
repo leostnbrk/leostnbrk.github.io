@@ -1,0 +1,105 @@
+---
+  title: "Experimental Sociology and Computational Social Sciences"
+  subtitle: "Summer term 2025"
+  date: "04/07/2025"
+  date-format: long
+  title-block-banner: true
+  format:
+    html:
+      theme: cerulian
+      toc: true
+      toc-title: Contents
+      toc-location: left
+      page-layout: full
+      html-math method: katex
+      code-fold: false
+      code-tools: false
+      highlight-style: github
+      eval: false
+      results: hide
+      embed-resources: true
+      self-contained-math: true
+      bibliography-style: apa
+      link-citation: true
+      lightbox:
+        loop: true
+        match: auto
+---
+
+# 🪧 Announcements
+
+::: callout-note
+Some of the material (due to copyright issues) can be found at [moodle](https://moodle2.uni-leipzig.de/course/view.php?id=53760){.external target="_blank"}. The password is provided in the sessions of the first week.
+:::
+
+# 🔍 Overview
+
+Welcome to the module "Experimental Sociology and Computational Social Sciences 2025! Here you will find the two courses, most of the materials (except copyright protected papers and books used in the course) and so on.
+
+-   **General Information**
+    -   Course Assesment
+    -   AI-Usage
+    -   Anti-Discrimination Policy
+-   [**Experimental Sociology**](experimental-sociology/es_overview.html)
+    -   Lecture Contents
+-   [**Computational Social Sciences**](experimental-sociology/css_overview.html)
+    -   Lecture Contents
+
+Use the navigation bar to explore course sessions and read the latest announcements.
+
+# 🧩 Course Structure
+
+We’ll be following a **flipped classroom** strategy:
+
+-   During the week, you’ll study the core concepts at your own pace — whether at home, in the library, or even in the park (it’s the summer term after all!).
+
+-   At the beginning of each seminar, we’ll clear up any open questions before diving into **active problem-solving** and **programming**.
+
+-   Expect a mix of hands-on coding, small-group discussions, and the occasional productive chaos when things don’t work as expected (that’s part of the learning process!).
+
+# 🛠️ Requirements
+
+-   Most importantly: Sociological curiosity – An interest in social behavior and experiments is essential. If you’re not genuinely curious about how people behave and why, this course might not be for you! -
+-   Basic R programming skills – You should be comfortable reading and understanding R code (including functions). You don’t need to be an expert, but you should know the basics.
+-   A Laptop with R and RStudio installed and running. If you don’t have a laptop (yes, this can happen!), don’t hesitate to contact us ([sascha.grehl\@uni-leipzig.de](mailto:sascha.grehl@uni-leipzig.de){.email} or [leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email}) — we’ll work something out.
+-   Paper and pen – Digital or analog, as long as you can sketch out your ideas and map your thoughts.
+-   A sense of humor – Things will break, code will crash, and unexpected results will happen — that’s all part of the process.[^1]
+
+[^1]: *A good tip from someone who’s spent hours raging over broken code:* The problem is 99.99999% of the time sitting **in front of the screen**. You probably made a silly mistake and just aren’t spotting it right now. Keep calm, drink some tea and relax. In this respect, ChatGPT changed my life — just ask it where the error is, and it will usually confront you with your obvious mistake.
+
+# 🎓 Formal Requirements
+
+In order to successfully complete the course the following requirements are to be met:
+
+-   **Pre-examination requirement (*Prüfungsvorleistung*)**: At least 50% of the points in the 6 problem sets (*Übungsblätter*)
+-   **Course assessment (*Prüfungsleistung*)**: The final grade is determined by the assessment of the term paper. (*Hausarbeit*).
+
+You can find more details under [**Course Assessment**](https://sgrehl.github.io/general-information/exam.html).
+
+# ☎️ Contact Information
+
+::::::: columns
+:::: column
+::: {.callout-tip collapse="false" title="Experimental Sociology - Basic Information"}
+|  |  |
+|:-----------------------------------|:-----------------------------------|
+| Lecturer: | Dr. Sascha Grehl |
+| Start: | 2025-04-09 |
+| Seminar: | Thursday, 11:15 – 12:45 |
+| Location: | GWZ, H2 1.15 |
+| Office Hours: | by appointment, [sascha.grehl\@uni-leipzig.de](mailto:sascha.grehl@uni-leipzig.de){.email} |
+:::
+::::
+
+:::: column
+::: {.callout-tip collapse="false" title="Computational Social Sciences - Basic Information"}
+|  |  |
+|:-----------------------------------|:-----------------------------------|
+| Lecturer: | MA, Leonie Steinbrinker |
+| Start: | 2025-04-07 |
+| Seminar: | Thuesday, 15:15 - 16:45 |
+| Location: | GWZ, H2 1.15 |
+| Office Hours: | by appointment, [leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email} |
+:::
+::::
+:::::::
