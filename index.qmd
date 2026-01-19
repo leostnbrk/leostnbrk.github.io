@@ -3,13 +3,13 @@
   subtitle: "Summer term 2026"
   date: "13/01/2026"
   date-format: long
-  title-block-banner: true
+  title-block-banner: "#ecc3c8"
   format:
     html:
-      theme: cerulian
       toc: true
       toc-title: Contents
       toc-location: left
+      css: styles.css
       page-layout: full
       html-math method: katex
       code-fold: false
@@ -24,6 +24,7 @@
       lightbox:
         loop: true
         match: auto
+    
 ---
 
 # 🪧 Announcements
@@ -40,7 +41,6 @@ Welcome to the module "Experimental Sociology and Computational Social Sciences 
     -   Course Assesment
     -   AI-Usage
     -   Anti-Discrimination Policy
--   [**Computational Social Sciences**](experimental-sociology/css_overview.html)
     -   Lecture Contents
 
 Use the navigation bar to explore course sessions and read the latest announcements.
@@ -59,7 +59,7 @@ We’ll be following a **flipped classroom** strategy:
 
 -   Most importantly: Sociological curiosity – An interest in social behavior and experiments is essential. If you’re not genuinely curious about how people behave and why, this course might not be for you! -
 -   Basic R programming skills – You should be comfortable reading and understanding R code (including functions). You don’t need to be an expert, but you should know the basics.
--   A Laptop with R and RStudio installed and running. If you don’t have a laptop (yes, this can happen!), don’t hesitate to contact us ([sascha.grehl\@uni-leipzig.de](mailto:sascha.grehl@uni-leipzig.de){.email} or [leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email}) — we’ll work something out.
+-   A Laptop with R and RStudio installed and running. If you don’t have a laptop (yes, this can happen!), don’t hesitate to contact me ([leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email}) — we’ll work something out.
 -   Paper and pen – Digital or analog, as long as you can sketch out your ideas and map your thoughts.
 -   A sense of humor – Things will break, code will crash, and unexpected results will happen — that’s all part of the process.[^1]
 
@@ -72,7 +72,7 @@ In order to successfully complete the course the following requirements are to b
 -   **Pre-examination requirement (*Prüfungsvorleistung*)**: At least 50% of the points in the 6 problem sets (*Übungsblätter*)
 -   **Course assessment (*Prüfungsleistung*)**: The final grade is determined by the assessment of the term paper. (*Hausarbeit*).
 
-You can find more details under [**Course Assessment**](https://sgrehl.github.io/general-information/exam.html).
+You can find more details under [**Course Assessment**](https://leostnbrk.github.io/course-assessment/exam.html).
 
 # ☎️ Contact Information
 

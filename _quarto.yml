@@ -10,8 +10,6 @@ website:
         href: index.qmd
       - text: "General Information"
         menu:
-          - text: "Course Assessment"
-            href: general-information/exam.qmd
           - text: "Scientific Computing"
             href: general-information/sc.qmd        
           - text: "Data Sources"
@@ -20,16 +18,16 @@ website:
             href: general-information/ai_usage.qmd
           - text: "Anti-Discrimination Policy"
             href: general-information/anti_dis.qmd
-      #- text: "Experimental Sociology"
-       # menu:
-        #            href: experimental-sociology/es_overview.qmd
-        #          - text: "Week 01"
-        #            href: experimental-sociology/week01.qmd
-        #          - text: "Week 02"
-        #            href: experimental-sociology/week02.qmd
-        #          - text: "Week 03"
-        #            href: experimental-sociology/week03.qmd
-        #          - text: "Week 04"
+      - text: "Course Assessment"
+        menu:
+          - text: "General Information"
+            href: experimental-sociology/exam.qmd
+          #- text: "Exercise Sheet 01"
+          #  href: experimental-sociology/exercise-sheet-01.qmd
+          #- text: "Exercise Sheet 02"
+          #  href: experimental-sociology/exercise-sheet-02.qmd
+          #- text: "Exercise Sheet 03"
+          #  href: experimental-sociology/exercise-sheet-03.qmd #          - text: "Week 04"
         #            href: experimental-sociology/week04.qmd
         #          - text: "Week 05"
         #            href: experimental-sociology/week05.qmd

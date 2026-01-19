@@ -93,3 +93,34 @@ code {
   padding: 2px 4px;
   border-radius: 4px;
 }
+
+/* Ändert die Hintergrundfarbe des Title Block Banners */
+.title-block-banner {
+  background-color: #ecc3c8 !important; /* Hier die gewünschte Farbe */
+  color: white !important;              /* Textfarbe optional anpassen */
+}
+
+
+/* custom.css */
+:root {
+  --quarto-banner-background: #ecc3c8;  /* neue Farbe */
+  --quarto-banner-color: white;          /* Textfarbe */
+}
+
+/* Quarto site header (navbar) */
+.navbar,
+.navbar-dark,
+.navbar-light {
+  background-color: #ecc3c8 !important;  /* your color */
+}
+
+/* Header text & links */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Hover state */
+.navbar .nav-link:hover {
+  color: #f2e6f7 !important;
+}
