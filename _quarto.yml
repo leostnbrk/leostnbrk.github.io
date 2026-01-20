@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "ES & CSS"
+  title: "CSS"
   navbar:
     left:
       - text: "Home"
