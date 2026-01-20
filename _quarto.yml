@@ -21,7 +21,7 @@ website:
       - text: "Course Assessment"
         menu:
           - text: "General Information"
-            href: experimental-sociology/exam.qmd
+            href: course assessment/exam.qmd
           #- text: "Exercise Sheet 01"
           #  href: experimental-sociology/exercise-sheet-01.qmd
           #- text: "Exercise Sheet 02"
