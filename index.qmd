@@ -1,30 +1,6 @@
 ---
   title: "Computational Social Sciences"
   subtitle: "Summer term 2026"
-  date: "13/01/2026"
-  date-format: long
-  title-block-banner: "#ecc3c8"
-  format:
-    html:
-      toc: true
-      toc-title: Contents
-      toc-location: left
-      css: styles.css
-      page-layout: full
-      html-math method: katex
-      code-fold: false
-      code-tools: false
-      highlight-style: github
-      eval: false
-      results: hide
-      embed-resources: true
-      self-contained-math: true
-      bibliography-style: apa
-      link-citation: true
-      lightbox:
-        loop: true
-        match: auto
-    
 ---
 
 # 🪧 Announcements
@@ -32,6 +8,14 @@
 ::: callout-note
 Some of the material (due to copyright issues) can be found at [moodle](https://moodle2.uni-leipzig.de/course/view.php?id=53760){.external target="_blank"}. The password is provided in the sessions of the first week.
 :::
+
+# ☎️ Contact information {#contact}
+
+**Leonie Steinbrinker**  
+✉️ [leonie.steinbrinker@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de)  
+🏢 GWZ, H2 1.15 
+🕒 Office hours: spontaneous, after appointment
+
 
 # 🔍 Overview
 
@@ -74,16 +58,8 @@ In order to successfully complete the course the following requirements are to b
 
 You can find more details under [**Course Assessment**](https://leostnbrk.github.io/course-assessment/exam.html).
 
-# ☎️ Contact Information
 
 
-::: {.callout-tip collapse="false" title="Computational Social Sciences - Basic Information"}
-|  |  |
-|:-----------------------------------|:-----------------------------------|
-| Lecturer: | MA, Leonie Steinbrinker |
-| Start: | 2025-04-07 |
-| Seminar: | Thuesday, 15:15 - 16:45 |
-| Location: | GWZ, H2 1.15 |
-| Office Hours: | by appointment, [leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email} |
-:::
+
+
 

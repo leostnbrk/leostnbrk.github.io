@@ -10,61 +10,55 @@
   box-shadow: 2px 2px 10px rgba(220, 2, 191, 0.1);
 }
 
-#custom-block {
-  background-color: rgba(150, 123, 182, 0.1);
-  padding: 15px;
-  border: 1px solid #e8bff7;
-  border-left: 4px solid #967bb6; /* Add this line for the left border */
-  border-radius: 8px;
-  margin-bottom: 15px;
+
+
+/* Title Block Banner */
+.title-block-banner {
+  background-color: #ecc3c8 !important;
+  color: white !important;
 }
 
-#toc {
-  margin-top: 15px; /* Creates space between the block and the ToC */
-}
-
-/* Adjust the width of the content area */
-.content {
-  width: 85%;  /* Adjust the percentage to make the content area broader */
-  margin-left: 5%;  /* This will shift the main content to the right */
-}
-
-/* Adjust the width of the Table of Contents */
-#toc {
-  width: 15%;  /* Reduce the ToC width so that it takes up less space */
-  margin-left: 0;  /* Align the ToC to the left */
-}
-
-/* Change bold text color to lavender */
+/* ==========================
+   Text Styling
+========================== */
 strong, b {
-  color: #967bb6; /* Lavender color */
+  color: #967bb6; /* Lavender */
 }
 
-/* Change header colors to darker lavender */
 h1, h2, h3, h4, h5, h6 {
   color: #76448a; /* Darker lavender */
 }
 
-
 .student-exercise {
-  background-color: rgba(216, 179, 230, 0.3); /* Helles Lila mit 60% Deckkraft */
+  background-color: rgba(116, 173, 249, 0.603);
   padding: 15px;
-  border: 2px solid rgba(168, 95, 197, 0.8); /* Dunkleres Lila mit 80% Deckkraft */
+  border: 2px solid rgba(116, 173, 249, 0.603);
   border-radius: 8px;
   margin-bottom: 15px;
-  color: rgba(137, 104, 205, 0.7)
+  color: rgba(116, 173, 249, 0.603);
 }
 
 .student-exercise h2 {
-  color: rgba(168, 95, 197, 0.8); /* 100% Deckkraft für bessere Lesbarkeit */
+  color: rgba(116, 173, 249, 0.8);
 }
 
-/* Change hover background color */
+
+#custom-block {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #cfe2ff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+/* ==========================
+   Tables & Lists
+========================== */
 table.hover tbody tr:hover {
-  background-color: #ecc3c8; /* Light yellow */
+  background-color: #ecc3c8;
 }
 
-/* Reduce spacing between bullet points */
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -72,55 +66,148 @@ ul {
 }
 
 ul li {
-  margin-bottom: 2px; /* Adjust as needed */
+  margin-bottom: 2px;
 }
 
-/* Weniger Zeilenabstand für Bulletpoints in Quarto-Tabellen */
 table td ul {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 1rem; /* Optional: Beibehaltung der Einrückung */
+  padding-left: 1rem;
 }
 
 table td li {
-  line-height: 1.2; /* Verringert den Zeilenabstand */
+  line-height: 1.2;
 }
 
 
-/* Optional: inline code styling too */
+/* ==========================
+   Code Blocks & Inline Code
+========================== */
+
+/* Inline Code wie Code-Block */
+:not(pre) > code {
+  background-color: rgba(240, 128, 128, 0.2) !important;   /* gleiche Farbe wie Block */
+  padding: 0.4em 0.6em;
+  border-radius: 6px;       /* Streifen links */
+  display: inline-block;                 /* nötig für border-left */
+}
+
+/* Blocks unverändert */
+pre code {
+  background-color: inherit;
+  border-left: none;
+}
+
+
+/* Inline Code */
 code {
-  background-color: rgba(240, 128, 128, 0.2); /* lighter for inline code */
+  background-color: rgba(240, 128, 128, 0.055);
   padding: 2px 4px;
   border-radius: 4px;
 }
 
-/* Ändert die Hintergrundfarbe des Title Block Banners */
+
+
+/* ==========================
+   Title Block Banner
+========================== */
 .title-block-banner {
-  background-color: #ecc3c8 !important; /* Hier die gewünschte Farbe */
-  color: white !important;              /* Textfarbe optional anpassen */
+  background-color: #ecc3c8 !important;
+  color: white !important;
 }
 
-
-/* custom.css */
+/* Root variables für Banner-Farbe */
 :root {
-  --quarto-banner-background: #ecc3c8;  /* neue Farbe */
-  --quarto-banner-color: white;          /* Textfarbe */
+  --quarto-banner-background: #ecc3c8;
+  --quarto-banner-color: white;
 }
 
-/* Quarto site header (navbar) */
+/* ==========================
+   Navbar
+========================== */
 .navbar,
 .navbar-dark,
 .navbar-light {
-  background-color: #ecc3c8 !important;  /* your color */
+  background-color: #ecc3c8 !important;
 }
 
-/* Header text & links */
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: white !important;
 }
 
-/* Hover state */
 .navbar .nav-link:hover {
   color: #f2e6f7 !important;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* =========================
+   Base table style
+   ========================= */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #f6f3ff96;      /* light background */
+  color: #6b6b6b;                 /* grey text */
+  border-radius: 8px;            /* rounded corners */
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #c7bde8;   /* outer lavender line */
+}
+
+/* =========================
+   Grid lines & cells
+   ========================= */
+th, td {
+  border: 0px solid #9d3dd13d;      /* lavender lines */
+  padding: 0rem 0rem;
+}
+
+/* =========================
+   Default header styling
+   ========================= */
+thead th {
+  background-color: #ede9fb;
+}
+
+/* =========================
+   Hover effect
+   ========================= */
+tbody tr:hover {
+  background-color: #e2dbf7;      /* lavender hover */
+}
+
+
+
+/* =========================
+   Links (hyperrefs)
+   ========================= */
+a {
+  color: #dea2ea;        /* purple */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #967bb6;        /* darker purple on hover */
+  text-decoration: underline;
+}
+
+
+/* Reduce spacing between bullet points */
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+
+ul li {
+  margin-bottom: 2px; /* Adjust as needed */
+}
+
+.hellblau {
+  color: lightblue;
 }

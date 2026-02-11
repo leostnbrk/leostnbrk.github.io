@@ -8,16 +8,6 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "General Information"
-        menu:
-          - text: "Scientific Computing"
-            href: general-information/sc.qmd        
-          - text: "Data Sources"
-            href: general-information/data.qmd   
-          - text: "AI-Usage"
-            href: general-information/ai_usage.qmd
-          - text: "Anti-Discrimination Policy"
-            href: general-information/anti_dis.qmd
       - text: "Course Assessment"
         menu:
           - text: "General Information"
@@ -49,7 +39,7 @@ website:
         #            href: experimental-sociology/week13.qmd
         #          - text: "Week 14"
         #            href: experimental-sociology/week14.qmd
-      - text: "Computational Social Sciences"
+      - text: "Class Materials"
         menu:
           - text: "Course Overview"
             href: "computational-social-sciences/css_overview.qmd"
@@ -81,10 +71,48 @@ website:
             href: computational-social-sciences/week13.qmd
           - text: "Week 14"
             href: computational-social-sciences/week14.qmd
+      - text: "Further Resources"
+        menu:
+          - text: "Scientific Computing"
+            href: general-information/sc.qmd
+          - text: "Data Sources"
+            href: general-information/data.qmd
+          - text: "AI Usage"
+            href: general-information/ai_usage.qmd
+      - text: "Anti-Discrimination Policy"
+        href: general-information/anti_dis.qmd
+    
 
 format:
   html:
     theme: cosmo
+    title-block-banner: "#ecc3c8"
+    css: styles.css
+    html-math: katex
+    code-fold: false
+    code-tools: false
+    highlight-style: github
+    eval: false
+    results: hide
+    embed-resources: true
+    self-contained-math: true
+    bibliography-style: apa
+    link-citation: true
+    lightbox:
+      loop: true
+      match: auto
     include-in-header:
       - text: |
           <script type="text/javascript" src="/js/week-control.js"></script>
+
+
+sidebar:
+  style: docked
+  contents:
+    - contents: auto   # ← ersetzt den TOC
+    - title: "Contact"
+      text: |
+        **Dr. Max Mustermann**  
+        ✉️ mail@uni.de  
+        🏢 Raum 2.15  
+        🕒 Mi 14–16
