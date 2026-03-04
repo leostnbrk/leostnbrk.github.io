@@ -41,36 +41,26 @@ website:
         #            href: experimental-sociology/week14.qmd
       - text: "Class Materials"
         menu:
-          - text: "Course Overview"
-            href: "computational-social-sciences/css_overview.qmd"
-          - text: "Week 01"
+          - text: "Week 01 - Kick-off"
             href: computational-social-sciences/week01.qmd
-          - text: "Week 02"
+          - text: "Week 02 - Networks I"
             href: computational-social-sciences/week02.qmd
-          - text: "Week 03"
+          - text: "Week 03 - Networks II"
             href: computational-social-sciences/week03.qmd
-          - text: "Week 04"
+          - text: "Week 04 - Networks III"
             href: computational-social-sciences/week04.qmd
-          - text: "Week 05"
+          - text: "Week 05 - Spatial Analysis I"
             href: computational-social-sciences/week05.qmd
-          - text: "Week 06"
+          - text: "Week 06 - Spatial Analysis II"
             href: computational-social-sciences/week06.qmd
-          - text: "Week 07"
+          - text: "Week 07 - Text Analysis I"
             href: computational-social-sciences/week07.qmd
-          - text: "Week 08"
+          - text: "Week 08 - Text Analysis II"
             href: computational-social-sciences/week08.qmd
-          - text: "Week 09"
+          - text: "Week 09 - Agent Based Modeling"
             href: computational-social-sciences/week09.qmd
-          - text: "Week 10"
+          - text: "Week 10 - Open Science"
             href: computational-social-sciences/week10.qmd
-          - text: "Week 11"
-            href: computational-social-sciences/week11.qmd
-          - text: "Week 12"
-            href: computational-social-sciences/week12.qmd
-          - text: "Week 13"
-            href: computational-social-sciences/week13.qmd
-          - text: "Week 14"
-            href: computational-social-sciences/week14.qmd
       - text: "Further Resources"
         menu:
           - text: "Scientific Computing"
@@ -105,14 +95,3 @@ format:
       - text: |
           <script type="text/javascript" src="/js/week-control.js"></script>
 
-
-sidebar:
-  style: docked
-  contents:
-    - contents: auto   # ← ersetzt den TOC
-    - title: "Contact"
-      text: |
-        **Dr. Max Mustermann**  
-        ✉️ mail@uni.de  
-        🏢 Raum 2.15  
-        🕒 Mi 14–16
