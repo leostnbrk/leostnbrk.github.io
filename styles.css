@@ -13,9 +13,11 @@
 
 
 /* Title Block Banner */
-.title-block-banner {
-  background-color: #ecc3c8 !important;
-  color: white !important;
+/* Title Block Banner */
+
+.title-block, .title-block-banner {
+  background-color: #ecc3c8 !important;  /* pink banner */
+  color: white !important;                /* white text */
 }
 
 /* ==========================
@@ -43,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#custom-block {
+.custom-block {
   background-color: #f8f9fa;
   padding: 15px;
   border: 1px solid #cfe2ff;
@@ -108,6 +110,7 @@ code {
 
 
 
+
 /* ==========================
    Title Block Banner
 ========================== */
@@ -152,18 +155,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  background-color: #f6f3ff96;      /* light background */
+  background-color: #57b3f117;      /* light background */
   color: #6b6b6b;                 /* grey text */
   border-radius: 8px;            /* rounded corners */
   overflow: hidden;
-  box-shadow: 0 0 0 1px #c7bde8;   /* outer lavender line */
+  box-shadow: 0 0 0 1px #57b3f1d0;   /* outer lavender line */
 }
 
 /* =========================
    Grid lines & cells
    ========================= */
 th, td {
-  border: 0px solid #9d3dd13d;      /* lavender lines */
+  border: 0px solid #57b3f1d0;      /* lavender lines */
   padding: 0rem 0rem;
 }
 
@@ -171,14 +174,14 @@ th, td {
    Default header styling
    ========================= */
 thead th {
-  background-color: #ede9fb;
+  background-color: 57b4f15e;
 }
 
 /* =========================
    Hover effect
    ========================= */
 tbody tr:hover {
-  background-color: #e2dbf7;      /* lavender hover */
+  background-color: #57b3f150;      /* lavender hover */
 }
 
 

@@ -1,15 +1,27 @@
 ---
 title: "Course Assessment"
-date: "2025-03-21"
 ---
 
 # Pre-examination requirement (Prüfungsvorleistung):
 
-Every two weeks, in one of the courses, we will assign you a problem set (*Übungsblatt*). You will typically have at least one week to complete and submit your solutions. You can find the problem set as well as supplementary materials on Moodle.
+Every two weeks, in one of the courses, we will assign you a problem set (*Übungsblatt*). You will typically have at least one week to complete and submit your solutions. Please send me your submissions rendered as pdf or html on RocketChat.
 
-Please [**submit your solutions on Moodle**](https://moodle2.uni-leipzig.de/course/view.php?id=53760) as a rendered PDF or HTML file, generated using either Markdown or Quarto.
+Your submissions must be a **rendered PDF or HTML document**.
+
+## Formatting and Technical Requirements
+
+To ensure clarity, readability and reproducibility:
+- Your document must be **fully rendered** (no raw .qmd or .Rmd files)
+- Include all **code, output and graphics** directly in the document.
+- Each exercise should:
+  - Begin with a clear heading (e.g. `# Exercise 1`)
+  - Contain well structured solution steps, including code and explanations.
+  - 
 
 
+:::{.custom-block}
+
+Promise, I will update this, as soon as I know more!
 
 | Week | Course | Topics |
 |------|--------|--------|
@@ -19,6 +31,8 @@ Please [**submit your solutions on Moodle**](https://moodle2.uni-leipzig.de/cour
 |      |        |        |
 |      |        |        |
 |      |        |        |
+
+
 
 # Course assessment (Prüfungsleistung)
 
@@ -68,6 +82,8 @@ In general: **talk to us** — we will help you determine whether your project i
 |                    |                                                                  |
 |                    | -   Generate a new spatial dataset.                              |
 +--------------------+------------------------------------------------------------------+
+
+:::
 
 # Use of AI for the problem sets and the term paper
 

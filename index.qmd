@@ -1,65 +1,91 @@
 ---
-  title: "Computational Social Sciences"
-  subtitle: "Summer term 2026"
+title: "Computational Social Sciences"
+subtitle: "Summer term 2026"
 ---
 
-# 🪧 Announcements
+# **Welcome to the computational social science (CSS) seminar!** {.unlisted}
 
-::: callout-note
-Some of the material (due to copyright issues) can be found at [moodle](https://moodle2.uni-leipzig.de/course/view.php?id=53760){.external target="_blank"}. The password is provided in the sessions of the first week.
+This hands-on course explores how different data sources and computational methods can enhance our understanding of society. Using R, we will learn techniques for visualizing, analyzing and exploring large-scale data to gain deeper insights into social phenomena.
+
+::: {.custom-block}
+
+**General Information**
+
+|              |                   |
+|:-------------|-------------------|
+| Wednesday    | 11:15 - 12:45     |
+| GWZ, H2 1.15 | Start: 08.04.2026 |
+
 :::
 
-# ☎️ Contact information {#contact}
+# 🔎 Focus
 
-**Leonie Steinbrinker**  
-✉️ [leonie.steinbrinker@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de)  
-🏢 GWZ, H2 1.15 
-🕒 Office hours: spontaneous, after appointment
+In these next weeks, we will have a closer look on these 4 key areas of CSS:
 
+1.  **Social network analysis:** Understanding relationships and structures in network data, applying visualization techniques, and conducting empirical analyses.
+2.  **Geo/Spatial data analysis:** Examining spatial patterns and dependencies, and leveraging location-based data for social science research.
+3.  **Text data analysis:** Quantifying insights from textual data using natural language processing techniques, sentiment analysis, and topic modeling.
+4.  **Agent based modeling:** Simulating social processes and interactions using computational models to explore complex social dynamics.
 
-# 🔍 Overview
+# 🏁 Goals
 
-Welcome to the module "Experimental Sociology and Computational Social Sciences 2025! Here you will find the two courses, most of the materials (except copyright protected papers and books used in the course) and so on.
+We will combine different data sources and computational methods to combine theory-driven and data-driven approaches in social science research. By the end of the course, you will be able to:
 
--   **General Information**
-    -   Course Assesment
-    -   AI-Usage
-    -   Anti-Discrimination Policy
-    -   Lecture Contents
-
-Use the navigation bar to explore course sessions and read the latest announcements.
-
-# 🧩 Course Structure
+-   Understand and apply key computational social science methods using R.
+-   Analyze and visualize complex social data from various sources and
+-   Critically evaluate the strengths and limitations of computational approaches in social science research.
+    
+    
+# 🧩 Course structure
 
 We’ll be following a **flipped classroom** strategy:
 
 -   During the week, you’ll study the core concepts at your own pace — whether at home, in the library, or even in the park (it’s the summer term after all!).
-
 -   At the beginning of each seminar, we’ll clear up any open questions before diving into **active problem-solving** and **programming**.
-
 -   Expect a mix of hands-on coding, small-group discussions, and the occasional productive chaos when things don’t work as expected (that’s part of the learning process!).
 
-# 🛠️ Requirements
 
--   Most importantly: Sociological curiosity – An interest in social behavior and experiments is essential. If you’re not genuinely curious about how people behave and why, this course might not be for you! -
--   Basic R programming skills – You should be comfortable reading and understanding R code (including functions). You don’t need to be an expert, but you should know the basics.
--   A Laptop with R and RStudio installed and running. If you don’t have a laptop (yes, this can happen!), don’t hesitate to contact me ([leonie.steinbrinker\@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de){.email}) — we’ll work something out.
--   Paper and pen – Digital or analog, as long as you can sketch out your ideas and map your thoughts.
--   A sense of humor – Things will break, code will crash, and unexpected results will happen — that’s all part of the process.[^1]
 
-[^1]: *A good tip from someone who’s spent hours raging over broken code:* The problem is 99.99999% of the time sitting **in front of the screen**. You probably made a silly mistake and just aren’t spotting it right now. Keep calm, drink some tea and relax. In this respect, ChatGPT changed my life — just ask it where the error is, and it will usually confront you with your obvious mistake.
+# 🔧 Requirements
 
-# 🎓 Formal Requirements
+You don't really need any skills before we start, except for maybe some basic skills in R and definitely some curiosity and critical thinking. What we will need is a **laptop with R and RStudio installed and running**. If you don’t have a laptop, don’t hesitate to contact me -- we will work something out!
+
+
+
+# 📆 Syllabus
+
+| Week | Date   | Subject        | Content                                   | Readings                                                                 |
+|----------|--------|------------------|-------------------------------------------|-------------------------------------------------------------------------|
+| **1**    | 08.04.26  | **Kick-off**     | - Introduction<br>- R Refresher           | Watts, D. J., & Lazer, D. (2025). Computational social science: Past, present, and future. In T. Yasseri (Hrsg.), *Handbook of Computational Social Science* (pp. 9–29). Edward Elgar Publishing. |
+| **2** | 15.04.26 | **Networks I** | - Graph theory<br>- Network representations<br>- Visualization | – |
+| **3** | 22.04.26 | **Networks II** | - Theoretical Insights | Granovetter, M. S. (1973). The Strength of Weak Ties. American Journal of Sociology, 78, 1360–1380. |
+| **4**    | 29.04.26  | **Networks III** | - Community detection<br>- Network inference | – |
+| **5**    | 05.05.26  | **Spatial analysis I** | - Spatial thinking<br>- Visualizing space | Logan, J. R. (2012). *Making a Place for Space: Spatial Thinking in Social Science*. Annual Review of Sociology, 38, 507–524. |
+| **6**    | 12.05.26  | **Spatial analysis II** | - Measuring distance<br>- Spatial inference | – |
+| **7**    | 19.05.26  | **Text analysis I** | - Foundations of text analysis<br>- Text manipulation in R<br>- Visualization | Bonikowski, B., & Nelson, L. K. (2022). From Ends to Means: The Promise of Computational Text Analysis for Theoretically Driven Sociological Research. *Sociological Methods & Research*, 51(4), 1469–1483. |
+| **8**    | 26.05.26  | **Text analysis II** | - Term importance<br>- Sentiment analysis<br>- Topic modelling<br>- Embeddings | – |
+| **9**    | 02.06.26  | **Agent-based modeling** | - Simulating social phenomena | Bonikowski, B., & Nelson, L. K. (2022). From Ends to Means: The Promise of Computational Text Analysis for Theoretically Driven Sociological Research. *Sociological Methods & Research*, 51(4), 1469–1483. |
+| **10**   | 09.06.26  | **Open science and CSS** | – | Elmer, T. (2023). Computational social science is growing up: Why puberty consists of embracing measurement validation, theory development, and open science practices. *EPJ Data Science*, 12(1), Article 1. |
+
+
+# 🎓 Formal requirements
 
 In order to successfully complete the course the following requirements are to be met:
 
 -   **Pre-examination requirement (*Prüfungsvorleistung*)**: At least 50% of the points in the 6 problem sets (*Übungsblätter*)
--   **Course assessment (*Prüfungsleistung*)**: The final grade is determined by the assessment of the term paper. (*Hausarbeit*).
+-   **Course assessment (*Prüfungsleistung*)**:
 
-You can find more details under [**Course Assessment**](https://leostnbrk.github.io/course-assessment/exam.html).
+:::{.custom-block}
+I am currently in contact with the *Prüfungsamt*, as I will not be able to evaluate the essays (formally needed to successfully finish this seminar) any time soon. I'll keep you posted on this!
+:::
 
+# ☎️ Contact information
 
+**Leonie Steinbrinker**  
+✉️ [leonie.steinbrinker@uni-leipzig.de](mailto:leonie.steinbrinker@uni-leipzig.de)  
+🏢 GWZ, H2 1.15 <br/>
+🕒 Office hours: spontaneous, after appointment
 
+---
 
-
-
+<small>Parts of the content for this course were created with the assistance of GitHub Copilot, ChatGPT, and ChatAI. Please note that while these tools have contributed to the development of the course materials, the final content and structure have been carefully curated and tailored by myself.</small>

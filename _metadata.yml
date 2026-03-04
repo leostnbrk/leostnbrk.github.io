@@ -1,13 +1,11 @@
 project:
   type: website
 
-date: today
-date-format: short
 title-block-banner: true
 
 format:
   html:
-    theme: cerulian
+  
     toc: true
     toc-title: Contents
     toc-location: left
