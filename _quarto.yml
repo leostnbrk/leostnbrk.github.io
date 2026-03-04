@@ -8,10 +8,6 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Course Assessment"
-        menu:
-          - text: "General Information"
-            href: course-assessment/exam.qmd
           #- text: "Exercise Sheet 01"
           #  href: experimental-sociology/exercise-sheet-01.qmd
           #- text: "Exercise Sheet 02"
@@ -61,6 +57,10 @@ website:
             href: computational-social-sciences/week09.qmd
           - text: "Week 10 - Open Science"
             href: computational-social-sciences/week10.qmd
+      - text: "Course Assessment"
+        menu:
+          - text: "General Information"
+            href: course-assessment/exam.qmd
       - text: "Further Resources"
         menu:
           - text: "Scientific Computing"
