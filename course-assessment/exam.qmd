@@ -11,17 +11,18 @@ Your submissions must be a **rendered PDF or HTML document**.
 ## Formatting and Technical Requirements
 
 To ensure clarity, readability and reproducibility:
+
 - Your document must be **fully rendered** (no raw .qmd or .Rmd files)
 - Include all **code, output and graphics** directly in the document.
 - Each exercise should:
   - Begin with a clear heading (e.g. `# Exercise 1`)
   - Contain well structured solution steps, including code and explanations.
-  - 
+
 
 
 :::{.custom-block}
 
-Promise, I will update this, as soon as I know more!
+**Promise, I will update this, as soon as I know more!**
 
 | Week | Course | Topics |
 |------|--------|--------|

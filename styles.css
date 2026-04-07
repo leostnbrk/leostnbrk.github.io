@@ -16,7 +16,7 @@
 /* Title Block Banner */
 
 .title-block, .title-block-banner {
-  background-color: #ecc3c8 !important;  /* pink banner */
+  background-color: #B8D7E9 !important;  /* pink banner */
   color: white !important;                /* white text */
 }
 
@@ -113,11 +113,12 @@ code {
 
 /* ==========================
    Title Block Banner
-========================== */
+========================== 
 .title-block-banner {
   background-color: #ecc3c8 !important;
   color: white !important;
 }
+  */
 
 /* Root variables für Banner-Farbe */
 :root {

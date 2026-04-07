@@ -1,6 +1,9 @@
 ---
 title: "Computational Social Sciences"
 subtitle: "Summer term 2026"
+
+theme: cosmo
+title-block-banner: "#ecc3c8"
 ---
 
 # **Welcome to the computational social science (CSS) seminar!** {.unlisted}
