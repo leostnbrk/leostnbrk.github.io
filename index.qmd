@@ -21,6 +21,7 @@ This hands-on course explores how different data sources and computational metho
 
 :::
 
+
 # 🔎 Focus
 
 In these next weeks, we will have a closer look on these 4 key areas of CSS:
@@ -60,16 +61,20 @@ You don't really need any skills before we start, except for maybe some basic sk
 | Week | Date   | Subject        | Content                                   | Readings                                                                 |
 |----------|--------|------------------|-------------------------------------------|-------------------------------------------------------------------------|
 | **1**    | 08.04.26  | **Kick-off**     | - Introduction<br>- R Refresher           | Watts, D. J., & Lazer, D. (2025). Computational social science: Past, present, and future. In T. Yasseri (Hrsg.), *Handbook of Computational Social Science* (pp. 9–29). Edward Elgar Publishing. |
-| **2** | 15.04.26 | **Networks I** | - Graph theory<br>- Network representations<br>- Visualization | – |
-| **3** | 22.04.26 | **Networks II** | - Theoretical Insights | Granovetter, M. S. (1973). The Strength of Weak Ties. American Journal of Sociology, 78, 1360–1380. |
+| **2** | 15.04.26 | **Networks I** | - Graph theory<br>- Network representations | – |
+| **3** | 22.04.26 | **Networks II** | - Theoretical Insights<br>- Visualization | Granovetter, M. S. (1973). The Strength of Weak Ties. American Journal of Sociology, 78, 1360–1380. |
 | **4**    | 29.04.26  | **Networks III** | - Community detection<br>- Network inference | – |
 | **5**    | 05.05.26  | **Spatial analysis I** | - Spatial thinking<br>- Visualizing space | Logan, J. R. (2012). *Making a Place for Space: Spatial Thinking in Social Science*. Annual Review of Sociology, 38, 507–524. |
 | **6**    | 12.05.26  | **Spatial analysis II** | - Measuring distance<br>- Spatial inference | – |
 | **7**    | 19.05.26  | **Text analysis I** | - Foundations of text analysis<br>- Text manipulation in R<br>- Visualization | Bonikowski, B., & Nelson, L. K. (2022). From Ends to Means: The Promise of Computational Text Analysis for Theoretically Driven Sociological Research. *Sociological Methods & Research*, 51(4), 1469–1483. |
 | **8**    | 26.05.26  | **Text analysis II** | - Term importance<br>- Sentiment analysis<br>- Topic modelling<br>- Embeddings | – |
-| **9**    | 02.06.26  | **Agent-based modeling** | - Simulating social phenomena | Bonikowski, B., & Nelson, L. K. (2022). From Ends to Means: The Promise of Computational Text Analysis for Theoretically Driven Sociological Research. *Sociological Methods & Research*, 51(4), 1469–1483. |
+| **9**    | 02.06.26  | **Agent-based modeling** | - Simulating social phenomena | Lorenz, J. (2025). Exploring theory with agent-based modeling and simulation. In T. Yasseri (Hrsg.), Handbook of Computational Social Science (S. 236–257). Edward Elgar Publishing Limited. |
 | **10**   | 09.06.26  | **Open science and CSS** | – | Elmer, T. (2023). Computational social science is growing up: Why puberty consists of embracing measurement validation, theory development, and open science practices. *EPJ Data Science*, 12(1), Article 1. |
 
+
+# 📚 Readings
+
+As I said in the first introduction course the link to the *Speicherwolke* with the literature is here: [https://speicherwolke.uni-leipzig.de/index.php/s/sRf5GJGeXZGEi3B](https://speicherwolke.uni-leipzig.de/index.php/s/sRf5GJGeXZGEi3B). The Access is restricted through a password, that I will send to you by mail. If you have any problems, please let me know!
 
 # 🎓 Formal requirements
 
