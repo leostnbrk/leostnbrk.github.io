@@ -4218,7 +4218,6 @@ window.Quarto = {
   <li><a href="#missing-data-and-imputation" id="toc-missing-data-and-imputation" class="nav-link" data-scroll-target="#missing-data-and-imputation">Missing data and imputation</a></li>
   </ul></li>
   <li><a href="#imputation-strategies" id="toc-imputation-strategies" class="nav-link" data-scroll-target="#imputation-strategies">Imputation Strategies</a></li>
-  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link" data-scroll-target="#exercise-1">Exercise</a></li>
   </ul>
 </nav>
 </nav>
@@ -4491,8 +4490,8 @@ A_{ij} =
 <thead>
 <tr class="header">
 <th></th>
-<th>undirected</th>
 <th>directed</th>
+<th>undirected</th>
 </tr>
 </thead>
 <tbody>
@@ -4546,8 +4545,8 @@ A_{ij} =
 <thead>
 <tr class="header">
 <th></th>
-<th>undirected</th>
 <th>directed</th>
+<th>undirected</th>
 </tr>
 </thead>
 <tbody>
@@ -4558,8 +4557,8 @@ A_{ij} =
 </tr>
 <tr class="even">
 <td>E</td>
-<td>{1,4}, {1,7}, {2,3}, {2,7}, {3,6}, {5,7}, {4,1}, {6,1}, {3,2}, {5,2}, {4,3}, {6,3}, {5,4}, {6,5}</td>
-<td>(1,4), (1,6), (1,7), (2,3), (2,5), (2,7), (3,2), (3,4), (3,6), (4,1), (4,3), (4,5), (5,2), (5,4), (5,6), (5,7), (6,1), (6,3), (6,5), (6,7), (7,1), (7,2), (7,5), (7,6)</td>
+<td>(1,4), (1,7), (2,3), (2,7), (3,2), (3,6), (4,1), (4,3), (5,2), (5,4), (5,7), (6,1), (6,3), (6,5)</td>
+<td>{1,4}, {1,6}, {1,7}, {2,3}, {2,5}, {2,7}, {3,4}, {3,6}, {4,5}, {5,6}, {5,7}, {6,7}</td>
 </tr>
 </tbody>
 </table>
@@ -5064,27 +5063,45 @@ A_{ij} =
 </ul>
 </section>
 <div class="hidden">
-<section id="exercise-1" class="level1 student-exercise">
-<h1>Exercise</h1>
-<p><strong>In small groups</strong></p>
-<ol type="1">
-<li>What is a <em>relationship</em> for real? 1.1 Find three different forms of relationships from your everyday life. Are they directed or undirected? Are they binary or weighted? 1.2 What would happen if you modeled these characteristics differently?</li>
-</ol>
-<p>2.Define a network, in which not persons, but events are the nodes. What would be the edges in this network? How does this change interpretation?</p>
-<p><strong>1.2</strong> Think of two research questions that are interesting to you and that could be answered using social network analysis. <strong>(2 points)</strong></p>
-<ol start="3" type="1">
-<li><p>You study a network of friendship relations in a master course. 3.1. Think about: How do you define the boundary of the network? Who is part of it, who isn’t? 3.2 How do your decisions change your network?</p></li>
-<li><p>Think of a network of groupwork in this masterclass. Create three different representations</p></li>
-</ol>
+<section id="section" class="level1">
+<h1>—</h1>
+</section>
+<section id="in-class-exercises" class="level1 student-exercise">
+<h1>In-class exercises</h1>
+<section id="part-a-understanding-network-analysis-conceptually" class="level2">
+<h2 class="anchored" data-anchor-id="part-a-understanding-network-analysis-conceptually">Part A: Understanding network analysis conceptually</h2>
+<p><strong>1. What is a relationship?</strong></p>
+<p><strong>a)</strong> What counts as a <em>relationship</em> in network analysis?</p>
+<p><strong>b)</strong> Give three examples of relationships from your everyday life. For each:</p>
+<ul>
+<li>Is it directed or undirected?</li>
+<li>Is it binary or weighted?</li>
+</ul>
+<p><strong>c)</strong> What would you need to change to model these relationships differently? What effect could this have on your conclusions?</p>
+<p><strong>2. Networks beyond individuals</strong></p>
+<p>Define a network where <em>events</em> (not persons) are the nodes.</p>
+<p><strong>a)</strong> Give a concrete example</p>
+<p><strong>b)</strong> What would be the edges in this network?</p>
+<p><strong>c)</strong> How does this change the interpretation compared to person-based networks?</p>
+<p><strong>3. Research questions</strong></p>
+<p>Formulate <em>two research questions</em> that benefit from a social network analysis perspective.</p>
+<p><strong>4. Network boundaries</strong></p>
+<p>You study a friendship network in a master’s course.</p>
+<p><strong>a)</strong> How do you set the boundary of the network? Who is included, who isn’t? Why?</p>
+<p><strong>b)</strong> How do your decisions affect the structure of the network?</p>
+<p>Now think about group work in this class. Discuss these three network representations:</p>
 <ul>
 <li>Who works together with whom?</li>
 <li>Who interacts with whom?</li>
 <li>Who is friends with whom?</li>
 </ul>
-<p>Discuss: Are these three networks or one? How would you combine them? Does it make more sense to have directed or undirected edges? What information is lost?</p>
-<ol type="1">
-<li>Create a Network with the following Adjacency Matrix:</li>
-</ol>
+<p><strong>c)</strong> Are these three different networks or one network with different types of edges?</p>
+<p><strong>d)</strong> How would you combine them? Does it make more sense to have directed or undirected edges? What information is lost in each case?</p>
+</section>
+<section id="part-b-network-representation-and-analysis-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="part-b-network-representation-and-analysis-in-r">Part B: Network representation and analysis in R</h2>
+<p><strong>Try alone or in groups of two</strong></p>
+<p><strong>1.</strong> Given this adjacency matrix:</p>
 <p><span class="math display">\[
 M =
 \begin{pmatrix}
@@ -5095,7 +5112,8 @@ M =
 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\
 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0
 \end{pmatrix}
-\]</span></p>
+\]</span> <strong>a)</strong> Create an igrap network object:</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5106,14 +5124,22 @@ M =
 <span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>,</span>
 <span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>,</span>
 <span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span></span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>), <span class="at">nrow =</span> <span class="dv">6</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">graph_from_adjacency_matrix</span>(M, <span class="at">mode =</span> <span class="st">&quot;directed&quot;</span>)</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  ),</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">nrow =</span> <span class="dv">6</span>,</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">byrow =</span> <span class="cn">TRUE</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">graph_from_adjacency_matrix</span>(M,</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">mode =</span> <span class="st">&quot;directed&quot;</span></span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>                                 )</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.1. How many edges and how many vertices has the network?</p>
+</div>
+<p><strong>b)</strong> How many edges and how many vertices does the network have?</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5121,7 +5147,9 @@ M =
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ecount</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.2. Calculate the distances of node 3 to all other nodes. Interpret these values.</p>
+</div>
+<p><strong>c)</strong> Calculate the distances of node 3 to all other nodes. Interpret these values</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5134,7 +5162,9 @@ M =
 <span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co">#[1] 2 3 0 1 Inf 1 - the distance from node 3 to node 1 is 2, to node 2 its 3, there is a path of 0 to itself and no way to reach the vertex 5 (through out paths).</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.3. Find a command that gets you an edge list of the network.</p>
+</div>
+<p><strong>d)</strong> Find a command that gets you an edge list of the network.</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5142,7 +5172,9 @@ M =
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>eg</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.4. Use the adjacency matrix to calculate the sum of outgoing and ingoing edges of node 6.</p>
+</div>
+<p><strong>e)</strong> Use the indexication of the adjacency matrix to calculate the sum of outgoing and ingoing edges of node 6.</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5150,14 +5182,18 @@ M =
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(M[<span class="dv">6</span>,]<span class="sc">==</span><span class="dv">1</span>) <span class="co"># outgoing edges</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.5 Is there a tie between vertex 2 and vertex 3?</p>
+</div>
+<p><strong>f)</strong> Is there a tie between vertex 2 and vertex 3?</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">are_adjacent</span>(g, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.6 Use the adjacency matrix to add an edge from vertex 5 to vertex 3.</p>
+</div>
+<p><strong>g)</strong> By changing the adjacency matrix, add an edge from vertex 5 to vertex 3.</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5174,7 +5210,8 @@ M =
 <span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>1.7 Using the following dataframe, construct an adjacency matrix:</p>
+</div>
+<p><strong>2.</strong> Given the following dataset:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">id =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>), </span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">friend1 =</span> <span class="fu">c</span>(<span class="dv">9</span>, <span class="dv">8</span>, <span class="dv">10</span>,  <span class="dv">3</span>,  <span class="dv">1</span>,  <span class="dv">4</span>,  <span class="dv">2</span>,  <span class="dv">6</span>,  <span class="dv">7</span>,  <span class="dv">5</span>), <span class="co"># first friend nomination</span></span>
@@ -5183,7 +5220,8 @@ M =
 <span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>                 <span class="at">age =</span> <span class="fu">c</span>(<span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">14</span>, <span class="dv">14</span>, <span class="dv">14</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">14</span>), <span class="co"># age in years</span></span>
 <span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>                 <span class="at">gender =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>)) <span class="co"># gender: 0= male, 1= female, 2= divers</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>1.8 Create a network object from <em>1.7</em> and add the vertex attributes gender and age. When is the dataframe more useful, when the network object?</p>
+<p><strong>a)</strong> Create a network object*</p>
+<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5205,26 +5243,35 @@ M =
 <span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Create graph from edge list and vertex attributes</span></span>
 <span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>g <span class="ot">&lt;-</span> <span class="fu">graph_from_data_frame</span>(<span class="at">d =</span> edges, <span class="at">directed =</span> <span class="cn">TRUE</span>, <span class="at">vertices =</span> df)</span>
 <span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span>
-<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Set vertex attributes</span></span>
-<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>name <span class="ot">&lt;-</span> df<span class="sc">$</span>id</span>
-<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>age <span class="ot">&lt;-</span> df<span class="sc">$</span>age</span>
-<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="ot">&lt;-</span> df<span class="sc">$</span>gender</span>
-<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>scaled_age <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(<span class="fu">V</span>(g)<span class="sc">$</span>age, <span class="at">to =</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">20</span>))</span>
-<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb27-29"><a href="#cb27-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional: plot the graph with attributes</span></span>
-<span id="cb27-30"><a href="#cb27-30" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g,</span>
-<span id="cb27-31"><a href="#cb27-31" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.label =</span> <span class="fu">V</span>(g)<span class="sc">$</span>name, <span class="co"># use &quot;name&quot; for labels</span></span>
-<span id="cb27-32"><a href="#cb27-32" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.size =</span> scaled_age,</span>
-<span id="cb27-33"><a href="#cb27-33" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.color =</span> <span class="fu">ifelse</span>(<span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="sc">==</span> <span class="dv">0</span>, <span class="st">&quot;lightblue&quot;</span>,</span>
-<span id="cb27-34"><a href="#cb27-34" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">ifelse</span>(<span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="sc">==</span> <span class="dv">1</span>, <span class="st">&quot;pink&quot;</span>, <span class="st">&quot;purple&quot;</span>)),</span>
-<span id="cb27-35"><a href="#cb27-35" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.arrow.size =</span> <span class="fl">0.5</span>,</span>
-<span id="cb27-36"><a href="#cb27-36" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">&quot;Friendship Network with Age and Gender&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
+</div>
+<p><strong>b)</strong> Add the vertex attributes gender and age.</p>
+<div class="hidden">
+<div class="cell">
+<details open class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set vertex attributes</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>name <span class="ot">&lt;-</span> df<span class="sc">$</span>id</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>age <span class="ot">&lt;-</span> df<span class="sc">$</span>age</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="ot">&lt;-</span> df<span class="sc">$</span>gender</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>scaled_age <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(<span class="fu">V</span>(g)<span class="sc">$</span>age, <span class="at">to =</span> <span class="fu">c</span>(<span class="dv">5</span>, <span class="dv">20</span>))</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional: plot the graph with attributes</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g,</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.label =</span> <span class="fu">V</span>(g)<span class="sc">$</span>name, <span class="co"># use &quot;name&quot; for labels</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.size =</span> scaled_age,</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.color =</span> <span class="fu">ifelse</span>(<span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="sc">==</span> <span class="dv">0</span>, <span class="st">&quot;lightblue&quot;</span>,</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>                    <span class="fu">ifelse</span>(<span class="fu">V</span>(g)<span class="sc">$</span>gender <span class="sc">==</span> <span class="dv">1</span>, <span class="st">&quot;pink&quot;</span>, <span class="st">&quot;purple&quot;</span>)),</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.arrow.size =</span> <span class="fl">0.5</span>,</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">&quot;Friendship Network with Age and Gender&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</div>
+<p><strong>d)</strong> Think about data storage and representation. When is the dataframe more useful, when is the graph object more useful? When would you use an adjacency matrix instead?</p>
+</section>
 </section>
 </div>
 
