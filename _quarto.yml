@@ -61,6 +61,8 @@ website:
         menu:
           - text: "General Information"
             href: course-assessment/exam.qmd
+          - text: "Exercise Sheet 01"
+            href: course-assessment/exercise-sheet-01.qmd
       - text: "Further Resources"
         menu:
           - text: "Scientific Computing"
