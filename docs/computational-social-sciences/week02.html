@@ -4129,6 +4129,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../course-assessment/exam.html">
  <span class="dropdown-text">General Information</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../course-assessment/exercise-sheet-01.html">
+ <span class="dropdown-text">Exercise Sheet 01</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -4714,7 +4718,7 @@ A_{ij} =
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(g)<span class="sc">$</span>weight <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.2</span>, <span class="fl">2.3</span>, <span class="fl">1.8</span>, <span class="fl">3.0</span>, <span class="fl">2.1</span>, <span class="fl">1.5</span>, <span class="fl">6.3</span>, <span class="fl">8.3</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(g)<span class="sc">$</span>weight <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.2</span>, <span class="fl">2.3</span>, <span class="fl">1.8</span>, <span class="fl">3.0</span>, <span class="fl">2.1</span>, <span class="fl">1.5</span>)</span>
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g, <span class="at">edge.width =</span> <span class="fu">E</span>(g)<span class="sc">$</span>weight)  <span class="co"># Visualizing edge weights</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -5118,7 +5122,6 @@ M =
 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0
 \end{pmatrix}
 \]</span> <strong>a)</strong> Create an igrap network object:</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5142,9 +5145,7 @@ M =
 <span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>b)</strong> How many edges and how many vertices does the network have?</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5152,9 +5153,7 @@ M =
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ecount</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>c)</strong> Calculate the distances of node 3 to all other nodes. Interpret these values</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5167,9 +5166,7 @@ M =
 <span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co">#[1] 2 3 0 1 Inf 1 - the distance from node 3 to node 1 is 2, to node 2 its 3, there is a path of 0 to itself and no way to reach the vertex 5 (through out paths).</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>d)</strong> Find a command that gets you an edge list of the network.</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5177,9 +5174,7 @@ M =
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>eg</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>e)</strong> Use the indexication of the adjacency matrix to calculate the sum of outgoing and ingoing edges of node 6.</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5187,18 +5182,14 @@ M =
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(M[<span class="dv">6</span>,]<span class="sc">==</span><span class="dv">1</span>) <span class="co"># outgoing edges</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>f)</strong> Is there a tie between vertex 2 and vertex 3?</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">are_adjacent</span>(g, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>g)</strong> By changing the adjacency matrix, add an edge from vertex 5 to vertex 3.</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5215,7 +5206,6 @@ M =
 <span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>2.</strong> Given the following dataset:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">id =</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>), </span>
@@ -5226,7 +5216,6 @@ M =
 <span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>                 <span class="at">gender =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>)) <span class="co"># gender: 0= male, 1= female, 2= divers</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>a)</strong> Create a network object*</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5251,9 +5240,7 @@ M =
 <span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</div>
 <p><strong>b)</strong> Add the vertex attributes gender and age.</p>
-<div class="hidden">
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -5273,7 +5260,6 @@ M =
 <span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.arrow.size =</span> <span class="fl">0.5</span>,</span>
 <span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">&quot;Friendship Network with Age and Gender&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-</div>
 </div>
 <p><strong>d)</strong> Think about data storage and representation. When is the dataframe more useful, when is the graph object more useful? When would you use an adjacency matrix instead?</p>
 </section>

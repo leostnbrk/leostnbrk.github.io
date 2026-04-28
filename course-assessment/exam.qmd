@@ -4,13 +4,15 @@ title: "Course Assessment"
 
 # Pre-examination requirement (Prüfungsvorleistung):
 
-Every two weeks, in one of the courses, we will assign you a problem set (*Übungsblatt*). You will typically have at least one week to complete and submit your solutions. Please send me your submissions rendered as pdf or html on RocketChat.
-
-Your submissions must be a **rendered PDF or HTML document**.
+Every two weeks, in one of the courses, we will assign you a problem set (*Übungsblatt*). You will typically have at least one week to complete and submit your solutions. Please send me your submissions rendered as pdf or html **via Mail**.
 
 ## Formatting and Technical Requirements
 
-To ensure clarity, readability and reproducibility:
+Your submissions must be a fully **rendered PDF or HTML document**.
+
+
+
+To ensure clarity, readability and reproducibility as well as to save me from the trouble of rendering your document myself:
 
 - Your document must be **fully rendered** (no raw .qmd or .Rmd files)
 - Include all **code, output and graphics** directly in the document.
@@ -20,18 +22,18 @@ To ensure clarity, readability and reproducibility:
 
 
 
-:::{.custom-block}
 
-**Promise, I will update this, as soon as I know more!**
 
-| Week | Course | Topics |
-|------|--------|--------|
-|      |        |        |
-|      |        |        |
-|      |        |        |
-|      |        |        |
-|      |        |        |
-|      |        |        |
+# Dates
+
+
+
+| Problem Set | Date |
+|------|--------|
+| 1    |  22.04. |
+|2     |  06.05  |
+|3     |  20.05  |
+
 
 
 
@@ -84,8 +86,8 @@ In general: **talk to us** — we will help you determine whether your project i
 |                    | -   Generate a new spatial dataset.                              |
 +--------------------+------------------------------------------------------------------+
 
-:::
-
 # Use of AI for the problem sets and the term paper
 
 If you chose to use AI-Applications for assignments that you hand in in this course, please document what and for what tasks you applied help. You can either do this by writing a statement of your own or you could also use AI-documentation tools like the [**AI-Usage-Cards**](https://ai-cards.org/) by the University of Göttingen.
+
+If you chose to use AI-Applications for assignments that you hand in in this course, please just mark the corresponding number somehow. For these answers I will only check, if the result is correct ans spare my time from correcting a language model. 
