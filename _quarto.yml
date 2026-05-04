@@ -43,8 +43,6 @@ website:
             href: computational-social-sciences/week02.qmd
           - text: "Week 03 - Networks II"
             href: computational-social-sciences/week03.qmd
-          - text: "Week 04 - Data & Ethics (ESS)"
-            href: computational-social-sciences/week04_ess_data_ethics.qmd
           - text: "Week 04 - Networks III"
             href: computational-social-sciences/week04.qmd
           - text: "Week 05 - Spatial Analysis I"
