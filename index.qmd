@@ -6,6 +6,7 @@ theme: cosmo
 title-block-banner: "#ecc3c8"
 ---
 
+
 # **Welcome to the computational social science (CSS) seminar!** {.unlisted}
 
 This hands-on course explores how different data sources and computational methods can enhance our understanding of society. Using R, we will learn techniques for visualizing, analyzing and exploring large-scale data to gain deeper insights into social phenomena.
