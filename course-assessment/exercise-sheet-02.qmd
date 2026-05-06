@@ -10,7 +10,9 @@ format: html
 
 **Data:**
 
-The data we use for this exercise set stems from the Teenage Friends and Lifestyle Study (Bush, West & Michell 1997, Michell and West 1996, Pearson and Michell 2000, Pearson and West 2003). [For more information and online download see here](https://www.stats.ox.ac.uk/~snijders/siena/Glasgow_data.htm).
+The data we use for this exercise set stems from the Teenage Friends and Lifestyle Study (Bush, West & Michell 1997, Michell and West 1996, Pearson and Michell 2000, Pearson and West 2003). [For more information see here](https://www.stats.ox.ac.uk/~snijders/siena/Glasgow_data.htm).
+
+**Please download the Data from the Speicherwolke!**
 
 It aims to identify processes by which attitudes towards smoking and smoking behavior itself change over early to mid adolescence, focusing particularly on the stage of experimentation, and the transition from experimental to regular smoking. It followed a single cohort of students from their 2nd to 4th year, with a focus on smoking attitudes and behavior.
 
@@ -19,11 +21,15 @@ Friendship data were collected at *three time points*, each represented by a 160
 ```{r}
 library(igraph)
 
+
+
 #exchange with your path
 load("Data/Glasgow_data/glasgow_data/Glasgow_data.RData")
 
 # load the data
 load(file = "Data/Glasgow_data/Glasgow-friendship.RData")
+
+
 
 # recode the structural zero's to NA
 friendship.1[friendship.1 == 10] <- NA
@@ -82,6 +88,8 @@ save(dat_clean,
      friends,
      file = "data/Glasgow_data/glasgow_data.RData")
 
+
+
 graph1 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_1, 
                                      mode = "undirected",
                                      weighted = TRUE)
@@ -124,10 +132,11 @@ graph1 <- igraph::simplify(graph1)
 graph2 <- igraph::simplify(graph2)
 graph3 <- igraph::simplify(graph3)
 
-is.directed(graph1)
+is_directed(graph1)
 
 rm(list = setdiff(ls(), c("graph1", "graph2", "graph3")))
 
+graph1
 ```
 
 +----------------+-------------------------------------------------------------------------+
@@ -227,7 +236,7 @@ However, he's not quite sure how to verify these observations using appropriate 
 
 
 
-**3.4** Plot networks for $t1$, $t2$ and $t3$. From the visual analysis,does smoking lead to stronger clustering over time? *(2 Points)*
+**3.4** Plot networks for $t1$, $t2$ and $t3$. From the visual analysis,does smoking weed lead to stronger clustering over time? *(2 Points)*
 
 
 ------------------------------------------------------------------------

@@ -4138,6 +4138,10 @@ window.Quarto = {
  <span class="dropdown-text">Exercise Sheet 01 - Solutions</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../course-assessment/exercise-sheet-02.html">
+ <span class="dropdown-text">Exercise Sheet 02</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../course-assessment/assessment.html">
  <span class="dropdown-text">Assessment</span></a>
   </li>  
@@ -4610,7 +4614,9 @@ window.Quarto = {
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(karate)</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(karate)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(karate)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>karate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -4661,18 +4667,18 @@ B(e) = \sum_{j &lt; k} \frac{g_{jk}(e)}{g_{jk}}
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">edge_betweenness</span>(g)</span>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">edge_betweenness</span>(karate)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(g)<span class="sc">$</span>betw <span class="ot">&lt;-</span> <span class="fu">edge_betweenness</span>(g)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(g)<span class="sc">$</span>betw <span class="ot">&lt;-</span> <span class="fu">edge_betweenness</span>(karate)</span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g,</span>
 <span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.color =</span> <span class="st">&quot;lavender&quot;</span>,  </span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.label =</span> <span class="fu">E</span>(g)<span class="sc">$</span>betw ,  </span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.label =</span> <span class="fu">E</span>(karate)<span class="sc">$</span>betw ,  </span>
 <span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>     <span class="at">edge.color =</span> <span class="st">&quot;gray&quot;</span>,  </span>
 <span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">&quot;Network with Edge Betweenness&quot;</span>,</span>
 <span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.size =</span> <span class="dv">10</span>,  <span class="co"># Set a reasonable node size</span></span>
 <span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>     <span class="at">vertex.label =</span> <span class="cn">NA</span>,  <span class="co"># Hide node labels (optional),</span></span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>     <span class="at">layout =</span> <span class="fu">layout_nicely</span>(g)</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>     <span class="at">layout =</span> <span class="fu">layout_nicely</span>(karate)</span>
 <span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
@@ -4695,7 +4701,7 @@ B(e) = \sum_{j &lt; k} \frac{g_{jk}(e)}{g_{jk}}
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>eb <span class="ot">&lt;-</span> <span class="fu">cluster_edge_betweenness</span>(g)</span>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>eb <span class="ot">&lt;-</span> <span class="fu">cluster_edge_betweenness</span>(karate)</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Number of communities found</span></span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(eb)</span>
@@ -4705,7 +4711,7 @@ B(e) = \sum_{j &lt; k} \frac{g_{jk}(e)}{g_{jk}}
 <span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="fu">membership</span>(eb)</span>
 <span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize communities</span></span>
-<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(g, <span class="at">mark.groups =</span> <span class="fu">communities</span>(eb), <span class="at">main =</span> <span class="st">&quot;Girvan–Newman Communities&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(karate, <span class="at">mark.groups =</span> <span class="fu">communities</span>(eb), <span class="at">main =</span> <span class="st">&quot;Girvan–Newman Communities&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
@@ -4732,12 +4738,12 @@ B(e) = \sum_{j &lt; k} \frac{g_{jk}(e)}{g_{jk}}
 <div class="cell">
 <details open class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>fgc <span class="ot">&lt;-</span><span class="fu">cluster_fast_greedy</span>(g)</span>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>fgc <span class="ot">&lt;-</span><span class="fu">cluster_fast_greedy</span>(karate)</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">modularity</span>(fgc)</span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="fu">membership</span>(fgc)</span>
 <span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(fgc, g, <span class="at">main =</span> <span class="st">&quot;Fast Greedy Communities&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(fgc, karate, <span class="at">main =</span> <span class="st">&quot;Fast Greedy Communities&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="quarto-figure quarto-figure-center">

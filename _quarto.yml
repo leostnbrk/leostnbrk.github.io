@@ -65,6 +65,8 @@ website:
             href: course-assessment/exercise-sheet-01.qmd
           - text: "Exercise Sheet 01 - Solutions"
             href: course-assessment/exercise-sheet-01-solutions.qmd
+          - text: "Exercise Sheet 02"
+            href: course-assessment/exercise-sheet-02.qmd
           - text: "Assessment"
             href: course-assessment/assessment.qmd
       - text: "Further Resources"
