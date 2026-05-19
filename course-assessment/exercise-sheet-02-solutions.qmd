@@ -1,0 +1,513 @@
+---
+title: "Problem Set 2 (CSS)"
+subtitle: "Due by 13.05.2026"
+execute:
+  echo: true
+  eval: false
+editor: source
+format: html
+---
+
+**Data:**
+
+The data we use for this exercise set stems from the Teenage Friends and Lifestyle Study (Bush, West & Michell 1997, Michell and West 1996, Pearson and Michell 2000, Pearson and West 2003). [For more information see here](https://www.stats.ox.ac.uk/~snijders/siena/Glasgow_data.htm).
+
+**Please download the Data from the Speicherwolke!**
+
+It aims to identify processes by which attitudes towards smoking and smoking behavior itself change over early to mid adolescence, focusing particularly on the stage of experimentation, and the transition from experimental to regular smoking. It followed a single cohort of students from their 2nd to 4th year, with a focus on smoking attitudes and behavior.
+
+Friendship data were collected at *three time points*, each represented by a 160×160 matrix. Rows indicate the ego (respondent), columns the alter (peer), and values denote the relationship: 1 = best friends, 2 = friends, 0 = no tie, and 10 = structural zeros (e.g., if a student had not yet joined the school). We retain only reported friendships (values 1 and 2) and exclude structural zeros.
+
+```{r}
+library(igraph)
+
+#exchange with your path
+load("Data/Glasgow_data/glasgow_data/Glasgow_data.RData")
+
+# load the data
+load(file = "Data/Glasgow_data/Glasgow-friendship.RData")
+
+# recode the structural zero's to NA
+friendship.1[friendship.1 == 10] <- NA
+friendship.2[friendship.2 == 10] <- NA
+friendship.3[friendship.3 == 10] <- NA
+
+# Recode regular friends (2) to 0.5 to reflect weaker tie strength
+friendship.1[friendship.1 == 2] <- 0.5
+friendship.2[friendship.2 == 2] <- 0.5
+friendship.3[friendship.3 == 2] <- 0.5
+
+
+friendmat_1 <- friendship.1
+friendmat_2 <- friendship.2
+friendmat_3 <- friendship.3
+
+
+friends <- list("wave_1" = friendmat_1,
+                "wave_2" = friendmat_2,
+                "wave_3" = friendmat_3
+                )
+
+#complete cases only
+dat_clean <- dat[complete.cases(dat[, c("age",
+                                        "male", 
+                                        "money_1",
+                                        
+                                        "weed_1",
+                                        "alc_1",
+                                        "tob_1",
+                                        "money_2",
+                                        
+                                        "weed_2",
+                                        "alc_2",
+                                        "tob_2",
+                                        "money_3",
+                                        
+                                        "weed_3",
+                                        "alc_3",
+                                        "tob_3"
+                                        )
+                                    ]
+                                ),
+                 ]
+
+
+
+friends <- list("wave_1" = friendmat_1[dat_clean$idstud,
+                                       dat_clean$idstud],
+                "wave_2" = friendmat_2[dat_clean$idstud,
+                                       dat_clean$idstud],
+                "wave_3" = friendmat_3[dat_clean$idstud,
+                                       dat_clean$idstud])
+
+save(dat_clean,
+     friends,
+     file = "data/Glasgow_data/glasgow_data.RData")
+
+graph1 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_1, 
+                                     mode = "undirected",
+                                     weighted = TRUE)
+
+graph2 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_2, 
+                                     mode = "undirected",
+                                     weighted = TRUE)
+
+graph3 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_3, 
+                                     mode = "undirected",
+                                     weighted = TRUE)                                     
+
+
+# Add attributes to the graphs at each time point
+
+V(graph1)$age <- dat_clean$age
+V(graph1)$gender <- dat_clean$male
+V(graph1)$money <- dat_clean$money_1
+V(graph1)$smoking <- dat_clean$tob_1
+V(graph1)$weed <- dat_clean$weed_1
+V(graph1)$alc <- dat_clean$alc_1
+
+
+V(graph2)$age <- dat_clean$age
+V(graph2)$gender <- dat_clean$male
+V(graph2)$money <- dat_clean$money_2
+V(graph2)$smoking <- dat_clean$tob_2
+V(graph2)$weed <- dat_clean$weed_2
+V(graph2)$alc <- dat_clean$alc_2
+
+V(graph3)$age <- dat_clean$age
+V(graph3)$gender <- dat_clean$male
+V(graph3)$money <- dat_clean$money_3
+V(graph3)$smoking <- dat_clean$tob_3
+V(graph3)$weed <- dat_clean$weed_3
+V(graph3)$alc <- dat_clean$alc_3
+
+
+graph1 <- igraph::simplify(graph1)
+graph2 <- igraph::simplify(graph2)
+graph3 <- igraph::simplify(graph3)
+
+is_directed(graph1)
+
+rm(list = setdiff(ls(), c("graph1", "graph2", "graph3")))
+
+```
+
++----------------+-------------------------------------------------------------------------+
+| **Variable**   | **Description**                                                         |
++================+=========================================================================+
+| *alc*          | **Alcohol consumption**:\                                               |
+|                | 1 = none\                                                               |
+|                | 2 = seldomly\                                                           |
+|                | 3 = once a month\                                                       |
+|                | 4 = once a week\                                                        |
+|                | 5 = more than once a week                                               |
++----------------+-------------------------------------------------------------------------+
+| *smoking*      | **Smoking (tobacco)**\                                                  |
+|                | 1 = never\                                                              |
+|                | 2 = occasionally\                                                       |
+|                | 3 = regularly                                                           |
++----------------+-------------------------------------------------------------------------+
+| *weed*         | **Smoking (cannabis)**\                                                 |
+|                | 1 = never\                                                              |
+|                | 2 = tried it once\                                                      |
+|                | 3 = occasionally\                                                       |
+|                | 4 = regularly                                                           |
++----------------+-------------------------------------------------------------------------+
+| *money*        | Numeric value of how much pocket money the students had                 |
++----------------+-------------------------------------------------------------------------+
+| *gender*       | **Binary sex**\                                                         |
+|                | 0 = boys\                                                               |
+|                | 1 = girls                                                               |
++----------------+-------------------------------------------------------------------------+
+| *age*          | Age on Jan 1, 1995 (in years with one decimal), recoded from birthdates |
++----------------+-------------------------------------------------------------------------+
+
+Download the data from the website and run the code above in order to load the `igraph` objects to your R-environment.
+
+------------------------------------------------------------------------
+
+**1  Analyze `graph1` in terms of the distribution of social capital:** 
+
+**1.1** Identify all cutpoints and bridges *(1 Point)* 
+
+```{r}
+# Bridges in graph1
+bridges_g1 <- bridges(graph1)
+bridges_g1
+length(bridges_g1) # 7 bridges
+
+# Cutpoints in graph1
+cutpoints_g1 <- articulation_points(graph1)
+cutpoints_g1
+length(cutpoints_g1) # 10 cutpoints
+```
+
+
+**1.2** Write a function to identify local bridges *(3 Points)*
+
+```{r}
+mark_local_bridges <- function(g) {
+  # Initialize edge attributes
+  E(g)$lb <- FALSE
+  E(g)$lbdeg <- NA
+  
+  for (e_idx in seq_along(E(g))) {
+    ends_ <- ends(g, E(g)[e_idx])
+    u <- ends_[1]
+    v <- ends_[2]
+    
+    g_tmp <- delete_edges(g, E(g)[e_idx])
+    
+    d <- distances(
+      g_tmp,
+      v = u,
+      to = v,
+      mode = if (is_directed(g)) "out" else "all"
+    )
+    
+    if (is.infinite(d)) {
+      # A bridge disconnects the two endpoints; this is not counted as a
+      # proper local bridge here, but we store it as bridge degree 1.
+      E(g)$lb[e_idx] <- TRUE
+      E(g)$lbdeg[e_idx] <- 1
+    } else if (d > 2) {
+      E(g)$lb[e_idx] <- TRUE
+      E(g)$lbdeg[e_idx] <- d
+    } else {
+      E(g)$lb[e_idx] <- FALSE
+      E(g)$lbdeg[e_idx] <- NA
+    }
+  }
+  
+  return(g)
+}
+
+graph1 <- mark_local_bridges(graph1)
+
+# Exclude regular bridges if the task is about proper local bridges
+E(graph1)$lb[E(graph1)$lbdeg == 1] <- FALSE
+
+sum(E(graph1)$lb, na.rm = TRUE) # 13 proper local bridges
+E(graph1)[lb]
+```
+
+
+**1.3** Are all local bridges weak ties? *(1 Point)*
+
+```{r}
+edge_data1 <- data.frame(
+  local_bridge = E(graph1)$lb,
+  weight = E(graph1)$weight
+)
+
+table(edge_data1$local_bridge, edge_data1$weight)
+
+```
+
+In `graph1`, the proper local bridges are weak ties. In this network, the result is therefore consistent with Granovetter's argument: ties that connect otherwise more distant parts of the network tend to be weaker.
+
+
+**1.4** Calculate Burt’s constraint measure for each node. Interpret the distribution. *(1 Points)*
+
+```{r}
+constraint_g1 <- na.omit(constraint(graph1, weights = NULL))
+
+summary(constraint_g1)
+hist(
+  constraint_g1,
+  breaks = 30,
+  main = "Distribution of Burt's Constraint in graph1",
+  xlab = "Constraint"
+)
+```
+
+A high constraint value means that an actor's contacts are closely connected to one another, so the actor has little access to non-redundant information. A low constraint value indicates more brokerage potential: the actor is connected to contacts who are not all connected among themselves. In `graph1`, the distribution is skewed, with many actors having relatively low constraint and some actors being much more embedded in closed local neighborhoods.
+
+
+**1.5** Why does Burt propose the constraint measure instead of traditional centrality measures? *(1 Points)*
+
+Burt's constraint measure captures whether an actor's contacts are redundant or non-redundant. Traditional centrality measures such as degree or betweenness mainly describe how central a node is, but they do not directly show whether the actor bridges structural holes and therefore has access to diverse information and brokerage opportunities.
+
+
+------------------------------------------------------------------------
+
+**2 Analyze `graph3` with respect to segregation and cohesion**
+
+**2.1** Calculate segregation based on gender and pocket money. Interpret the results. *(2 Points)*
+
+```{r}
+assortativity_nominal(
+  graph3, 
+  types = as.factor(V(graph3)$gender), 
+  directed = FALSE
+)
+
+assortativity(
+  graph = graph3, 
+  values = V(graph3)$money, 
+  directed = FALSE
+)
+```
+
+
+**2.2** Create subnetworks for boys and girls. Which one is more cohesive? *(1 Point)*
+
+```{r}
+#Male
+induced_subgraph(graph3, V(graph3)[gender == 0]) |>
+  transitivity(type = "global")
+
+
+#Female
+induced_subgraph(graph3, V(graph3)[gender == 1]) |>
+  transitivity(type = "global")
+```
+
+Females are more clustered.
+
+**2.3** Which group is more cohesive: smokers or non-smokers? What can we make of this? *(1 Point)*
+
+```{r}
+# Non-smokers: smoking == 1, smokers: smoking > 1
+non_smokers_g3 <- induced_subgraph(graph3, V(graph3)[smoking == 1])
+smokers_g3 <- induced_subgraph(graph3, V(graph3)[smoking > 1])
+
+transitivity(non_smokers_g3, type = "global")
+transitivity(smokers_g3, type = "global")
+```
+
+The non-smokers group with the higher global transitivity is more cohesive. 
+
+
+**2.4** Create a random network of the same size. Compare density, dyad census, and clustering. Reflect: Is this comparison helpful? *(2 Points)*
+
+
+
+
+```{r}
+set.seed(1)
+
+rand <- erdos.renyi.game(vcount(graph3),
+                         ecount(graph3),
+                         type = "gnm",
+                         directed = FALSE
+                         )
+
+
+metrics <- data.frame(
+  Measure = c("Transitivity", "Edge Density", "Dyad Mutual",  "Dyad Null"),
+  Original = c(
+    transitivity(graph3, type = "global"),
+    edge_density(graph3),
+    dyad_census(graph3)$mut,
+    #dyad_census(graph3)$asym,
+    dyad_census(graph3)$null
+  ),
+  Random = c(
+    transitivity(rand, type = "global"),
+    edge_density(rand),
+    dyad_census(rand)$mut,
+    #dyad_census(rand)$asym,
+    dyad_census(rand)$null
+  )
+)
+
+metrics
+
+```
+
+
+------------------------------------------------------------------------
+
+**3** Colin Cluster is a teacher at the respective school in Glasgow. Over time he observes the following: 
+
+1.  The "cool kids" are more likely to smoke weed than others. 
+
+2.  The older the students get, the more likely they are to smoke weed.
+
+3.  Over time, weed smokers seem to form tighter friend groups, than non weed smokers.
+
+However, he's not quite sure how to verify these observations using appropriate measures. Can you help him?
+
+**3.1** Choose a measure to identify *cool kids*. Justify your choice. *(2 Points)*
+
+A suitable measure is degree centrality or eigenvector centrality. Degree centrality identifies students with many friendship ties, while eigenvector centrality gives higher scores to students who are connected to other well-connected students. For a "cool kids" interpretation, eigenvector centrality is especially useful because it captures popularity within already popular parts of the network.
+
+
+**3.2** Are the *cool kids* more likely to smoke weed at time $t1$? *(1 Point)*
+
+```{r}
+V(graph1)$degree <- degree(graph1, mode = "all")
+V(graph1)$eigen <- eigen_centrality(graph1, weights = E(graph1)$weight)$vector
+
+df_t1 <- data.frame(
+  weed = factor(V(graph1)$weed),
+  degree = V(graph1)$degree,
+  eigen = V(graph1)$eigen
+)
+
+boxplot(degree ~ weed, data = df_t1,
+        xlab = "Weed smoking at t1",
+        ylab = "Degree centrality",
+        main = "Degree by weed smoking at t1")
+
+boxplot(eigen ~ weed, data = df_t1,
+        xlab = "Weed smoking at t1",
+        ylab = "Eigenvector centrality",
+        main = "Eigenvector centrality by weed smoking at t1")
+
+aggregate(cbind(degree, eigen) ~ weed, data = df_t1, mean)
+
+df_t1_binary <- data.frame(
+  weed_binary = factor(
+    ifelse(is.na(V(graph1)$weed), NA,
+           ifelse(V(graph1)$weed == 1, 
+                  "Never smoked weed", 
+                  "Ever smoked weed"))
+  ),
+  degree = V(graph1)$degree,
+  eigen = V(graph1)$eigen
+)
+
+
+boxplot(degree ~ weed_binary, data = df_t1_binary,
+        xlab = "Weed smoking at t1",
+        ylab = "Degree centrality",
+        main = "Degree centrality: never vs ever smoked weed")
+
+boxplot(eigen ~ weed_binary, data = df_t1_binary,
+        xlab = "Weed smoking at t1",
+        ylab = "Eigenvector centrality",
+        main = "Eigenvector centrality: never vs ever smoked weed")
+
+```
+
+Students with higher weed values also have higher degree or eigenvector centrality, this supports the observation that the "cool kids" are more likely to smoke weed at `t1`. 
+
+
+**3.3** Plot the network at time $t1$, showing information on the relationship strength, the weed smoking behvior of the persons, gender and their 'coolness factor'. *(2 Points)*
+
+```{r}
+# Coolness factor: eigenvector centrality
+V(graph1)$eigen <- eigen_centrality(graph1, weights = E(graph1)$weight)$vector
+
+# Node color by weed smoking behavior
+V(graph1)$color <- ifelse(
+  V(graph1)$weed == 1, "lavender",
+  ifelse(V(graph1)$weed == 2, "pink",
+         ifelse(V(graph1)$weed == 3, "purple", "darkmagenta"))
+)
+
+# Node shape by gender
+V(graph1)$shape <- ifelse(V(graph1)$gender == 1, "square", "circle")
+
+# Edge width by relationship strength
+E(graph1)$width <- E(graph1)$weight * 2
+
+set.seed(1)
+layout1 <- layout_with_fr(graph1)
+
+plot(
+  graph1,
+  layout = layout1,
+  vertex.size = V(graph1)$eigen * 25 + 3,
+  vertex.label = NA,
+  vertex.color = V(graph1)$color,
+  vertex.shape = V(graph1)$shape,
+  edge.width = E(graph1)$width,
+  edge.arrow.size = 0,
+  main = "Network at t1: weed, gender, tie strength and coolness"
+)
+
+
+legend(
+  "topleft",
+  legend = c(
+    "Never smoked weed",
+    "Tried once",
+    "Occasionally",
+    "Regularly",
+    "Gender = 1",
+    "Gender = 2"
+  ),
+  col = c("lavender", "pink", "purple", "darkmagenta", "black", "black"),
+  pch = c(21, 21, 21, 21, 22, 21),
+  pt.bg = c("lavender", "pink", "purple", "darkmagenta", "white", "white"),
+  pt.cex = 1.5,
+  bty = "n",
+  title = "Legend"
+)
+```
+
+
+**3.4** Plot networks for $t1$, $t2$ and $t3$. From the visual analysis,does smoking weed lead to stronger clustering over time? *(2 Points)*
+
+```{r}
+plot_weed_network <- function(g, title) {
+  plot(
+    g,
+    layout = layout_with_fr(g),
+    vertex.size = transitivity(g, type = "local", isolates = "zero") * 20 + 2,
+    vertex.label = NA,
+    vertex.shape = "circle",
+    vertex.color = ifelse(
+      V(g)$weed == 1, "lavender",
+      ifelse(V(g)$weed == 2, "pink",
+             ifelse(V(g)$weed == 3, "purple", "darkmagenta"))
+    ),
+    edge.width = E(g)$weight * 2,
+    main = title
+  )
+}
+
+par(mfrow = c(1, 3))
+plot_weed_network(graph1, "t1")
+plot_weed_network(graph2, "t2")
+plot_weed_network(graph3, "t3")
+par(mfrow = c(1, 1))
+```
+
+From the plots alone, we should be cautious: visual clustering can suggest whether weed smokers increasingly appear in tighter groups, but it does not prove that weed smoking leads to stronger clustering. A stronger answer would compare clustering coefficients for weed smokers and non-weed smokers across all three waves and then use a longitudinal model to separate selection from influence.
+
+
+

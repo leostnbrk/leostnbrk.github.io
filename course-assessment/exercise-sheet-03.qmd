@@ -1,0 +1,72 @@
+---
+title: "Problem Set 3 (CSS)"
+subtitle: "Due by 06/23/25"
+execute:
+  echo: true
+  eval: false
+editor: source
+format: html
+---
+
+::: {.hidden}
+
+```{r}
+library(needs)
+
+needs(sf,
+      tidyverse,
+      readr,
+      ggplot2,
+      dplyr,
+      osmdata,
+      osm
+      )
+```
+
+:::
+                            
+**Download the official Leipzig shapefile (including the city districts) from the [Leipzig Open Data Portal](https://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Geodaten/Leipzig_Ortsteile_UTM33N.zip).**
+
+
+
+1. Mark and plot the following three locations on the map: *Your favorite bar*, *your favorite restaurant* and *your house*  [^1] (*2 Points*)
+
+[^1]: Feel free to make up locations if you're not comfortable sharing real ones or if you don't live in Leipzig. You can also use a different map area (e.g., Halle or Markkleeberg). This exercise is purely for practice purposes.
+
+
+
+
+
+2. Calculate the straight-line distance (in kilometers) between your home and your favorite bar.(*1 Point*)
+
+
+3. Use R to verify whether the three points you chose are located within the same neighborhood boundaries. (*1 Point*)
+
+
+4. Identify the centroid (geometric center) of your restaurants neighborhood. Is your favorite restaurant more than 800 meters away from it? (*2 Points*)
+
+
+
+
+5. Download the [Migration statistics](https://opendata.leipzig.de/dataset/wanderungen-unrevidiert-jahreszahlen-kleinraumig) of Leipzigs neighborhoods from the Open Data Portal. Determine the ranking position of your home neighborhood in terms of *Innerstädtische Zuzüge* (i.e., people moving in from other parts of Leipzig). (*4 Points*)
+
+
+
+6. Search the [OSM-Wiki](https://wiki.openstreetmap.org/) for how *Spätis* could be identified in Leipzig. Plot the identified Spätis on a map. (*5 Points*)
+
+
+
+7. Determine which city district has the highest density of Spätis. (*2 Points*)
+
+
+8. Create a 1 kilometer buffer around your home. How many Spätis are located within that buffer? (*1 Point*)
+
+
+
+
+9. What are the potential limitations of the upper data collection and operationalization method in measuring Späti accessibility? (*3 Points*)
+
+10. Assume each person visits the nearest Späti to their home. Determine which Späti has the largest catchment area. (*3 Points*)
+
+
+
