@@ -4271,8 +4271,13 @@ window.Quarto = {
 <section id="spatial-neighborhood-matrices" class="level1">
 <h1>Spatial neighborhood matrices</h1>
 <p><strong>Areal (or lattice) data</strong> arise when a region is divided into discrete spatial units — such as municipalities, districts, or provinces — and outcomes are aggregated at that level (e.g., disease counts, road accidents, housing prices).</p>
-<p>To explore spatial autocorrelation, we define <strong>neighborhood structures</strong> — i.e., which regions are considered “neighbors.”<br>
-These can be based on: - Shared borders (contiguity), - Shared vertices, - Physical distance (e.g., within X kilometers).</p>
+<p>To explore spatial autocorrelation, we define <strong>neighborhood structures</strong> — i.e., which regions are considered “neighbors.”</p>
+<p>These can be based on:</p>
+<ul>
+<li>Shared borders (contiguity),</li>
+<li>Shared vertices,</li>
+<li>Physical distance (e.g., within X kilometers).</li>
+</ul>
 <p>The <code>{spdep}</code> package [bivandSpdepSpatialDependence2002] provides tools to build neighborhood and weights structures:</p>
 <ul>
 <li><code>poly2nb()</code>: create neighbors based on contiguity</li>
@@ -4557,11 +4562,18 @@ I = \frac{N}{W} \cdot \frac{\sum_{i=1}^{N} \sum_{j=1}^{N} w_{ij}(x_i - \bar{x})(
 <p><span class="math display">\[
 I_i = \frac{(x_i - \bar{x})}{m_2} \sum_{j=1}^{N} w_{ij}(x_j - \bar{x})
 \]</span></p>
-<p>Where: - <span class="math inline">\(x_i\)</span> = value at location <em>i</em><br>
-- <span class="math inline">\(\bar{x}\)</span> = mean of the variable<br>
-- <span class="math inline">\(x_j\)</span> = value at neighboring location <em>j</em><br>
-- <span class="math inline">\(w_{ij}\)</span> = spatial weight between <em>i</em> and <em>j</em><br>
-- <span class="math inline">\(m_2 = \frac{1}{N} \sum_{k=1}^{N}(x_k - \bar{x})^2\)</span> = variance of <span class="math inline">\(x\)</span></p>
+<p>Where:</p>
+<ul>
+<li><span class="math inline">\(x_i\)</span> = value at location <em>i</em><br>
+</li>
+<li><span class="math inline">\(\bar{x}\)</span> = mean of the variable<br>
+</li>
+<li><span class="math inline">\(x_j\)</span> = value at neighboring location <em>j</em><br>
+</li>
+<li><span class="math inline">\(w_{ij}\)</span> = spatial weight between <em>i</em> and <em>j</em><br>
+</li>
+<li><span class="math inline">\(m_2 = \frac{1}{N} \sum_{k=1}^{N}(x_k - \bar{x})^2\)</span> = variance of <span class="math inline">\(x\)</span></li>
+</ul>
 <p>This measure detects <strong>local clusters and outliers</strong>, allowing us to classify each observation’s spatial context.</p>
 <p>Based on the value and its significance, results can be classified into <strong>LISA</strong> (Local Indicators of Spatial Association):</p>
 <ul>

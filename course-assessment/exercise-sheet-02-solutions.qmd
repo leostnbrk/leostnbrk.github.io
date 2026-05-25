@@ -3,7 +3,7 @@ title: "Problem Set 2 (CSS)"
 subtitle: "Due by 13.05.2026"
 execute:
   echo: true
-  eval: false
+  eval: true
 editor: source
 format: html
 ---
@@ -85,15 +85,15 @@ save(dat_clean,
      file = "data/Glasgow_data/glasgow_data.RData")
 
 graph1 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_1, 
-                                     mode = "undirected",
+                                     mode = "max",
                                      weighted = TRUE)
 
 graph2 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_2, 
-                                     mode = "undirected",
+                                     mode = "max",
                                      weighted = TRUE)
 
 graph3 <- graph_from_adjacency_matrix(adjmatrix = friends$wave_3, 
-                                     mode = "undirected",
+                                     mode = "max",
                                      weighted = TRUE)                                     
 
 
@@ -227,7 +227,7 @@ graph1 <- mark_local_bridges(graph1)
 # Exclude regular bridges if the task is about proper local bridges
 E(graph1)$lb[E(graph1)$lbdeg == 1] <- FALSE
 
-sum(E(graph1)$lb, na.rm = TRUE) # 13 proper local bridges
+sum(E(graph1)$lb, na.rm = TRUE) # 13 proper local bridges (20 with bridges included)
 E(graph1)[lb]
 ```
 
@@ -371,7 +371,7 @@ However, he's not quite sure how to verify these observations using appropriate 
 
 **3.1** Choose a measure to identify *cool kids*. Justify your choice. *(2 Points)*
 
-A suitable measure is degree centrality or eigenvector centrality. Degree centrality identifies students with many friendship ties, while eigenvector centrality gives higher scores to students who are connected to other well-connected students. For a "cool kids" interpretation, eigenvector centrality is especially useful because it captures popularity within already popular parts of the network.
+A suitable measure is degree centrality or eigenvector centrality. Degree centrality identifies students with many friendship ties, while eigenvector centrality gives higher scores to students who are connected to other well-connected students. Both measures count if justified!
 
 
 **3.2** Are the *cool kids* more likely to smoke weed at time $t1$? *(1 Point)*

@@ -36,7 +36,6 @@ needs(sf,
 
 
 
-
 2. Calculate the straight-line distance (in kilometers) between your home and your favorite bar.(*1 Point*)
 
 
@@ -60,7 +59,6 @@ needs(sf,
 
 
 8. Create a 1 kilometer buffer around your home. How many Spätis are located within that buffer? (*1 Point*)
-
 
 
 
