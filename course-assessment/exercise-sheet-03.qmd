@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 3 (CSS)"
-subtitle: "Due by 06/23/25"
+subtitle: "Due by 06/15/26"
 execute:
   echo: true
   eval: false
