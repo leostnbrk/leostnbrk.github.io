@@ -4126,6 +4126,10 @@ window.Quarto = {
  <span class="dropdown-text">Exercise Sheet 02 - Solutions</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../course-assessment/exercise-sheet-03.html">
+ <span class="dropdown-text">Exercise Sheet 03</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../course-assessment/assessment.html">
  <span class="dropdown-text">Assessment</span></a>
   </li>  
@@ -4386,7 +4390,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>bridges_g1 <span class="ot">&lt;-</span> <span class="fu">bridges</span>(graph1)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>bridges_g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 7/207 edges from d664ef2 (vertex names):
+<pre><code>+ 7/207 edges from 54f8ba7 (vertex names):
 [1] s042--s047 s077--s079 s138--s140 s073--s082 s053--s100 s085--s100 s081--s085</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(bridges_g1) <span class="co"># 7 bridges</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -4397,7 +4401,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>cutpoints_g1 <span class="ot">&lt;-</span> <span class="fu">articulation_points</span>(graph1)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>cutpoints_g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 10/102 vertices, named, from d664ef2:
+<pre><code>+ 10/102 vertices, named, from 54f8ba7:
  [1] s047 s079 s138 s140 s073 s089 s115 s100 s085 s081</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(cutpoints_g1) <span class="co"># 10 cutpoints</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -4454,7 +4458,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(graph1)[lb]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 13/207 edges from d664ef2 (vertex names):
+<pre><code>+ 13/207 edges from 54f8ba7 (vertex names):
  [1] s003--s028 s003--s058 s005--s006 s006--s123 s032--s106 s046--s099
  [7] s071--s151 s072--s131 s081--s099 s099--s111 s113--s114 s114--s117
 [13] s148--s150</code></pre>
@@ -4602,6 +4606,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 4    Dyad Null 4.965000e+03 4.965000e+03</code></pre>
 </div>
 </div>
+<p>Not very. As density is always influenced by the number of edges and nodes, it is not surprising that the random graph has the same density as the original graph. The dyad census also shows that the number of mutual and null dyads is similar, which is expected given the same number of edges. The transitivity (clustering) is much higher in the original graph than in the random graph, which suggests that there is a significant amount of clustering in the original network that is not due to chance. However, this comparison does not tell us much about the specific social processes at play in the original network, and it does not account for other factors such as homophily or social influence that may be driving the observed patterns.</p>
 <hr>
 <p><strong>3</strong> Colin Cluster is a teacher at the respective school in Glasgow. Over time he observes the following:</p>
 <ol type="1">
