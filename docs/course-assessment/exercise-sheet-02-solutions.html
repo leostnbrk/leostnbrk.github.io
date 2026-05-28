@@ -4390,7 +4390,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>bridges_g1 <span class="ot">&lt;-</span> <span class="fu">bridges</span>(graph1)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>bridges_g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 7/207 edges from 54f8ba7 (vertex names):
+<pre><code>+ 7/207 edges from b6fec9a (vertex names):
 [1] s042--s047 s077--s079 s138--s140 s073--s082 s053--s100 s085--s100 s081--s085</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(bridges_g1) <span class="co"># 7 bridges</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -4401,7 +4401,7 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>cutpoints_g1 <span class="ot">&lt;-</span> <span class="fu">articulation_points</span>(graph1)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>cutpoints_g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 10/102 vertices, named, from 54f8ba7:
+<pre><code>+ 10/102 vertices, named, from b6fec9a:
  [1] s047 s079 s138 s140 s073 s089 s115 s100 s085 s081</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">length</span>(cutpoints_g1) <span class="co"># 10 cutpoints</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -4427,43 +4427,48 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>      g_tmp,</span>
 <span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>      <span class="at">v =</span> u,</span>
 <span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>      <span class="at">to =</span> v,</span>
-<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>      <span class="at">mode =</span> <span class="cf">if</span> (<span class="fu">is_directed</span>(g)) <span class="st">&quot;out&quot;</span> <span class="cf">else</span> <span class="st">&quot;all&quot;</span></span>
-<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">is.infinite</span>(d)) {</span>
-<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>      <span class="co"># A bridge disconnects the two endpoints; this is not counted as a</span></span>
-<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>      <span class="co"># proper local bridge here, but we store it as bridge degree 1.</span></span>
-<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (d <span class="sc">&gt;</span> <span class="dv">2</span>) {</span>
-<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> d</span>
-<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
-<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
-<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
-<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(g)</span>
-<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>graph1 <span class="ot">&lt;-</span> <span class="fu">mark_local_bridges</span>(graph1)</span>
-<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Exclude regular bridges if the task is about proper local bridges</span></span>
-<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(graph1)<span class="sc">$</span>lb[<span class="fu">E</span>(graph1)<span class="sc">$</span>lbdeg <span class="sc">==</span> <span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
-<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">E</span>(graph1)<span class="sc">$</span>lb, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co"># 13 proper local bridges (20 with bridges included)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>      <span class="at">mode =</span> <span class="cf">if</span> (<span class="fu">is_directed</span>(g)) <span class="st">&quot;out&quot;</span> <span class="cf">else</span> <span class="st">&quot;all&quot;</span>,</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>      <span class="at">weights =</span> <span class="cn">NA</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">is.infinite</span>(d)) {</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>      <span class="co"># A bridge disconnects the two endpoints; this is not counted as a</span></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>      <span class="co"># proper local bridge here, but we store it as bridge degree 1.</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (d <span class="sc">&gt;</span> <span class="dv">2</span>) {</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> d</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lb[e_idx] <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>      <span class="fu">E</span>(g)<span class="sc">$</span>lbdeg[e_idx] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(g)</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>graph1 <span class="ot">&lt;-</span> <span class="fu">mark_local_bridges</span>(graph1)</span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Exclude regular bridges if the task is about proper local bridges</span></span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(graph1)<span class="sc">$</span>lb[<span class="fu">E</span>(graph1)<span class="sc">$</span>lbdeg <span class="sc">==</span> <span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">E</span>(graph1)<span class="sc">$</span>lb, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co"># 13 proper local bridges (20 with bridges included)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 13</code></pre>
+<pre><code>[1] 33</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">E</span>(graph1)[lb]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+ 13/207 edges from 54f8ba7 (vertex names):
- [1] s003--s028 s003--s058 s005--s006 s006--s123 s032--s106 s046--s099
- [7] s071--s151 s072--s131 s081--s099 s099--s111 s113--s114 s114--s117
-[13] s148--s150</code></pre>
+<pre><code>+ 33/207 edges from b6fec9a (vertex names):
+ [1] s003--s028 s003--s058 s005--s006 s006--s123 s027--s093 s032--s035
+ [7] s032--s106 s032--s144 s045--s046 s045--s064 s046--s099 s049--s062
+[13] s058--s079 s069--s078 s071--s151 s072--s131 s078--s149 s081--s099
+[19] s097--s115 s099--s111 s101--s131 s113--s114 s114--s117 s115--s127
+[25] s117--s130 s117--s142 s122--s130 s122--s142 s130--s140 s140--s142
+[31] s141--s142 s146--s149 s148--s150</code></pre>
 </div>
 </div>
+<p><strong>Lösung ohne echte Brücken, volle Punktzahl gibt es aber auch, wenn die mit eingeschlossen sind</strong></p>
 <p><strong>1.3</strong> Are all local bridges weak ties? <em>(1 Point)</em></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>edge_data1 <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
@@ -4475,8 +4480,8 @@ Attache Paket: &#39;igraph&#39;</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>       
         0.5   1
-  FALSE 153  41
-  TRUE   13   0</code></pre>
+  FALSE 137  37
+  TRUE   29   4</code></pre>
 </div>
 </div>
 <p>In <code>graph1</code>, the proper local bridges are weak ties. In this network, the result is therefore consistent with Granovetter’s argument: ties that connect otherwise more distant parts of the network tend to be weaker.</p>
