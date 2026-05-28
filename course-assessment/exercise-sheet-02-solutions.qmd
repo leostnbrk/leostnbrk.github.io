@@ -202,7 +202,8 @@ mark_local_bridges <- function(g) {
       g_tmp,
       v = u,
       to = v,
-      mode = if (is_directed(g)) "out" else "all"
+      mode = if (is_directed(g)) "out" else "all",
+      weights = NA
     )
     
     if (is.infinite(d)) {
@@ -230,6 +231,8 @@ E(graph1)$lb[E(graph1)$lbdeg == 1] <- FALSE
 sum(E(graph1)$lb, na.rm = TRUE) # 13 proper local bridges (20 with bridges included)
 E(graph1)[lb]
 ```
+
+**Lösung ohne echte Brücken, volle Punktzahl gibt es aber auch, wenn die mit eingeschlossen sind**
 
 
 **1.3** Are all local bridges weak ties? *(1 Point)*
