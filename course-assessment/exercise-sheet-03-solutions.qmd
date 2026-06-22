@@ -1,0 +1,367 @@
+---
+title: "Problem Set 3 (CSS)"
+subtitle: "Due by 06/15/26"
+execute:
+  echo: true
+  eval: false
+editor: source
+format: html
+---
+
+
+```{r}
+library(needs)
+
+needs(sf,
+      tidyverse,
+      readr,
+      ggplot2,
+      dplyr,
+      osmdata,
+      osm
+      )
+```
+
+                            
+**Download the official Leipzig shapefile (including the city districts) from the [Leipzig Open Data Portal](https://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Geodaten/Leipzig_Ortsteile_UTM33N.zip).**
+
+
+
+```{r}
+leipzig <- sf::st_read(dsn = "Data/ot.shp") # dsn = Data Set Name
+
+head(leipzig)
+
+ggplot(leipzig) +
+  geom_sf(aes(fill = Name)) +
+  #scale_fill_brewer(palette = "Set3") +  # or use another palette you like
+  theme_minimal() +
+  labs(fill = "Name",
+       title = "Leipzig Map by Name")
+```
+
+
+1. Mark and plot the following three locations on the map: *Your favorite bar*, *your favorite restaurant* and *your house*  [^1] (*2 Points*)
+
+[^1]: Feel free to make up locations if you're not comfortable sharing real ones or if you don't live in Leipzig. You can also use a different map area (e.g., Halle or Markkleeberg). This exercise is purely for practice purposes.
+
+
+
+```{r}
+
+home <- st_sf(
+  name = "🏠",
+  geometry = st_sfc(st_point(c(12.368751698679835, 51.34574546722337)),
+                    crs = 4326)
+)
+
+
+pekar <- st_sf(
+  name = "🍕",
+  geometry = st_sfc(st_point(c(12.332844247771963,51.337003362550604)),
+                    crs = 4326)
+)
+
+ 
+skala <- st_sf(
+  name = "🍺",
+  geometry = st_sfc(st_point(c(12.366968427661668,51.34147953528001)),
+                    crs = 4326)
+)
+
+home <- st_transform(home, st_crs(leipzig))
+pekar <- st_transform(pekar, st_crs(leipzig))
+skala <- st_transform(skala, st_crs(leipzig))
+
+# Combine into one sf object
+locations <- rbind(skala, pekar, home)
+
+ggplot() +
+  geom_sf(data = leipzig, fill = "lavender", color = "lightgray") +
+  geom_sf(data = locations, color = "purple", size = 3) +
+  geom_sf_text(data = locations, aes(label = name), nudge_y = 0.0018, size = 3.5) +
+  theme_minimal() +
+  labs(title = "Your Leipzig POIs", subtitle = "🏠 Home, 🍕 Pekar, 🍺 Skala")
+
+```
+
+
+
+2. Calculate the straight-line distance (in kilometers) between your home and your favorite bar.(*1 Point*)
+
+
+
+```{r}
+
+# Calculate distance in meters
+dist_m <- st_distance(home, skala)
+
+# Convert to kilometers
+dist_km <- as.numeric(dist_m) / 1000
+```
+
+
+
+3. Use R to verify whether the three points you chose are located within the same neighborhood boundaries. (*1 Point*)
+
+
+
+```{r}
+# Spatial join: assign each point its neighborhood from leipzig
+home_quarter <- st_join(home, leipzig)
+pekar_quarter <- st_join(pekar, leipzig)
+skala_quarter <- st_join(skala, leipzig)
+
+# Extract the neighborhood name (assuming the column is called 'Name')
+home_name <- home_quarter$Name
+pekar_name <- pekar_quarter$Name
+skala_name <- skala_quarter$Name
+
+# Check if all names are the same
+ home_name == pekar_name && pekar_name == skala_name
+ 
+
+
+
+```
+
+
+4. Identify the centroid (geometric center) of your restaurants neighborhood. Is your favorite restaurant more than 800 meters away from it? (*2 Points*)
+
+
+```{r}
+
+restaurant_neighborhood <- leipzig[leipzig$Name == pekar_quarter$Name, ]
+
+neighborhood_centroid <- st_centroid(restaurant_neighborhood)
+
+distance_m <- st_distance(pekar, neighborhood_centroid)
+
+as.numeric(distance_m) > 800
+
+
+
+```
+
+
+
+
+
+
+5. Download the [Migration statistics](https://opendata.leipzig.de/dataset/wanderungen-unrevidiert-jahreszahlen-kleinraumig) of Leipzigs neighborhoods from the Open Data Portal. Determine the ranking position of your home neighborhood in terms of *Innerstädtische Zuzüge* (i.e., people moving in from other parts of Leipzig). (*4 Points*)
+
+
+
+```{r}
+
+zuzuege_innerstaedtisch <- read_csv("data/Bevölkerungsbewegung_Wanderungen.csv") |>
+  filter(Sachmerkmal == "Innerstädtische Zuzüge")|>
+  pivot_longer(
+    cols = starts_with("20"),  # matches all year columns like 2015, 2016, ..., 2024
+    names_to = "Jahr",
+    values_to = "Zuzuege"
+  ) |>
+  mutate(Jahr = as.integer(Jahr),
+         Zuzuege = as.integer(Zuzuege))  # convert to numeric for ranking
+
+leipzig_data <- left_join(x = leipzig,                  # Zusammenfügen der Daten über den Ortsteil
+                          y = zuzuege_innerstaedtisch,
+                          by = c("Name" = "Gebiet"))
+
+
+
+
+
+# Filter for the most recent year
+migration_2024 <- leipzig_data |>
+  filter(Jahr == 2024) |>
+  arrange(desc(Zuzuege)) |>
+  mutate(Rank = row_number())
+
+# Show your home quarter's rank
+migration_2024|> 
+  filter(Name == home_name)
+```
+
+
+
+6. Search the [OSM-Wiki](https://wiki.openstreetmap.org/) for how *Spätis* could be identified in Leipzig. Plot the identified Spätis on a map. (*5 Points*)
+
+
+
+
+```{r}
+
+
+# Ensure your Leipzig shapefile is in WGS84
+leipzig_wgs <- st_transform(leipzig, 4326)
+
+# Now get the bbox in lon/lat
+bb_coords <- st_bbox(leipzig_wgs)
+
+# 2. Query for shop=convenience
+spatis <- opq(bbox = bb_coords) |>
+  add_osm_feature(key = "shop", value = "convenience") |>
+  osmdata_sf()
+
+# Alternative: Sortieren nach Uhrzeit - oder halt beide
+
+late_spatis <- spatis$osm_points |>
+  filter(grepl("24/7|22:|23:|00:|01:", opening_hours, ignore.case = TRUE))
+
+# 3. Optional: filter names that include "Späti", "Spätkauf"
+spatis_named <- spatis$osm_points |>
+  filter(grepl("Späti|Spätkauf|Kiosk", name, ignore.case = TRUE))
+
+spatis_named_late <- spatis$osm_points |>
+  filter(
+    grepl("Späti|Spätkauf|Kiosk", name, ignore.case = TRUE) &
+    grepl("24/7|22:|23:|00:|01:", opening_hours, ignore.case = TRUE)
+  )
+
+
+# View a sample of the opening hours
+head(spatis_named$name, 10)
+
+spatis_named <- st_transform(spatis_named, st_crs(leipzig))
+
+intersects_matrix <- st_intersects(spatis_named, leipzig, sparse = FALSE)
+
+intersects_any <- apply(intersects_matrix, 1, any)
+
+# Subset points inside Leipzig polygons
+spatis_named <- spatis_named[intersects_any, ]
+
+
+ggplot() +
+  geom_sf(data = leipzig, fill = NA, color = "gray60") +
+  geom_sf(data = spatis_named, aes(geometry = geometry), color = "purple", size = 2) +
+  labs(title = "Spätis in Leipzig",
+       subtitle = "Identified by name filter from shop=convenience",
+       caption = "Source: OpenStreetMap via osmdata") +
+  theme_minimal()
+
+
+```
+
+
+
+
+7. Determine which city district has the highest density of Spätis. (*2 Points*)
+
+```{r}
+# Ensure both layers use the same CRS
+spatis_named <- st_transform(spatis_named, st_crs(leipzig))
+
+# Spatial join: assign each Späti to a district
+spatis_districts <- st_join(spatis_named, leipzig, join = st_within)
+
+spatis_per_district <- spatis_districts |>
+  count(Name) |>
+  rename(spati_count = n) |>
+  arrange(desc(spati_count))
+
+
+leipzig_counts <- leipzig |>
+  left_join(st_drop_geometry(spatis_per_district), by = "Name")
+
+leipzig_counts <- leipzig_counts |>
+  mutate(
+    area_km2 = st_area(geometry) / 10^6,
+    density = spati_count / area_km2
+  )
+
+
+
+
+leipzig_counts <- leipzig_counts |>
+  mutate(
+    area_km2 = as.numeric(st_area(geometry)) / 10^6,  # convert to numeric square kilometers
+    density = spati_count / area_km2
+  )
+
+ggplot(leipzig_counts) +
+  geom_sf(aes(fill = density)) +
+  scale_fill_viridis_c(option = "plasma", na.value = "grey90") +
+  labs(title = "Density of Spätis by District in Leipzig",
+       fill = "Spätis/km²") +
+  theme_minimal()
+
+```
+
+
+
+
+8. Create a 1 kilometer buffer around your home. How many Spätis are located within that buffer? (*1 Point*)
+
+```{r}
+home_buffer <- st_buffer(home, dist = 1000)
+
+spatis_named_proj <- st_transform(spatis_named, st_crs(home_buffer))
+
+spatis_within_buffer <- spatis_named_proj[st_within(spatis_named_proj, home_buffer, sparse = FALSE), ]
+
+n_spatis <- nrow(spatis_within_buffer)
+
+
+```
+
+
+
+
+
+9. What are the potential limitations of the upper data collection and operationalization method in measuring Späti accessibility? (*3 Points*)
+
+10. Assume each person visits the nearest Späti to their home. Determine which Späti has the largest catchment area. (*3 Points*)
+
+```{r}
+
+spatis_proj <- st_transform(spatis_named, 32633)
+
+
+bb_proj <- st_transform(leipzig, 32633)
+
+
+voro_raw <- st_voronoi(st_union(spatis_proj), envelope = st_as_sfc(st_bbox(bb_proj)))
+
+
+voro_polygons <- st_collection_extract(voro_raw, "POLYGON")
+
+
+voro_sf <- voro_sf |> 
+  mutate(spati_id = row_number()) |>        # ID for polygons
+  bind_cols(spatis_named |>                  # bind Späti attributes
+              st_drop_geometry() |> 
+              select(name))     
+
+
+
+
+
+
+# Calculate area in square kilometers
+voro_clipped <- voro_clipped |>
+  mutate(area_m2 = st_area(geometry)) |>
+  mutate(area_km2 = set_units(area_m2, km^2)) |>
+  mutate(area_km2 = as.numeric(area_km2))
+
+largest_voro <- voro_clipped |> 
+  filter(area_km2 == max(area_km2))
+
+print(largest_voro)
+
+ggplot() +
+  geom_sf(data = leipzig, fill = NA, color = "grey40", linetype = "dashed") +
+  geom_sf(data = voro_clipped, aes(fill = factor(spati_id)), color = "black", alpha = 0.6) +
+  geom_sf(data = spatis_proj, color = "purple", size = 2) +
+  scale_fill_viridis_d(option = "magma", guide = "none") +  # discrete color palette, no legend
+  labs(
+    title = "Voronoi Cells Around Spätis in Leipzig",
+    caption = "Data: OpenStreetMap via osmdata"
+  ) +
+  theme_minimal()
+
+```
+
+
+

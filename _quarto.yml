@@ -71,6 +71,8 @@ website:
             href: course-assessment/exercise-sheet-02-solutions.qmd
           - text: "Exercise Sheet 03"
             href: course-assessment/exercise-sheet-03.qmd
+          - text: "Exercise Sheet 03 - Solutions"
+            href: course-assessment/exercise-sheet-03-solutions.qmd
           - text: "Assessment"
             href: course-assessment/assessment.qmd
       - text: "Further Resources"
